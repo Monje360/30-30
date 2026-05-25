@@ -495,9 +495,7 @@
           ${b.items.map(it => `
             <div class="kpi-item">
               <div class="kpi-name">${esc(it.metrica)}</div>
-              <div class="kpi-obj">${esc(it.objetivo)}</div>
               <div class="kpi-meta">
-                <span>Benchmark: ${esc(it.benchmark)}</span>
                 <span class="nota">${esc(it.nota)}</span>
               </div>
             </div>

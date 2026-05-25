@@ -13,51 +13,51 @@ window.TMT = {};
 window.TMT.competencia = [
   {
     n: "01",
-    handle: "Museos e instituciones culturales",
-    tipo: "Voz oficial · alta autoridad",
+    handle: "Agenda mainstream",
+    tipo: "Listados masivos con marca conocida",
+    fortaleza: "Volumen alto, marca reconocible y SEO sólido en búsquedas tipo \"qué hacer en Madrid\". El usuario las consulta por inercia.",
+    debilidad: "Cero criterio editorial real. Listan todo, recomiendan nada. El usuario sigue teniendo que filtrar él mismo.",
+    aprendizaje: "Nosotros sí filtramos. La ventaja es decir qué vale la pena, no qué existe."
+  },
+  {
+    n: "02",
+    handle: "Tips de lugares ocultos",
+    tipo: "Reels virales · cuentas de \"el Madrid que no conoces\"",
+    fortaleza: "Funcionan muy bien en saves. Han educado al público en el género \"lugares escondidos\" y tienen alcance grande.",
+    debilidad: "Sin tono adulto. Hablan a todo el mundo y por tanto a nadie. Clickbait y sorpresa fácil sin profundidad.",
+    aprendizaje: "Mismo género (lugares ocultos) pero con voz +30. No \"alucinarás con esto\", sino \"esto es lo que merece la pena saber\"."
+  },
+  {
+    n: "03",
+    handle: "Instituciones culturales",
+    tipo: "Museos, teatros, fundaciones · voz oficial",
     fortaleza: "Acceso directo a obra y archivo. Autoridad incuestionable. Producción audiovisual cuidada y presupuesto público que les sostiene.",
     debilidad: "Voz institucional, distante. Barrera para quien no se siente \"culto\". Programación rígida por temporadas.",
     aprendizaje: "Misma profundidad de contenido, voz de amigo informado. La autoridad sin la distancia."
   },
   {
-    n: "02",
-    handle: "Agendas locales y what's-on",
-    tipo: "Listado masivo de eventos",
-    fortaleza: "Volumen alto y posicionamiento SEO en búsquedas tipo \"qué hacer en Madrid\". El usuario las consulta por inercia.",
-    debilidad: "Cero criterio editorial. Listan todo, recomiendan nada. El usuario sigue teniendo que filtrar él mismo.",
-    aprendizaje: "Nosotros sí filtramos. La ventaja es decir qué vale la pena, no qué existe."
-  },
-  {
-    n: "03",
-    handle: "Cuentas de \"Madrid escondido\"",
-    tipo: "Tips de lugares ocultos · viral",
-    fortaleza: "Funcionan muy bien en saves. Han educado al público en el género \"el Madrid que no conoces\".",
-    debilidad: "Sin tono adulto. Hablan a todo el mundo y por tanto a nadie. Reels-clickbait sin profundidad real.",
-    aprendizaje: "Mismo género (lugares ocultos) pero con voz +30. No \"alucinarás con esto\", sino \"esto es lo que merece la pena saber\"."
-  },
-  {
     n: "04",
-    handle: "Clubes de membresía similares",
-    tipo: "Espacio privado · acceso de pago",
+    handle: "Clubes y membresías",
+    tipo: "Espacios privados · acceso de pago",
     fortaleza: "Han ocupado el imaginario de \"club privado para gente con criterio\". Comunidad real y vinculada por dentro.",
     debilidad: "Contenido público escaso. La marca solo se entiende si ya estás dentro. Filtro económico alto desde el inicio.",
     aprendizaje: "Diferenciación clara: contenido público fuerte como puerta de entrada. Cualquiera puede aprender de nosotros antes de pagar un euro."
   },
   {
     n: "05",
-    handle: "Influencers culturales individuales",
-    tipo: "Personalidad · cercanía",
-    fortaleza: "Cara reconocible. Engagement personal alto. Recomendaciones percibidas como sinceras.",
-    debilidad: "Vinculados a una persona — no escalable. Postureo de fondo. Mezclan cultura con marca personal y promociones.",
-    aprendizaje: "Marca como persona colectiva — varias voces editoriales bajo un mismo punto de vista. Más sólido que apostar por un único rostro."
+    handle: "Agendas sin marca",
+    tipo: "Listados locales · utilidad pura",
+    fortaleza: "Son útiles. Cumplen su función práctica de saber qué hay esta semana.",
+    debilidad: "Cero personalidad. Indistinguibles entre sí. Cero relato detrás del evento.",
+    aprendizaje: "La utilidad sin marca es commodity. Construir marca = cobrar peaje editorial sobre la utilidad."
   },
   {
     n: "06",
-    handle: "Prensa cultural y newsletters editoriales",
-    tipo: "Medios tradicionales y curaduría escrita",
-    fortaleza: "Profundidad real. Criterio editorial sólido. Marca histórica que el adulto culto reconoce y respeta.",
-    debilidad: "Formato largo y muros de pago. Frecuencia baja en redes sociales. Voz heredada del medio impreso.",
-    aprendizaje: "Profundidad editorial sin barrera de pago ni formato largo. Lo mejor del periodismo cultural, en piezas que caben en un scroll."
+    handle: "Influencers",
+    tipo: "Personalidades individuales · lifestyle cultural",
+    fortaleza: "Cara reconocible. Engagement personal alto. Recomendaciones percibidas como sinceras.",
+    debilidad: "Vinculados a una persona — no escalable. Postureo de fondo. Mezclan cultura con marca personal y promociones.",
+    aprendizaje: "Marca como persona colectiva — varias voces editoriales bajo un mismo punto de vista. Más sólido que apostar por un único rostro."
   }
 ];
 
@@ -218,7 +218,7 @@ El truco: el cordero asado y la sopa de ajo cuestan la mitad que el cochinillo y
 Después, sales y caminas la Plaza Mayor, la Plaza de la Villa y la Plaza del Cordón. Gratis. Tres siglos de historia de Madrid en 90 minutos.
 
 📌 Reservas con 1 semana: botin.es
-📌 Comenta MESA y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
+📌 Comenta GASTRONOMIA y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
     produccion: [
       "POV con cámara de mano: entrada Cuchilleros + escalera de bajada al horno.",
       "Plano del horno encendido (autorización del restaurante).",
@@ -239,7 +239,7 @@ Después, sales y caminas la Plaza Mayor, la Plaza de la Villa y la Plaza del Co
       "0-3s · Tesis afilada a cámara + plano del rótulo.",
       "3-22s · 3 argumentos: cocido como ritual + sala isabelina intacta desde 1839 + camareros como custodios.",
       "22-32s · Matización honesta: \"Sí, el cocido se ha vuelto caro. Pero los entrantes del mostrador (el famoso 'consomé Lhardy') siguen siendo accesibles.\"",
-      "32-38s · Cierre: \"Si quieres saber qué restaurantes históricos sobreviven en Madrid, comenta MESA y te lo paso.\""
+      "32-38s · Cierre: \"Si quieres saber qué restaurantes históricos sobreviven en Madrid, comenta GASTRONOMIA y te lo paso.\""
     ],
     copyDesarrollado: `Hot take impopular: Lhardy es mejor restaurante que el 95% de lo que abre cada mes en Madrid.
 
@@ -251,7 +251,7 @@ Razones:
 ¿Caro? Sí, el menú completo. Pero el truco lo conoce poca gente: la planta baja vende consomé y croquetas de mostrador. Por 8 euros te llevas un trozo de la historia gastronómica de Madrid.
 
 📌 Carrera de San Jerónimo 8 · lhardy.com
-📌 Comenta MESA y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
+📌 Comenta GASTRONOMIA y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
     produccion: [
       "A cámara, plano fijo, frente al rótulo histórico.",
       "1-2 planos del interior (autorización gerencia).",
@@ -585,7 +585,7 @@ window.TMT.carruseles12 = [
       { n: 8, titulo: "Hoy", sub: "Equilibrio difícil. Funciona si vas en horarios buenos (11h o 16h, no a la hora de comer). Pide a puestos concretos: jamón en uno, vino en otro, ostras en otro." },
       { n: 9, titulo: "Por qué importa", sub: "Madrid casi perdió este edificio. Saber su historia es entender por qué cuidamos lo que tenemos antes de que sea tarde. Plaza de San Miguel · Junto a Plaza Mayor." }
     ],
-    copyPie: `El Mercado de San Miguel casi se demuele en los 90. Hoy es uno de los iconos gastronómicos de Madrid.\n\nTruco para esquivar la masificación: ir entre las 11 y las 13, o después de las 16. Pedir a puestos concretos (jamón en uno, vino en otro, ostras en otro), no menú único.\n\nEsto es Madrid: salvado, vivo, contado.\n\n📌 Plaza de San Miguel · mercadodesanmiguel.es\n📌 Comenta MESA y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
+    copyPie: `El Mercado de San Miguel casi se demuele en los 90. Hoy es uno de los iconos gastronómicos de Madrid.\n\nTruco para esquivar la masificación: ir entre las 11 y las 13, o después de las 16. Pedir a puestos concretos (jamón en uno, vino en otro, ostras en otro), no menú único.\n\nEsto es Madrid: salvado, vivo, contado.\n\n📌 Plaza de San Miguel · mercadodesanmiguel.es\n📌 Comenta GASTRONOMIA y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
     kpi: ">8% save · alto tiempo de visualización · viralidad por nostalgia local"
   },
   {
@@ -804,7 +804,7 @@ window.TMT.leadMagnets = [
     pilar: "Patrimonio vivo", pilarN: "II",
     audiencia: "Adultos que disfrutan comiendo bien y sienten que les falta el relato detrás del plato.",
     hook: "Madrid tiene cinco mesas en las que se escribió literatura, se hizo política y se firmaron historias. Esta guía te lleva por dentro de cada una.",
-    palabraClave: "MESA",
+    palabraClave: "GASTRONOMIA",
     kpiObjetivo: "380 descargas · alto share en stories",
     indice: [
       { p: 1, contenido: "Carta de bienvenida." },
@@ -872,7 +872,7 @@ window.TMT.embudo = [
     titulo: "Reels + carruseles + stories con palabra clave",
     objetivo: "Convertir scroll en intención. Cada pieza orgánica termina con una palabra clave concreta.",
     tacticas: [
-      "Cada pieza acaba con CTA: \"Comenta MADRID / FINDE / MESA / AMIGOS / etc.\".",
+      "Cada pieza acaba con CTA: \"Comenta MADRID · FINDE · GASTRONOMIA · AMIGOS / etc.\".",
       "Stories diarias re-activan las palabras clave de las piezas grandes.",
       "1 lead magnet activo cada quincena con su keyword dedicada."
     ],
@@ -949,30 +949,30 @@ window.TMT.plan = {
     {
       n: "02", nombre: "Junio · Lanzamiento", duracion: "4 semanas", fechas: "1 junio — 28 junio",
       hitos: [
-        "Publicación de los 4 reels y 4 carruseles del mes.",
-        "Lanzamiento LM1 (10 planes <20€) y LM2 (5 restaurantes históricos).",
-        "4 envíos de newsletter Culturioso (uno por semana, desde HubSpot).",
+        "Publicación de 8 reels + 8 carruseles (2 + 2 por semana) y stories diarias.",
+        "Lanzamiento LM1 (10 planes <20€ · keyword MADRID) y LM2 (5 restaurantes con historia · keyword GASTRONOMIA).",
+        "4 envíos de newsletter Culturioso semanal desde HubSpot.",
         "Apertura WhatsApp con primeros 100 invitados desde la base existente.",
-        "Lectura de datos al final de cada quincena + ajuste fino."
+        "Lectura de datos al final de cada quincena + ajuste fino de keyword y rotación."
       ]
     },
     {
       n: "03", nombre: "Julio · Crucero", duracion: "5 semanas", fechas: "29 junio — 2 agosto",
       hitos: [
-        "Ejecución sostenida (4 reels + 4 carruseles + stories diarias).",
-        "Lanzamiento LM3 (Madrid los lunes) y LM4 (conciertos gratis).",
+        "Ejecución sostenida (8 reels + 8 carruseles + stories diarias).",
+        "Lanzamiento LM3 (Madrid los lunes · keyword LUNES) y LM4 (conciertos gratis · keyword VERANO).",
         "4 envíos newsletter Culturioso semanal.",
-        "Primer paid layer ligero sobre el reel con mejor performance orgánica.",
-        "Primer evento real solo-socios documentado para R5."
+        "Primer paid layer ligero sobre las piezas con mejor performance orgánica.",
+        "Primer evento real solo-socios documentado para reel R5 ancla."
       ]
     },
     {
       n: "04", nombre: "Agosto · Consolidación", duracion: "4 semanas", fechas: "3 agosto — 30 agosto",
       hitos: [
-        "Ejecución sostenida (4 reels + 4 carruseles + stories diarias).",
-        "Lanzamiento LM5 (librerías de barrio) y LM6 (planes con amigos).",
+        "Ejecución sostenida (8 reels + 8 carruseles + stories diarias).",
+        "Lanzamiento LM5 (librerías de barrio · keyword LIBROS) y LM6 (planes con amigos · keyword AMIGOS).",
         "4 envíos newsletter semanal + envío de cierre con reporte editorial trimestral.",
-        "Reporte de trimestre desde HubSpot: datos, aprendizajes, propuesta de Q4."
+        "Reporte de trimestre desde HubSpot: datos, aprendizajes y propuesta operativa para escalar en septiembre."
       ]
     }
   ],
@@ -990,36 +990,36 @@ window.TMT.plan = {
 
 window.TMT.calendario = {
   q1: [
-    { dia: "L", fecha: "1", pieza: "Story serie · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
-    { dia: "Ma", fecha: "2", pieza: "Reel W01 · El detalle de la Puerta de Alcalá", formato: "Reel", pilar: "I", apunta: "LM1 · keyword MADRID" },
-    { dia: "Mi", fecha: "3", pieza: "Carrusel C-W01 · 8 plazas de Madrid", formato: "Carrusel", pilar: "I", apunta: "LM1 · keyword GLOSARIO" },
-    { dia: "J", fecha: "4", pieza: "Story serie · Pregunta del jueves", formato: "Stories", pilar: "III", apunta: "Engagement" },
+    { dia: "L", fecha: "1", pieza: "Stories diarias · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
+    { dia: "Ma", fecha: "2", pieza: "Reel ancla W01 · El detalle de la Puerta de Alcalá", formato: "Reel", pilar: "I", apunta: "LM1 · keyword MADRID" },
+    { dia: "Mi", fecha: "3", pieza: "Carrusel ancla C-W01 · 8 plazas de Madrid", formato: "Carrusel", pilar: "I", apunta: "LM1 · keyword GLOSARIO" },
+    { dia: "J", fecha: "4", pieza: "Reel satélite · Plan en 60s — Sábado culto por menos de 30€", formato: "Reel", pilar: "III", apunta: "LM1 · keyword MADRID" },
     { dia: "V", fecha: "5", pieza: "Newsletter Culturioso · Semanal 01", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
-    { dia: "S", fecha: "6", pieza: "Story experiencia real con socios", formato: "Stories", pilar: "III", apunta: "Trigger club" },
-    { dia: "D", fecha: "7", pieza: "Recovery editorial + cita Madrid", formato: "Stories", pilar: "II", apunta: "Engagement" },
-    { dia: "L", fecha: "8", pieza: "Story serie · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
-    { dia: "Ma", fecha: "9", pieza: "Reel W02 · 3 min con un sereno", formato: "Reel", pilar: "II", apunta: "LM1 · keyword NOCHE" },
-    { dia: "Mi", fecha: "10", pieza: "Carrusel C-W02 · 7 planes de finde", formato: "Carrusel", pilar: "IV", apunta: "LM1 · keyword FINDE" },
-    { dia: "J", fecha: "11", pieza: "Story serie · Pregunta del jueves", formato: "Stories", pilar: "III", apunta: "Engagement" },
+    { dia: "S", fecha: "6", pieza: "Carrusel satélite · Manual del sábado culto en Madrid", formato: "Carrusel", pilar: "IV", apunta: "LM1 · keyword MADRID" },
+    { dia: "D", fecha: "7", pieza: "Stories recovery editorial + cita Madrid", formato: "Stories", pilar: "II", apunta: "Engagement" },
+    { dia: "L", fecha: "8", pieza: "Stories diarias · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
+    { dia: "Ma", fecha: "9", pieza: "Reel ancla W02 · Madrid a las 23:00", formato: "Reel", pilar: "II", apunta: "LM1 · keyword NOCHE" },
+    { dia: "Mi", fecha: "10", pieza: "Carrusel ancla C-W02 · 7 planes de finde", formato: "Carrusel", pilar: "IV", apunta: "LM1 · keyword FINDE" },
+    { dia: "J", fecha: "11", pieza: "Reel satélite · Hot take sobre las terrazas de Madrid", formato: "Reel", pilar: "I", apunta: "LM1 · keyword MADRID" },
     { dia: "V", fecha: "12", pieza: "Newsletter Culturioso · Semanal 02 + teaser LM2", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
-    { dia: "S", fecha: "13", pieza: "Story behind the scenes producción", formato: "Stories", pilar: "III", apunta: "Engagement" },
-    { dia: "D", fecha: "14", pieza: "Lanzamiento LM2 · 5 restaurantes históricos", formato: "Lead magnet", pilar: "II", apunta: "Captación · keyword MESA" }
+    { dia: "S", fecha: "13", pieza: "Carrusel satélite · Mapa del Madrid de noche", formato: "Carrusel", pilar: "IV", apunta: "LM1 · keyword NOCHE" },
+    { dia: "D", fecha: "14", pieza: "Lanzamiento LM2 · 5 restaurantes con historia", formato: "Lead magnet", pilar: "II", apunta: "Captación · keyword GASTRONOMIA" }
   ],
   q2: [
-    { dia: "L", fecha: "15", pieza: "Story serie · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
-    { dia: "Ma", fecha: "16", pieza: "Reel W03 · Casa Botín + paseo Austrias", formato: "Reel", pilar: "III", apunta: "LM2 · keyword MESA" },
-    { dia: "Mi", fecha: "17", pieza: "Carrusel C-W03 · Mercado de San Miguel 9 imágenes", formato: "Carrusel", pilar: "II", apunta: "LM2 · keyword MESA" },
-    { dia: "J", fecha: "18", pieza: "Story serie · Pregunta del jueves", formato: "Stories", pilar: "III", apunta: "Engagement" },
+    { dia: "L", fecha: "15", pieza: "Stories diarias · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
+    { dia: "Ma", fecha: "16", pieza: "Reel ancla W03 · Casa Botín + paseo Austrias", formato: "Reel", pilar: "III", apunta: "LM2 · keyword GASTRONOMIA" },
+    { dia: "Mi", fecha: "17", pieza: "Carrusel ancla C-W03 · Mercado de San Miguel en 9 imágenes", formato: "Carrusel", pilar: "II", apunta: "LM2 · keyword GASTRONOMIA" },
+    { dia: "J", fecha: "18", pieza: "Reel satélite · 3 tabernas centenarias del centro", formato: "Reel", pilar: "II", apunta: "LM2 · keyword GASTRONOMIA" },
     { dia: "V", fecha: "19", pieza: "Newsletter Culturioso · Semanal 03", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
-    { dia: "S", fecha: "20", pieza: "Story experiencia real con socios", formato: "Stories", pilar: "III", apunta: "Trigger club · WhatsApp" },
-    { dia: "D", fecha: "21", pieza: "Recovery editorial + cita", formato: "Stories", pilar: "II", apunta: "Engagement" },
-    { dia: "L", fecha: "22", pieza: "Story serie · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
-    { dia: "Ma", fecha: "23", pieza: "Reel W04 · Hot take Lhardy", formato: "Reel", pilar: "I", apunta: "LM2 · keyword MESA" },
-    { dia: "Mi", fecha: "24", pieza: "Carrusel C-W04 · Ruta de tapas sin trampa", formato: "Carrusel", pilar: "IV", apunta: "LM2 · keyword TAPAS" },
-    { dia: "J", fecha: "25", pieza: "Story serie · Pregunta del jueves", formato: "Stories", pilar: "III", apunta: "Engagement" },
+    { dia: "S", fecha: "20", pieza: "Carrusel satélite · Manual del cocido madrileño en 6 pasos", formato: "Carrusel", pilar: "IV", apunta: "LM2 · keyword COCIDO" },
+    { dia: "D", fecha: "21", pieza: "Stories experiencia real con socios", formato: "Stories", pilar: "III", apunta: "Trigger club · WhatsApp" },
+    { dia: "L", fecha: "22", pieza: "Stories diarias · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
+    { dia: "Ma", fecha: "23", pieza: "Reel ancla W04 · Hot take Lhardy", formato: "Reel", pilar: "I", apunta: "LM2 · keyword GASTRONOMIA" },
+    { dia: "Mi", fecha: "24", pieza: "Carrusel ancla C-W04 · Ruta de tapas sin trampa", formato: "Carrusel", pilar: "IV", apunta: "LM2 · keyword TAPAS" },
+    { dia: "J", fecha: "25", pieza: "Reel satélite · 5 mercados con historia en Madrid", formato: "Reel", pilar: "II", apunta: "LM2 · keyword GASTRONOMIA" },
     { dia: "V", fecha: "26", pieza: "Newsletter Culturioso · Semanal 04 + teaser LM3", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
-    { dia: "S", fecha: "27", pieza: "Story behind the scenes producción", formato: "Stories", pilar: "III", apunta: "Engagement" },
-    { dia: "D", fecha: "28", pieza: "Lectura de quincena + datos públicos", formato: "Carrusel", pilar: "—", apunta: "Comunidad" }
+    { dia: "S", fecha: "27", pieza: "Carrusel satélite · Mapa de menús del día con criterio", formato: "Carrusel", pilar: "IV", apunta: "LM2 · keyword GASTRONOMIA" },
+    { dia: "D", fecha: "28", pieza: "Lectura de quincena + datos públicos de cierre", formato: "Carrusel", pilar: "—", apunta: "Comunidad" }
   ]
 };
 
@@ -1030,37 +1030,37 @@ window.TMT.kpis = {
   comunidad: {
     titulo: "Comunidad", n: "01",
     items: [
-      { metrica: "Seguidores +30 cualificados Instagram", benchmark: "Base actual", objetivo: "+3.500 a M3", nota: "Solo segmento +30 en target geográfico Madrid." },
-      { metrica: "Save rate por publicación", benchmark: "—", objetivo: ">6% mediana", nota: "Indicador #1 de relevancia editorial." },
-      { metrica: "Share rate por publicación", benchmark: "—", objetivo: ">3% mediana", nota: "Indicador #1 de crecimiento orgánico." },
-      { metrica: "Comentarios cualitativos por pieza", benchmark: "—", objetivo: ">15 por ancla", nota: "Conversación real, no emojis ni keywords." }
+      { metrica: "Crecimiento de seguidores +30 cualificados en Instagram", nota: "Solo segmento +30 en target geográfico Madrid. Vanidad bruta no cuenta." },
+      { metrica: "Save rate por publicación", nota: "Indicador #1 de relevancia editorial. El save es \"esto me sirve y volveré a ello\"." },
+      { metrica: "Share rate por publicación", nota: "Indicador #1 de crecimiento orgánico. Cada share trae a alguien afín." },
+      { metrica: "Volumen y calidad de comentarios", nota: "Conversación real frente a emojis sueltos. Sondea qué temas funcionan." }
     ]
   },
   leads: {
     titulo: "Captación de leads", n: "02",
     items: [
-      { metrica: "Emails captados acumulado", benchmark: "Base actual", objetivo: "1.500 a M3", nota: "Suma de los 6 lead magnets." },
-      { metrica: "Conversión comentario → email cualificado", benchmark: "—", objetivo: ">65%", nota: "Auditoría flujo ManyChat semanal." },
-      { metrica: "Tasa de apertura newsletter Culturioso", benchmark: "30% sector", objetivo: ">45%", nota: "Calidad de la base." },
-      { metrica: "Tasa de click newsletter", benchmark: "5% sector", objetivo: ">8%", nota: "Intención real." }
+      { metrica: "Emails captados acumulados", nota: "Suma de los 6 lead magnets. Indicador del músculo de captación." },
+      { metrica: "Conversión comentario → email cualificado", nota: "Auditoría semanal del flujo ManyChat. Detecta fricción del bot." },
+      { metrica: "Tasa de apertura newsletter Culturioso", nota: "Calidad real de la base — si abren, la base es buena." },
+      { metrica: "Tasa de click en newsletter", nota: "Intención real más allá de la apertura." }
     ]
   },
   whatsapp: {
     titulo: "Comunidad WhatsApp", n: "03",
     items: [
-      { metrica: "Miembros activos en comunidad WhatsApp", benchmark: "0", objetivo: "500 a M3", nota: "Activo = al menos una interacción en 30d." },
-      { metrica: "% emails que aceptan invitación WhatsApp", benchmark: "—", objetivo: ">30%", nota: "Sobre quien descarga LM." },
-      { metrica: "Tasa de respuesta a mensajes WhatsApp", benchmark: "—", objetivo: ">18%", nota: "Indicador de relación real, no broadcast." },
-      { metrica: "Canales temáticos activos", benchmark: "0", objetivo: "3 canales", nota: "Música · Arte joven · Plan de domingo." }
+      { metrica: "Miembros activos en la comunidad WhatsApp", nota: "Activo = al menos una interacción en los últimos 30 días." },
+      { metrica: "% de leads que aceptan invitación a WhatsApp", nota: "Mide el atractivo de la comunidad sobre los que ya descargan." },
+      { metrica: "Tasa de respuesta a mensajes en WhatsApp", nota: "Indicador de relación real, no broadcast unidireccional." },
+      { metrica: "Activación de canales temáticos", nota: "Música · Arte joven · Plan de domingo. Densidad de uso por canal." }
     ]
   },
   marca: {
     titulo: "Marca y autoridad", n: "04",
     items: [
-      { metrica: "Búsquedas \"treinta más treinta\"", benchmark: "Volumen actual", objetivo: "×4 a M3", nota: "Google Trends + Search Console." },
-      { metrica: "Tráfico directo a la web", benchmark: "—", objetivo: "+150%", nota: "Señal de marca instalada." },
-      { metrica: "Menciones espontáneas en prensa cultural", benchmark: "—", objetivo: ">5 piezas/trimestre", nota: "Prensa cultural y comunidades afines." },
-      { metrica: "Conversión Engaged → suscriptor club", benchmark: "—", objetivo: "8-12%", nota: "Métrica secundaria — el club no es el objetivo de la campaña." }
+      { metrica: "Búsquedas de marca \"treinta más treinta\"", nota: "Google Trends + Search Console. Señal de notoriedad instalada." },
+      { metrica: "Tráfico directo a la web", nota: "Cuanto más directo entran a la web, más se acuerdan de la marca." },
+      { metrica: "Menciones espontáneas en prensa cultural y newsletters afines", nota: "Aparecer sin pedirlo es la señal de que somos referencia." },
+      { metrica: "Conversión Engaged → suscriptor del club", nota: "Métrica secundaria — el club no es el objetivo de la campaña, es la consecuencia." }
     ]
   }
 };
