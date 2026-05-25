@@ -215,56 +215,66 @@ section + section { border-top: 1px solid var(--rule-soft); }
   color: var(--ink-muted);
 }
 
-/* Lateral progress */
+/* Lateral progress · dots-only · labels como tooltip absoluto on hover */
 .side-progress {
   position: fixed;
   top: 50%;
-  right: 28px;
+  right: 18px;
   transform: translateY(-50%);
   z-index: 90;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 12px 12px;
-  border-left: 1px solid var(--rule-soft);
+  gap: 14px;
+  padding: 4px;
+  width: 22px;
 }
 .side-progress button {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  font-family: var(--font-mono);
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: var(--ink-muted);
-  padding: 4px 0;
-  transition: color var(--dur-fast) var(--ease);
+  position: relative;
+  display: block;
+  width: 14px;
+  height: 14px;
+  padding: 4px;
+  background: transparent;
+  cursor: pointer;
 }
 .side-progress .dot {
-  width: 6px; height: 6px;
+  display: block;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background: transparent;
   border: 1px solid var(--ink-muted);
   transition: all var(--dur-fast) var(--ease);
 }
 .side-progress button .label {
+  position: absolute;
+  top: 50%;
+  right: calc(100% + 6px);
+  transform: translateY(-50%) translateX(8px);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--bg-primary);
+  background: var(--ink);
+  padding: 6px 10px;
+  white-space: nowrap;
   opacity: 0;
-  transform: translateX(-6px);
-  transition: opacity var(--dur) var(--ease), transform var(--dur) var(--ease);
+  pointer-events: none;
+  transition: opacity var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease);
 }
-.side-progress button:hover .label,
-.side-progress button.active .label {
+.side-progress button:hover .label {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(-50%) translateX(0);
 }
-.side-progress button.active { color: var(--ink); }
 .side-progress button.active .dot {
-  background: var(--accent-warm);
-  border-color: var(--accent-warm);
-  transform: scale(1.25);
+  background: var(--accent-neon);
+  border-color: var(--accent-neon);
+  transform: scale(1.4);
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .side-progress { display: none; }
 }
 @media (max-width: 880px) {
