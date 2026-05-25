@@ -1905,3 +1905,248 @@ button:focus-visible, a:focus-visible { outline-offset: 4px; }
   margin: 56px 0;
 }
 .hidden { display: none !important; }
+
+/* ============================================================
+   COMPETENCIA
+   ============================================================ */
+.comp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+}
+@media (max-width: 900px) { .comp-grid { grid-template-columns: 1fr; } }
+.comp-card {
+  background: var(--bg-primary);
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  transition: background var(--dur-fast) var(--ease);
+}
+.comp-card:hover { background: var(--paper); }
+.comp-head {
+  display: flex;
+  gap: 20px;
+  align-items: baseline;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.comp-n {
+  font-family: var(--font-display);
+  font-weight: 280;
+  font-size: 48px;
+  line-height: 0.85;
+  color: var(--accent-warm);
+  letter-spacing: -0.025em;
+}
+.comp-handle {
+  font-family: var(--font-display);
+  font-weight: 340;
+  font-size: 22px;
+  letter-spacing: -0.015em;
+  margin: 0 0 4px;
+}
+.comp-tipo {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-muted);
+}
+.comp-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.comp-line {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  gap: 16px;
+  align-items: start;
+  font-size: 14px;
+  line-height: 1.55;
+}
+.comp-line p { color: var(--ink); }
+.comp-tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  padding: 4px 8px;
+  text-align: center;
+  height: fit-content;
+  white-space: nowrap;
+}
+.comp-tag.tag-up { background: var(--accent-neon); color: var(--ink); }
+.comp-tag.tag-down { background: transparent; color: var(--accent-warm); border: 1px solid var(--accent-warm); }
+.comp-tag.tag-learn { background: var(--ink); color: var(--bg-primary); }
+
+@media (max-width: 540px) {
+  .comp-line { grid-template-columns: 1fr; gap: 6px; }
+  .comp-tag { display: inline-block; }
+}
+
+/* ============================================================
+   GUÍAS DE ACTUACIÓN
+   ============================================================ */
+.guias-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+}
+@media (max-width: 880px) { .guias-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 540px) { .guias-grid { grid-template-columns: 1fr; } }
+.guia-card {
+  background: var(--bg-primary);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: background var(--dur-fast) var(--ease);
+}
+.guia-card:hover { background: var(--paper); }
+.guia-n {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 280;
+  font-size: 40px;
+  line-height: 1;
+  color: var(--accent-warm);
+}
+.guia-titulo {
+  font-family: var(--font-display);
+  font-weight: 360;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+.guia-desc {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--ink-muted);
+}
+
+/* ============================================================
+   PIEZAS DESARROLLADAS — grid grande 12 reels / 12 carruseles
+   ============================================================ */
+.piezas-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background: var(--rule-soft);
+  border: 1px solid var(--rule-soft);
+}
+@media (max-width: 980px) { .piezas-grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 620px) { .piezas-grid { grid-template-columns: 1fr; } }
+.pieza-card {
+  background: var(--bg-primary);
+  padding: 28px 26px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 280px;
+  transition: background var(--dur-fast) var(--ease), transform var(--dur-fast) var(--ease);
+}
+.pieza-card:hover {
+  background: var(--paper);
+  transform: translateY(-2px);
+}
+.pz-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-muted);
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.pz-sem { color: var(--accent-warm); }
+.pz-fmt {
+  text-align: right;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.pz-titulo {
+  font-family: var(--font-display);
+  font-weight: 340;
+  font-size: 22px;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+.pz-hook {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink-muted);
+  flex-grow: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+.pz-foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 14px;
+  border-top: 1px solid var(--rule-soft);
+}
+.pz-pilar {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.pz-pilar .roman {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--accent-warm);
+  letter-spacing: 0;
+}
+.pz-link {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.pz-link::after { content: "→"; transition: transform var(--dur-fast) var(--ease); }
+.pieza-card:hover .pz-link { color: var(--accent-warm); }
+.pieza-card:hover .pz-link::after { transform: translateX(4px); }
+
+/* ============================================================
+   LM KEYWORD (badge inferior en cada lead magnet card)
+   ============================================================ */
+.lm-keyword {
+  margin-top: 12px;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+.lm-keyword b {
+  color: var(--ink);
+  background: var(--accent-neon);
+  padding: 2px 6px;
+}

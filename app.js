@@ -1,12 +1,12 @@
 // ============================================================
-// TREINTA MÁS TREINTA — Interacciones
+// TREINTA MÁS TREINTA — Documento operativo · interacciones
 // ============================================================
 
 (function () {
   const T = window.TMT;
   const $ = (sel, ctx = document) => ctx.querySelector(sel);
   const $$ = (sel, ctx = document) => Array.from(ctx.querySelectorAll(sel));
-  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
   const isReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -14,11 +14,8 @@
   // NAV — sticky scroll state
   // -----------------------------------------------------------
   const topnav = $("#topnav");
-  let lastY = 0;
   function onScroll() {
-    const y = window.scrollY;
-    topnav.classList.toggle("scrolled", y > 24);
-    lastY = y;
+    topnav.classList.toggle("scrolled", window.scrollY > 24);
   }
   window.addEventListener("scroll", onScroll, { passive: true });
   onScroll();
@@ -27,14 +24,11 @@
   // SIDE PROGRESS — IntersectionObserver
   // -----------------------------------------------------------
   const sideBtns = $$("#sideprogress button");
-  const sideMap = new Map();
   sideBtns.forEach((b) => {
-    const anchor = b.dataset.anchor;
     b.addEventListener("click", () => {
-      const target = document.querySelector(anchor);
+      const target = document.querySelector(b.dataset.anchor);
       if (target) target.scrollIntoView({ behavior: isReducedMotion ? "auto" : "smooth", block: "start" });
     });
-    sideMap.set(anchor, b);
   });
   const sections = $$("section[id]");
   const sectionObs = new IntersectionObserver((entries) => {
@@ -47,7 +41,7 @@
   }, { rootMargin: "-45% 0px -45% 0px", threshold: 0 });
   sections.forEach((s) => sectionObs.observe(s));
 
-  // Smooth anchor scroll for top nav links
+  // Smooth anchor scroll
   $$('.nav-links a, .hero-scroll').forEach((a) => {
     a.addEventListener("click", (e) => {
       const href = a.getAttribute("href");
@@ -67,7 +61,6 @@
   $$(".hero-title .word").forEach((w, i) => {
     w.style.animationDelay = (90 * i + 200) + "ms";
   });
-
   function animateCounter(el, target) {
     if (isReducedMotion) { el.textContent = target; return; }
     const duration = 1600;
@@ -85,8 +78,7 @@
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         const el = entry.target;
-        const target = parseInt(el.dataset.counter, 10);
-        animateCounter(el, target);
+        animateCounter(el, parseInt(el.dataset.counter, 10));
         counterObs.unobserve(el);
       }
     });
@@ -107,34 +99,41 @@
   $$(".reveal").forEach((el) => revealObs.observe(el));
 
   // -----------------------------------------------------------
-  // DIAGNÓSTICO — render + accordion
+  // COMPETENCIA — render
   // -----------------------------------------------------------
-  const diagGrid = $("#diagGrid");
-  if (diagGrid && T.diagnostico) {
-    diagGrid.innerHTML = T.diagnostico.map((d, i) => `
-      <div class="diag-col${i === 0 ? " open" : ""}">
-        <div class="col-eyebrow">${esc(d.eyebrow)}</div>
-        <h3 class="col-title">${esc(d.titulo)}</h3>
-        <button class="col-toggle" aria-expanded="${i === 0 ? "true" : "false"}">
-          <span>Ver detalle</span>
-          <span class="ic" aria-hidden="true"></span>
-        </button>
-        <ul class="col-bullets">
-          ${d.bullets.map(b => `<li>${esc(b)}</li>`).join("")}
-        </ul>
-      </div>
+  const compGrid = $("#compGrid");
+  if (compGrid && T.competencia) {
+    compGrid.innerHTML = T.competencia.map((c) => `
+      <article class="comp-card">
+        <header class="comp-head">
+          <span class="comp-n">${esc(c.n)}</span>
+          <div>
+            <h3 class="comp-handle">${esc(c.handle)}</h3>
+            <span class="comp-tipo">${esc(c.tipo)}</span>
+          </div>
+        </header>
+        <div class="comp-body">
+          <div class="comp-line"><span class="comp-tag tag-up">Fortaleza</span><p>${esc(c.fortaleza)}</p></div>
+          <div class="comp-line"><span class="comp-tag tag-down">Debilidad</span><p>${esc(c.debilidad)}</p></div>
+          <div class="comp-line"><span class="comp-tag tag-learn">Aprendizaje</span><p>${esc(c.aprendizaje)}</p></div>
+        </div>
+      </article>
     `).join("");
-    $$(".diag-col", diagGrid).forEach((col) => {
-      const toggle = $(".col-toggle", col);
-      toggle.addEventListener("click", () => {
-        const open = col.classList.toggle("open");
-        toggle.setAttribute("aria-expanded", String(open));
-      });
-    });
+  }
+
+  const guiasGrid = $("#guiasGrid");
+  if (guiasGrid && T.guias) {
+    guiasGrid.innerHTML = T.guias.map((g) => `
+      <article class="guia-card">
+        <div class="guia-n">${esc(g.n)}</div>
+        <h4 class="guia-titulo">${esc(g.titulo)}</h4>
+        <p class="guia-desc">${esc(g.desarrollo)}</p>
+      </article>
+    `).join("");
   }
 
   // -----------------------------------------------------------
-  // BIG IDEA — pilares
+  // PILARES (Marco editorial)
   // -----------------------------------------------------------
   const pilaresGrid = $("#pilaresGrid");
   if (pilaresGrid && T.pilares) {
@@ -164,14 +163,14 @@
         <p>${esc(p.desarrollo)}</p>
       </div>
       <div class="modal-block">
-        <h4>Formatos en los que vive</h4>
+        <h4>Dónde vive</h4>
         <p>${esc(p.formatos)}</p>
       </div>
     `;
   }
 
   // -----------------------------------------------------------
-  // TABS — Sistema de contenido
+  // TABS — Contenido
   // -----------------------------------------------------------
   $$(".tab").forEach((tab) => {
     tab.addEventListener("click", () => {
@@ -182,53 +181,54 @@
   });
 
   // -----------------------------------------------------------
-  // REELS / CARRUSELES — formato cards + grid de 12
+  // 12 REELS DESARROLLADOS — render + modal
   // -----------------------------------------------------------
-  function renderFormatoCard(f, type) {
+  function renderPiezaCard(p, type) {
     return `
-      <div class="formato-card" data-type="${type}" data-id="${esc(f.id)}" role="button" tabindex="0">
-        ${f.desarrollado ? `<span class="fmt-badge">Desarrollada</span>` : ""}
-        <div class="fmt-id">${esc(f.id)}</div>
-        <div class="fmt-pilar">
-          <span class="roman">${esc(f.pilarN)}</span>
-          <span>${esc(f.pilar)}</span>
-        </div>
-        <div class="fmt-nombre">${esc(f.nombre)}</div>
-        <div class="fmt-hook">${esc(f.hookTipo)}</div>
-        <div class="fmt-meta">
-          <span class="fmt-dur">${esc(f.duracion || f.slides + " slides")}</span>
-          <span class="fmt-link">Detalle</span>
-        </div>
-      </div>
+      <article class="pieza-card" data-type="${type}" data-id="${esc(p.id)}" role="button" tabindex="0">
+        <header class="pz-head">
+          <span class="pz-sem">W${String(p.sem).padStart(2,"0")} · ${esc(p.mes)}</span>
+          <span class="pz-fmt">${esc(p.formato)} · ${esc(p.nombreFormato)}</span>
+        </header>
+        <h3 class="pz-titulo">${esc(p.titulo)}</h3>
+        <p class="pz-hook">${esc(p.hookEjemplo || (p.slides && p.slides[0] && p.slides[0].sub) || "")}</p>
+        <footer class="pz-foot">
+          <span class="pz-pilar"><span class="roman">${esc(p.pilarN)}</span> ${esc(p.pilar)}</span>
+          <span class="pz-link">Ver guion completo</span>
+        </footer>
+      </article>
     `;
   }
-  const reelsGrid = $("#reelsGrid");
-  if (reelsGrid && T.reelsFormatos) {
-    reelsGrid.innerHTML = T.reelsFormatos.map(f => renderFormatoCard(f, "reel")).join("");
+  const r12 = $("#reels12Grid");
+  if (r12 && T.reels12) {
+    r12.innerHTML = T.reels12.map(r => renderPiezaCard(r, "reel")).join("");
   }
-  const carruselesGrid = $("#carruselesGrid");
-  if (carruselesGrid && T.carruselesFormatos) {
-    carruselesGrid.innerHTML = T.carruselesFormatos.map(f => renderFormatoCard(f, "carrusel")).join("");
+  const c12 = $("#carruseles12Grid");
+  if (c12 && T.carruseles12) {
+    c12.innerHTML = T.carruseles12.map(c => renderPiezaCard(c, "carrusel")).join("");
   }
 
-  $$(".formato-card").forEach((c) => {
-    const type = c.dataset.type;
-    const id = c.dataset.id;
+  $$(".pieza-card").forEach((card) => {
     const open = () => {
-      const data = type === "reel"
-        ? T.reelsFormatos.find(x => x.id === id)
-        : T.carruselesFormatos.find(x => x.id === id);
-      openModal(type === "reel" ? renderReel(data) : renderCarrusel(data));
+      const id = card.dataset.id;
+      const type = card.dataset.type;
+      if (type === "reel") {
+        const p = T.reels12.find(x => x.id === id);
+        openModal(renderReelDesarrollado(p));
+      } else {
+        const p = T.carruseles12.find(x => x.id === id);
+        openModal(renderCarruselDesarrollado(p));
+      }
     };
-    c.addEventListener("click", open);
-    c.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
+    card.addEventListener("click", open);
+    card.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } });
   });
 
-  function renderReel(r) {
-    let out = `
-      <div class="modal-eyebrow">— Reel · ${esc(r.id)} · ${esc(r.pilar)} <span class="roman">${esc(r.pilarN)}</span></div>
-      <h2 class="modal-title">${esc(r.nombre)}</h2>
-      <p class="modal-sub">${esc(r.hookTipo)}</p>
+  function renderReelDesarrollado(r) {
+    return `
+      <div class="modal-eyebrow">— Semana W${String(r.sem).padStart(2,"0")} · ${esc(r.mes)} · ${esc(r.formato)} · ${esc(r.nombreFormato)} <span class="roman">${esc(r.pilarN)}</span></div>
+      <h2 class="modal-title">${esc(r.titulo)}</h2>
+      <p class="modal-sub">${esc(r.hookEjemplo)}</p>
 
       <div class="modal-block">
         <h4>Duración objetivo</h4>
@@ -241,86 +241,56 @@
       </div>
 
       <div class="modal-block">
+        <h4>Copy del pie · desarrollado al 100%</h4>
+        <div class="pre">${esc(r.copyDesarrollado)}</div>
+      </div>
+
+      <div class="modal-block">
+        <h4>Notas de producción</h4>
+        <ul class="plain">${r.produccion.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
+      </div>
+
+      <div class="modal-block">
         <h4>KPI objetivo</h4>
         <p>${esc(r.kpi)}</p>
       </div>
     `;
-    if (r.desarrollado) {
-      out += `
-        <div class="modal-block">
-          <h4>Pieza desarrollada al 100% — Ejemplo</h4>
-          <p><strong>Hook (segundo 0-2):</strong> ${esc(r.hookEjemplo)}</p>
-          <div class="pre">${esc(r.copyDesarrollado)}</div>
-        </div>
-        <div class="modal-block">
-          <h4>Producción</h4>
-          <ul class="plain">${r.produccion.map(p => `<li>${esc(p)}</li>`).join("")}</ul>
-        </div>
-      `;
-    }
-    return out;
   }
-  function renderCarrusel(c) {
-    let out = `
-      <div class="modal-eyebrow">— Carrusel · ${esc(c.id)} · ${esc(c.pilar)} <span class="roman">${esc(c.pilarN)}</span></div>
-      <h2 class="modal-title">${esc(c.nombre)}</h2>
-      <p class="modal-sub">${esc(c.estructura)}</p>
+
+  function renderCarruselDesarrollado(c) {
+    return `
+      <div class="modal-eyebrow">— Semana W${String(c.sem).padStart(2,"0")} · ${esc(c.mes)} · ${esc(c.formato)} · ${esc(c.nombreFormato)} <span class="roman">${esc(c.pilarN)}</span></div>
+      <h2 class="modal-title">${esc(c.titulo)}</h2>
+      <p class="modal-sub">Slide a slide · ${c.slides.length} slides</p>
 
       <div class="modal-block">
-        <h4>Slides</h4>
-        <p>${esc(c.slides)}</p>
+        <h4>Slides · copy de cada uno</h4>
+        ${c.slides.map(s => `
+          <div class="lm-slide">
+            <div class="sn">${esc(String(s.n).padStart(2, "0"))}</div>
+            <div>
+              <div class="st">${esc(s.titulo)}</div>
+              <div class="ss">${esc(s.sub)}</div>
+              ${s.nota ? `<span class="sn-note">${esc(s.nota)}</span>` : ""}
+            </div>
+          </div>
+        `).join("")}
       </div>
+
+      <div class="modal-block">
+        <h4>Copy del pie de publicación</h4>
+        <div class="pre">${esc(c.copyPie)}</div>
+      </div>
+
       <div class="modal-block">
         <h4>KPI objetivo</h4>
         <p>${esc(c.kpi)}</p>
       </div>
     `;
-    if (c.desarrollado && c.slidesDesarrollados) {
-      out += `
-        <div class="modal-block">
-          <h4>Carrusel desarrollado al 100% — Slide a slide</h4>
-          ${c.slidesDesarrollados.map(s => `
-            <div class="lm-slide">
-              <div class="sn">${esc(String(s.n).padStart(2, "0"))}</div>
-              <div>
-                <div class="st">${esc(s.titulo)}</div>
-                <div class="ss">${esc(s.sub)}</div>
-                ${s.nota ? `<span class="sn-note">${esc(s.nota)}</span>` : ""}
-              </div>
-            </div>
-          `).join("")}
-        </div>
-        <div class="modal-block">
-          <h4>Copy del pie</h4>
-          <div class="pre">${esc(c.copyPie)}</div>
-        </div>
-      `;
-    }
-    return out;
   }
-
-  // 12 piezas reels / carruseles
-  function renderPiezas12(arr) {
-    return `
-      <div style="border-top:1px solid var(--rule);">
-        ${arr.map(p => `
-          <div style="display:grid;grid-template-columns:60px 60px 90px 1fr;gap:24px;padding:18px 0;border-bottom:1px solid var(--rule-soft);font-size:14px;line-height:1.5;align-items:baseline;">
-            <span class="mono" style="color:var(--ink-muted);">W${String(p.sem).padStart(2, "0")}</span>
-            <span class="mono" style="color:var(--accent-warm);">${esc(p.mes)}</span>
-            <span class="mono" style="color:var(--ink);">${esc(p.formato)}</span>
-            <span>${esc(p.pieza)}</span>
-          </div>
-        `).join("")}
-      </div>
-    `;
-  }
-  const r12 = $("#reels12Grid");
-  if (r12) r12.innerHTML = renderPiezas12(T.reels12);
-  const c12 = $("#carruseles12Grid");
-  if (c12) c12.innerHTML = renderPiezas12(T.carruseles12);
 
   // -----------------------------------------------------------
-  // LEAD MAGNETS — grid + modal
+  // LEAD MAGNETS — render + modal
   // -----------------------------------------------------------
   const lmGrid = $("#lmGrid");
   if (lmGrid && T.leadMagnets) {
@@ -340,6 +310,7 @@
           <span class="lm-formato">${esc(lm.formato)}</span>
           <span class="lm-link">Detalle</span>
         </div>
+        <div class="lm-keyword">keyword · <b>${esc(lm.palabraClave || "—")}</b></div>
       </div>
     `).join("");
     $$(".lm-card", lmGrid).forEach((c) => {
@@ -366,6 +337,10 @@
       <div class="modal-block">
         <h4>Hook de captación</h4>
         <div class="pre">${esc(lm.hook)}</div>
+      </div>
+      <div class="modal-block">
+        <h4>Palabra clave de descarga (ManyChat)</h4>
+        <p><strong>${esc(lm.palabraClave || "—")}</strong></p>
       </div>
       <div class="modal-block">
         <h4>KPI objetivo</h4>
@@ -401,12 +376,24 @@
           <p>${esc(lm.conexion)}</p>
         </div>
       `;
+    } else if (lm.indice) {
+      out += `
+        <div class="modal-block">
+          <h4>Índice provisional</h4>
+          <table>
+            <thead><tr><th>Pág.</th><th>Contenido</th></tr></thead>
+            <tbody>
+              ${lm.indice.map(it => `<tr><td>${esc(String(it.p))}</td><td>${esc(it.contenido)}</td></tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+      `;
     }
     return out;
   }
 
   // -----------------------------------------------------------
-  // EMBUDO — fases + detail
+  // EMBUDO — fases + detail (con herramientas + detalle operativo)
   // -----------------------------------------------------------
   const fasesList = $("#fasesList");
   const faseDetail = $("#faseDetail");
@@ -435,6 +422,7 @@
         <p class="detail-kpi">${esc(f.kpi)}</p>
         <h5>Herramientas</h5>
         <p class="detail-tools">${esc(f.herramientas)}</p>
+        ${f.detalleOperativo ? `<h5>Detalle operativo</h5><p class="detail-tools">${esc(f.detalleOperativo)}</p>` : ""}
       `;
     }
     showFase(0);
@@ -492,13 +480,14 @@
   });
 
   // -----------------------------------------------------------
-  // KPIs
+  // OBJETIVOS DEL TRIMESTRE
   // -----------------------------------------------------------
   const kpisGrid = $("#kpisGrid");
   if (kpisGrid && T.kpis) {
-    const blocks = ["comunidad", "leads", "marca", "conversion"];
+    const blocks = ["comunidad", "leads", "whatsapp", "marca"];
     kpisGrid.innerHTML = blocks.map((k) => {
       const b = T.kpis[k];
+      if (!b) return "";
       return `
         <div class="kpi-block">
           <div class="blk-head">
@@ -521,11 +510,11 @@
   }
 
   // -----------------------------------------------------------
-  // PLAN
+  // PLAN — Roadmap + Roles
   // -----------------------------------------------------------
   const planTimeline = $("#planTimeline");
   if (planTimeline && T.plan) {
-    planTimeline.innerHTML = T.plan.fases.map(f => `
+    planTimeline.innerHTML = T.plan.roadmap.map(f => `
       <div class="fase-card">
         <div class="fc-n">Fase ${esc(f.n)}</div>
         <div class="fc-dur">${esc(f.duracion)}</div>
@@ -543,40 +532,6 @@
       <div class="role-row">
         <div class="r-name"><span class="r-mark">${String(i + 1).padStart(2, "0")}</span>${esc(r.rol)}</div>
         <div class="r-entrega">${esc(r.entrega)}</div>
-      </div>
-    `).join("");
-  }
-
-  // -----------------------------------------------------------
-  // INVERSIÓN
-  // -----------------------------------------------------------
-  const invGrid = $("#invGrid");
-  if (invGrid && T.inversion) {
-    invGrid.innerHTML = T.inversion.map(p => `
-      <div class="inv-card${p.destacado ? " featured" : ""}">
-        ${p.destacado ? `<span class="inv-tag">Recomendado</span>` : ""}
-        <div class="inv-num">Nivel ${esc(p.n)}</div>
-        <h3 class="inv-name">${esc(p.nombre)}</h3>
-        <p class="inv-pos">${esc(p.posicionamiento)}</p>
-        <ul class="inv-incluye">
-          ${p.incluye.map(i => `<li>${esc(i)}</li>`).join("")}
-        </ul>
-        <p class="inv-para">${esc(p.paraQuien)}</p>
-      </div>
-    `).join("");
-  }
-
-  // -----------------------------------------------------------
-  // SIGUIENTES PASOS
-  // -----------------------------------------------------------
-  const stepsGrid = $("#stepsGrid");
-  if (stepsGrid && T.siguientesPasos) {
-    stepsGrid.innerHTML = T.siguientesPasos.map(s => `
-      <div class="step">
-        <div class="step-n">${esc(s.n)}</div>
-        <h4 class="step-titulo">${esc(s.titulo)}</h4>
-        <div class="step-dur">${esc(s.duracion)}</div>
-        <p class="step-desc">${esc(s.descripcion)}</p>
       </div>
     `).join("");
   }
@@ -608,7 +563,6 @@
   $$("[data-close]", modal).forEach((el) => el.addEventListener("click", closeModal));
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && modal.classList.contains("open")) closeModal();
-    // simple focus trap
     if (e.key === "Tab" && modal.classList.contains("open")) {
       const focusables = modalPanel.querySelectorAll("a[href], button, [tabindex='0']");
       if (focusables.length === 0) return;
@@ -639,7 +593,7 @@
       requestAnimationFrame(tick);
     }
     tick();
-    const hoverables = "a, button, [role='button'], .formato-card, .lm-card, .pilar, .fase-row, .cal-cell, .diag-col, .step";
+    const hoverables = "a, button, [role='button'], .pieza-card, .lm-card, .pilar, .fase-row, .cal-cell, .comp-card, .guia-card";
     document.addEventListener("mouseover", (e) => {
       if (e.target.closest(hoverables)) halo.classList.add("active");
     });
