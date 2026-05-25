@@ -21,7 +21,7 @@
   --font-display: "Geist", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   --font-body: "Geist", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   --font-brand: "Geist", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-mono: "Geist Mono", ui-monospace, "SF Mono", monospace;
+  --font-mono: "Montserrat", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 
   --max: 1320px;
   --gutter: 24px;
@@ -82,8 +82,8 @@ h1, h2, h3, h4, h5, p { margin: 0; }
   font-family: var(--font-mono);
   font-size: 11px;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
-  font-weight: 500;
+  letter-spacing: 0.16em;
+  font-weight: 600;
 }
 .body-lg { font-size: 20px; line-height: 1.55; color: var(--ink); }
 .body { font-size: 17px; line-height: 1.6; color: var(--ink); }

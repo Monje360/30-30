@@ -296,7 +296,6 @@
   if (lmGrid && T.leadMagnets) {
     lmGrid.innerHTML = T.leadMagnets.map((lm, i) => `
       <div class="lm-card" data-lm="${i}" role="button" tabindex="0">
-        ${lm.desarrollado ? `<span class="lm-badge">Desarrollado</span>` : ""}
         <div class="lm-top">
           <div class="lm-num">${esc(lm.numero)}</div>
           <div class="lm-tag">
@@ -307,10 +306,9 @@
         <h3 class="lm-titulo">${esc(lm.titulo)}</h3>
         <p class="lm-sub">${esc(lm.subtitulo)}</p>
         <div class="lm-foot">
-          <span class="lm-formato">${esc(lm.formato)}</span>
+          <span class="lm-keyword">keyword · <b>${esc(lm.palabraClave || "—")}</b></span>
           <span class="lm-link">Detalle</span>
         </div>
-        <div class="lm-keyword">keyword · <b>${esc(lm.palabraClave || "—")}</b></div>
       </div>
     `).join("");
     $$(".lm-card", lmGrid).forEach((c) => {
