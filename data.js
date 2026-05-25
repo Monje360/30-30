@@ -2,6 +2,7 @@
 // CONTENIDO DE TRABAJO — Treinta Más Treinta
 // Trimestre operativo: junio · julio · agosto 2026
 // Foco geográfico: Madrid. Foco temático: arte y cultura amplios.
+// Contenido: mainstream + actualidad. Iconos universales + temas estacionales.
 // ============================================================
 
 window.TMT = {};
@@ -83,8 +84,8 @@ window.TMT.guias = [
   },
   {
     n: "05",
-    titulo: "Nunca turismo, nunca clickbait.",
-    desarrollo: "Cero \"alucinarás\", \"increíble\", \"top secret\". Cero contenido que un visitante de fin de semana podría replicar. Hablamos a madrileños o a gente que vive Madrid como si fuera suya."
+    titulo: "Iconos universales primero, profundidad después.",
+    desarrollo: "Hablamos de lugares que TODOS conocen (Puerta de Alcalá, Mercado de San Miguel, Templo de Debod, Casa Botín, Veranos de la Villa). Lo que añadimos es la mirada, el detalle, la historia que no se cuenta. Atraer mainstream → educar con criterio."
   },
   {
     n: "06",
@@ -101,650 +102,658 @@ window.TMT.pilares = [
     n: "I",
     nombre: "Mirada experta",
     resumen: "Descubrir lo que nadie te cuenta.",
-    desarrollo: "Detalles que llevas pasando por alto, lecturas de obras que cambian la próxima visita, historias detrás de edificios, barrios y oficios. Entrena el ojo. Construye autoridad cultural.",
+    desarrollo: "Detalles ocultos de los iconos de Madrid que TODOS conocemos. La fachada de la Puerta de Alcalá, el horno de Botín, los relieves del Templo de Debod. Lugares mainstream, mirada experta. Entrena el ojo.",
     formatos: "Reels R1 · R4 · Carruseles C1 · Lead magnets de descodificación cultural."
   },
   {
     n: "II",
     nombre: "Patrimonio vivo",
-    resumen: "Personas que mantienen viva la cultura.",
-    desarrollo: "Libreros de Moyano, programadores del Doré, anticuarios del Rastro, comisarios, restauradores, dueños de tablaos. Los oficios y voces que sostienen el Madrid cultural desde dentro.",
+    resumen: "Personas y oficios reconocibles.",
+    desarrollo: "Serenos recuperados, programadores de festivales emblemáticos, guías oficiales, chefs Michelin, directores de instituciones culturales. Nombres y oficios que la gente reconoce — sin postureo, con autoridad real.",
     formatos: "Reels R2 · Carruseles C3 · Lead magnets de figuras y lugares."
   },
   {
     n: "III",
     nombre: "Comunidad +30",
     resumen: "Vida cultural real, sin postureo.",
-    desarrollo: "Cómo es realmente un sábado culto adulto en Madrid. Vivencias de miembros, planes reales contados por dentro, conversaciones sin pose. Pertenencia sin filtro.",
+    desarrollo: "Cómo es realmente un sábado culto adulto en Madrid. Planes accesibles, vivencias de socios, conversaciones sin pose. Pertenencia sin filtro.",
     formatos: "Reels R3 · R5 · Stories sostenidas · WhatsApp."
   },
   {
     n: "IV",
     nombre: "Ritual cultural",
     resumen: "Micro-hábitos para la vida adulta.",
-    desarrollo: "Cómo iniciarse en ópera, planear una tarde de jazz, descubrir un barrio nuevo, leer un cuadro en 20 minutos. Plantillas y rituales pequeños que hacen que la cultura quepa en una agenda ocupada.",
+    desarrollo: "Cómo planear un finde culto, una ruta de tapas sin trampa, una agenda de festivales del verano, una primera vez en la ópera. Plantillas y rituales pequeños que hacen que la cultura quepa en una agenda ocupada.",
     formatos: "Carruseles C2 · C4 · Lead magnets prácticos · Newsletter."
   }
 ];
 
 // -------------------------------------------------------------
-// REELS — 12 piezas DESARROLLADAS al 100% · Madrid · jun-ago
-// Formatos en rotación: R1 (mirada) · R2 (oficios) · R3 (plan) · R4 (hot take) · R5 (detrás)
+// REELS — 12 piezas DESARROLLADAS al 100% · Mainstream + actualidad Madrid
+// Rotación: R1 R2 R3 R4 R5 · R1 R2 R3 R4 R5 · R1 R2
 // -------------------------------------------------------------
 window.TMT.reels12 = [
   {
     id: "W01", sem: 1, mes: "Jun", formato: "R1",
     nombreFormato: "El detalle que nadie ve",
     pilar: "Mirada experta", pilarN: "I",
-    titulo: "El Fénix antes del Ángel — Edificio Metrópolis",
+    titulo: "El detalle de la Puerta de Alcalá que casi nadie ve",
     duracion: "30s",
-    hookEjemplo: "Plano contrapicado del Edificio Metrópolis en Gran Vía. \"Pasas por aquí cada semana. Y no estás mirando lo que tienes que mirar.\"",
+    hookEjemplo: "Plano frontal de la Puerta de Alcalá al amanecer. \"Madrid tiene cinco puertas históricas. La conocida tiene un detalle que llevas viendo toda tu vida y no has visto.\"",
     estructura: [
-      "0-2s · Hook: plano del edificio + frase de disonancia.",
-      "2-8s · \"Este edificio tiene encima a una diosa. Pero no es la primera diosa que tuvo.\"",
-      "8-20s · Foto de archivo: el Fénix original (1911). Cambio en 1975 a Victoria Alada (\"el Ángel\").",
-      "20-26s · Idea grande: \"Madrid está llena de cosas que cambiaron de identidad. Aprender a verlas es lo que diferencia mirar de visitar.\"",
-      "26-30s · CTA: \"Comenta MADRID y te paso la guía de 10 planes culturales por menos de 20€.\""
+      "0-2s · Hook: plano del icono + frase de disonancia.",
+      "2-10s · \"La fachada tiene marcas de bala. Y no de cualquier batalla.\"",
+      "10-22s · Revelación: balazos del levantamiento del 2 de mayo de 1808. Mapa visual de las marcas que se ven hoy.",
+      "22-28s · Idea grande: \"Los iconos de Madrid son los que más esconden. Aprender a mirarlos cambia la próxima vez que pasas por delante.\"",
+      "28-30s · CTA: \"Comenta MADRID y te paso 10 planes culturales por menos de 20€.\""
     ],
-    copyDesarrollado: `Antes del Ángel hubo un Fénix.
+    copyDesarrollado: `La Puerta de Alcalá tiene marcas de bala.
 
-La estatua que corona el Metrópolis se cambió en 1975, y la mayoría de madrileños no lo sabe. La actual se llama Victoria Alada, no Ángel, aunque todo el mundo la llame así.
+No es leyenda. Son los disparos del levantamiento del 2 de mayo de 1808. Han sobrevivido a dos siglos de obras, reformas y restauraciones.
 
-No te decimos esto para que te sepas un dato. Te lo decimos porque mirar bien una ciudad es un músculo. Y como todos los músculos, se entrena.
+Las próximas vez que pases por delante, mira la cara que da hacia Cibeles. Las marcas están a la altura de los ojos.
 
-Guarda este reel si quieres entrenar el tuyo.
+Esto es Madrid: iconos que conoces y no conoces a la vez.
 
-📌 Comenta MADRID y te enviamos por DM nuestra guía: 10 planes culturales en Madrid por menos de 20€.`,
+📌 Comenta MADRID y te paso nuestra guía: 10 planes culturales en Madrid por menos de 20€.`,
     produccion: [
-      "Plano contrapicado del edificio al amanecer (luz blanda, sin gente).",
-      "Foto de archivo histórico del Fénix (1911 — dominio público, Biblioteca Nacional).",
-      "Música ambient mínimo, sin pico.",
-      "Texto en pantalla: Geist Medium, animación typing letra a letra.",
-      "Voiceover, tono conversacional bajo."
+      "Plano frontal de la Puerta al amanecer (luz blanda, cero tráfico).",
+      "Plano de detalle muy cerrado sobre las marcas de bala.",
+      "Foto de archivo del 2 de mayo (cuadro de Goya o ilustración de la época).",
+      "Música ambient mínima, sin pico.",
+      "Texto en pantalla: Geist Medium, animación typing."
     ],
-    kpi: ">8% save rate · >3% share rate · >120 comentarios con palabra clave"
+    kpi: ">8% save rate · >5% share rate · >150 comentarios con palabra clave"
   },
   {
     id: "W02", sem: 2, mes: "Jun", formato: "R2",
-    nombreFormato: "3 minutos con…",
+    nombreFormato: "Madrid de noche",
     pilar: "Patrimonio vivo", pilarN: "II",
-    titulo: "3 minutos con la programadora del Cine Doré",
-    duracion: "55s",
-    hookEjemplo: "Plano en sala vacía del cine Doré. Voz en off: \"5€ la sesión. La sala con mejor programación de Europa. Y la mayoría de madrileños no entra nunca.\"",
+    titulo: "Madrid a las 23:00 — qué pasa cuando la mayoría se va a casa",
+    duracion: "50s",
+    hookEjemplo: "Plano nocturno de Gran Vía sin tráfico. Voz en off: \"A esta hora Madrid cambia. Te enseñamos 4 cosas que solo pasan después de las 22:30.\"",
     estructura: [
-      "0-3s · Carta de presentación: nombre, cargo, lugar (sala del Doré).",
-      "3-15s · \"¿Qué es lo más raro que has programado este año?\"",
-      "15-40s · Respuesta sin cortes: anécdota de una sesión que cambió a alguien.",
-      "40-50s · \"¿Qué pondrías esta semana?\" → recomendación concreta de la cartelera.",
-      "50-55s · Cierre con la frase para citar + datos prácticos (horarios, precio, dirección)."
+      "0-3s · Plano nocturno + frase: \"Madrid no se va a dormir tan pronto como crees.\"",
+      "3-15s · Plano 1: terrazas que aún abren después de las 23h (selección).",
+      "15-28s · Plano 2: rutas nocturnas con guía (figura del sereno recuperada por el Ayuntamiento).",
+      "28-40s · Plano 3: librería 24h (Vips) y librerías que cierran tarde el viernes.",
+      "40-50s · Plano 4: ver un concierto en una sala pequeña. Cierre + CTA NOCHE."
     ],
-    copyDesarrollado: `"Pongo películas para gente que todavía cree que el cine es un acontecimiento."
+    copyDesarrollado: `Madrid no se va a dormir tan pronto como crees.
 
-5 euros la sesión. La Filmoteca proyecta en 35mm las películas que cambiaron el siglo. El Cine Doré es lo más cerca que tenemos en Madrid de viajar en el tiempo a salas que ya no existen.
+A las 23h cambian las reglas. Terrazas hasta tarde, rutas nocturnas guiadas que el Ayuntamiento ha recuperado, librerías que cierran a medianoche los viernes y salas pequeñas con jazz, flamenco y singer-songwriter en vivo.
 
-Si llevas años diciendo "tengo que pasarme alguna vez", esta es la señal.
+La ciudad de noche es otra ciudad. Aprender a usarla cambia los planes con amigos.
 
-📌 Programación oficial: filmotecaespanola.es
-📌 Comenta CINE y te enviamos nuestro listado: 10 librerías de barrio que merecen un sábado entero.`,
+📌 Comenta NOCHE y te enviamos: 10 planes culturales en Madrid por menos de 20€ (con horarios nocturnos).`,
     produccion: [
-      "Entrevista en sala vacía iluminada solo por el haz del proyector (visual fuerte).",
-      "Plano de detalle: butaca, marquesina, proyector funcionando.",
-      "Sin música — sonido sala real (zumbido del proyector).",
-      "Subtítulos en Geist para accesibilidad.",
-      "Confirmar autorización de imagen + acreditar Filmoteca Española en descripción."
+      "Grabar entre 22:30-00:30 en zonas con vida (Huertas, Malasaña, Centro).",
+      "Cortes rápidos por escenario (no entrevista a persona concreta).",
+      "Sonido ambiente real (sin música en cortes).",
+      "Subtítulos durante todo el reel.",
+      "Cero personas reconocibles en primer plano sin autorización."
     ],
-    kpi: ">5% save rate · alta retención hasta el final · 70+ comentarios cualitativos"
+    kpi: ">7% save · share alto en grupos · DMs preguntando horarios"
   },
   {
     id: "W03", sem: 3, mes: "Jun", formato: "R3",
     nombreFormato: "Plan en 60 segundos",
     pilar: "Comunidad +30", pilarN: "III",
-    titulo: "Sábado culto en Madrid por menos de 20€",
+    titulo: "Cena en Casa Botín + paseo Austrias por menos de 30€",
     duracion: "55s",
-    hookEjemplo: "Plano frente al espejo, persona poniéndose chaqueta. \"Te explico el sábado culto que hago yo en Madrid. Total: 18€. Te lo cronometro.\"",
+    hookEjemplo: "POV entrando a Casa Botín por la puerta de Cuchilleros. \"Cenar en el restaurante más antiguo del mundo cuesta menos de lo que crees. Te explico cómo.\"",
     estructura: [
-      "0-3s · Hook con horario y presupuesto reales en pantalla.",
-      "3-18s · 11:00 — La Casa Encendida (gratuita). Subir a la azotea. Razón.",
-      "18-33s · 14:00 — Casa Mingo, cidra + pollo asado por 12€. Razón cultural (Goya cenaba aquí).",
-      "33-45s · 17:00 — Museo Cerralbo entrada libre los sábados después de las 14:00. La sala olvidada.",
-      "45-55s · 19:30 — Concierto gratis de la Banda Sinfónica en el Templo de Debod (verano). Cierre: \"Total: 18€. Esto se puede vivir.\""
+      "0-3s · Hook con dato impactante + POV de entrada.",
+      "3-18s · Casa Botín — fundado en 1725, certificado Guinness, cochinillo de horno de leña.",
+      "18-32s · Trucos: pedir el cordero (no el cochinillo) y la sopa de ajo. Total: ~28€.",
+      "32-45s · Después: paseo por la Plaza Mayor + Plaza de la Villa + Plaza del Cordón.",
+      "45-55s · Cierre: \"Total: 28€ + paseo gratis = una de las mejores cenas culturales de Madrid.\""
     ],
-    copyDesarrollado: `El sábado culto en Madrid no necesita 200 euros.
+    copyDesarrollado: `Cenar en el restaurante más antiguo del mundo cuesta menos de lo que crees.
 
-Necesita criterio.
+Casa Botín lleva abierto desde 1725. Es Guinness oficial. El horno de leña no se ha apagado en 300 años.
 
-11:00 → Casa Encendida + azotea (gratis).
-14:00 → Casa Mingo: cidra + pollo, 12€. Goya cenaba aquí.
-17:00 → Museo Cerralbo, entrada libre desde las 14h.
-19:30 → Banda Sinfónica en Debod (verano, gratis).
+El truco: el cordero asado y la sopa de ajo cuestan la mitad que el cochinillo y son igual de buenos. Total cena: ~28€.
 
-Total: 18€. Total cultural: alto.
+Después, sales y caminas la Plaza Mayor, la Plaza de la Villa y la Plaza del Cordón. Gratis. Tres siglos de historia de Madrid en 90 minutos.
 
-📌 Guarda este reel si quieres robarlo entero este sábado.
-📌 Comenta MADRID y te paso nuestra guía completa: 10 planes culturales por menos de 20€.`,
+📌 Reservas con 1 semana: botin.es
+📌 Comenta MESA y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
     produccion: [
-      "Vlog estilo POV: cada parada un plano corto con texto sobreimpresionado de la hora.",
-      "Música única bajo todo (lo-fi ambient, no pico).",
-      "Mostrar tickets / cuenta / vista real (no stock).",
-      "Cierre con plano abierto al atardecer en Debod."
+      "POV con cámara de mano: entrada Cuchilleros + escalera de bajada al horno.",
+      "Plano del horno encendido (autorización del restaurante).",
+      "Cuenta visible al pagar.",
+      "Música baja, sutil, no folclore.",
+      "Cierre con plano largo de la Plaza Mayor al atardecer."
     ],
-    kpi: ">10% save rate · >5% share · alto comportamiento de comentario"
+    kpi: ">12% save · share alto entre amigos · DMs preguntando reservas"
   },
   {
     id: "W04", sem: 4, mes: "Jun", formato: "R4",
     nombreFormato: "Hot take cultural",
     pilar: "Mirada experta", pilarN: "I",
-    titulo: "Hot take: el Reina Sofía está mal contado",
-    duracion: "40s",
-    hookEjemplo: "A cámara, sin filtros, con plano del Guernica detrás. \"Voy a decir algo polémico. El Reina Sofía está mal contado.\"",
+    titulo: "Hot take: comer en Lhardy hoy es viajar en el tiempo",
+    duracion: "38s",
+    hookEjemplo: "A cámara, plano frente al rótulo histórico de Lhardy. \"Vamos con un hot take incómodo: la mayoría de los restaurantes de moda no le llegan a la suela a Lhardy. Y te explico por qué.\"",
     estructura: [
-      "0-3s · Tesis afilada a cámara.",
-      "3-20s · 2 argumentos cortos: \"La narrativa empieza en el Guernica como si la historia del arte español del XX comenzara ahí. No es así\" + \"Los pasillos largos te matan antes de llegar a Tàpies o Barceló.\"",
-      "20-32s · Matización honesta: \"Lo que sí funciona: las nuevas salas de la colección permanente. Y la programación de cine experimental.\"",
-      "32-40s · Cierre: \"Si entras, hazlo por el ala de Sabatini, no por la Nouvel. Y empieza por arriba. Comenta REINA si quieres el orden completo.\""
+      "0-3s · Tesis afilada a cámara + plano del rótulo.",
+      "3-22s · 3 argumentos: cocido como ritual + sala isabelina intacta desde 1839 + camareros como custodios.",
+      "22-32s · Matización honesta: \"Sí, el cocido se ha vuelto caro. Pero los entrantes del mostrador (el famoso 'consomé Lhardy') siguen siendo accesibles.\"",
+      "32-38s · Cierre: \"Si quieres saber qué restaurantes históricos sobreviven en Madrid, comenta MESA y te lo paso.\""
     ],
-    copyDesarrollado: `Hot take: el Reina Sofía está mal contado.
+    copyDesarrollado: `Hot take impopular: Lhardy es mejor restaurante que el 95% de lo que abre cada mes en Madrid.
 
-No es que esté mal — es que la narrativa que te ofrece no es la única que ofrece. La mayoría sale habiendo visto el Guernica y poco más, porque el museo te lleva por un orden que castiga al visitante.
+Razones:
+— Cocido que mantiene la receta de 1839.
+— Sala isabelina intacta, espejos originales.
+— Camareros que llevan décadas y conocen a cada cliente.
 
-Esto se puede arreglar entrando por Sabatini, no por la Nouvel, y empezando por arriba.
+¿Caro? Sí, el menú completo. Pero el truco lo conoce poca gente: la planta baja vende consomé y croquetas de mostrador. Por 8 euros te llevas un trozo de la historia gastronómica de Madrid.
 
-Tú sigue, que esta semana en stories voy a contar el orden completo de la visita inteligente al Reina Sofía. No te lo enseñan, pero te lo merece.
-
-📌 Comenta REINA y te lo paso por DM.`,
+📌 Carrera de San Jerónimo 8 · lhardy.com
+📌 Comenta MESA y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
     produccion: [
-      "A cámara con plano fijo (estética periodística), iluminación natural.",
-      "1 plano de relleno: Guernica oficial (descarga de archivo público o pase prensa).",
-      "Texto sobreimpresionado: \"HOT TAKE\" como pestaña Geist.",
-      "Sin música — solo voz y aire.",
-      "Confirmar tono: incómodo pero argumentado, no destructivo."
+      "A cámara, plano fijo, frente al rótulo histórico.",
+      "1-2 planos del interior (autorización gerencia).",
+      "Plano detalle del mostrador con el consomé al baño maría.",
+      "Texto: \"HOT TAKE\" como pestaña Geist.",
+      "Sin música — voz, aire y ambiente."
     ],
-    kpi: ">6% share rate · >50 comentarios cualitativos · debate real en hilo"
+    kpi: ">6% share · >70 comentarios · debate en hilos"
   },
   {
     id: "W05", sem: 5, mes: "Jul", formato: "R5",
     nombreFormato: "Detrás de la experiencia",
     pilar: "Comunidad +30", pilarN: "III",
-    titulo: "Detrás: noche de jazz en Café Central",
+    titulo: "Detrás: una tarde en la Biblioteca Nacional (sí, se puede entrar)",
     duracion: "75s",
-    hookEjemplo: "Plano detalle del rótulo del Café Central. Voz en off: \"50 años programando jazz cada noche. Aquí han tocado Tete Montoliu y Brad Mehldau. Esta es una noche cualquiera dentro.\"",
+    hookEjemplo: "Plano fachada BNE en Recoletos. Voz en off: \"La Biblioteca Nacional de España no es solo para investigadores. Y casi nadie lo sabe.\"",
     estructura: [
-      "0-5s · Cabecera: rótulo + plano interior + dato de los 50 años.",
-      "5-25s · Llegada de los socios. Pedir mesa. Carta. Detalle del cartel del día.",
-      "25-55s · 2-3 momentos clave del concierto. Plano del público. Plano del trío.",
-      "55-70s · 1 frase de un miembro a cámara: \"Llevo 20 años yendo. Siempre vuelvo.\"",
-      "70-75s · Cierre editorial: \"Esto es lo que pasa cuando juntas a 40 personas en este sitio un jueves cualquiera.\""
+      "0-5s · Cabecera: fachada BNE + dato (entrada general gratuita en zonas concretas).",
+      "5-25s · Llegada, registro, recorrido por las salas abiertas al público y las exposiciones temporales.",
+      "25-55s · Detalles concretos: la sala de lectura general, el Museo de la BNE (gratis, mucha gente lo ignora), exposiciones que rotan cada 2 meses.",
+      "55-70s · 1 socio o usuario: \"Vengo cada lunes a leer aquí. Es la mejor sala de Madrid para concentrarse.\"",
+      "70-75s · Cierre: \"Lunes a sábado. Entrada gratuita. Carnet de investigador opcional. Esto es Madrid.\""
     ],
-    copyDesarrollado: `Hay sitios donde la cultura pasa de verdad y no necesitan rótulo de "cultural".
+    copyDesarrollado: `La Biblioteca Nacional de España no es solo para investigadores.
 
-El Café Central lleva 50 años programando jazz cada noche en la Plaza del Ángel. 18€ la entrada. Trío de piano. Mesa que reservas con dos días de antelación.
+El Museo de la BNE es gratuito y abre lunes a sábado. Las exposiciones temporales rotan cada 2 meses. La sala de lectura general necesita carnet (gratis) y es uno de los espacios más silenciosos del centro.
 
-Esto es lo que pasa cuando un jueves cualquiera juntas a 40 adultos en este sitio.
+Madrid los lunes parece cerrada. No lo está. Solo hay que saber dónde mirar.
 
-📌 Próximos conciertos: cafecentralmadrid.com
-📌 Si quieres venir con nosotros a uno, escríbenos por DM y te decimos cuándo es el próximo encuentro de socios.`,
+📌 Paseo de Recoletos 20 · bne.es
+📌 Comenta LUNES y te enviamos: Madrid los lunes — qué hacer cuando los museos cierran.`,
     produccion: [
-      "Multi-cámara: 1 ambient general, 1 plano cerrado del trío, 1 cámara de mesa.",
-      "Audio crucial: micrófono de ambiente + permiso de los músicos para el corte usado.",
-      "Mostrar carta, precio, ticket — quitar fricción del \"yo no sé cómo se va\".",
-      "Color cálido (tungsteno), grano sutil.",
-      "Acreditar al trío en descripción + tag del Café Central."
+      "Multi-plano: fachada + interior + sala de lectura + museo.",
+      "Permiso oficial de la BNE para grabar interiores.",
+      "Audio ambiente real (silencio = parte de la pieza).",
+      "Subtítulos toda la pieza.",
+      "Cierre con plano lectura general al atardecer."
     ],
-    kpi: "Conversión a interés en club (DMs entrantes) · >7% save · trigger emocional fuerte"
+    kpi: ">8% save · viralidad por revelación (\"no sabía que se podía entrar\")"
   },
   {
     id: "W06", sem: 6, mes: "Jul", formato: "R1",
     nombreFormato: "El detalle que nadie ve",
     pilar: "Mirada experta", pilarN: "I",
-    titulo: "Los azulejos del Metro de Madrid",
-    duracion: "32s",
-    hookEjemplo: "Plano cenital del azulejo de una estación. \"Hay un detalle en cada estación de Metro y llevas años pisándolo sin verlo.\"",
-    estructura: [
-      "0-3s · Hook: detalle del suelo / pared en una estación clásica (Sol, Bilbao, Gran Vía).",
-      "3-15s · Quién diseñó los azulejos originales (Antonio Palacios, 1919). Por qué importan.",
-      "15-25s · Comparación: una estación restaurada vs. una intervenida sin criterio.",
-      "25-30s · Idea grande: \"El Metro es el museo más visitado de Madrid y no tiene cartelas.\"",
-      "30-32s · CTA: \"Comenta METRO y te paso el plano de las 8 estaciones que merecen una parada.\""
-    ],
-    copyDesarrollado: `El Metro de Madrid es el museo más visitado de la ciudad. Y no tiene cartelas.
-
-Los azulejos originales son de 1919, diseñados por Antonio Palacios — el mismo arquitecto del Palacio de Cibeles. Estaciones como Sol, Bilbao o Cuatro Caminos conservan parte de su diseño original. Otras han sido intervenidas sin criterio.
-
-Aprender a mirar el Metro es entender Madrid sin pagar entrada.
-
-📌 Comenta METRO y te enviamos el plano de las 8 estaciones que merecen una parada.`,
-    produccion: [
-      "Planos detalle de azulería (cenitales y a ras de suelo).",
-      "Foto de archivo de Antonio Palacios.",
-      "Música ambient bajo + ruido de metro mezclado al 20%.",
-      "Sin gente — grabar en hora valle (06:30 o 22:30 dom)."
-    ],
-    kpi: ">8% save · alta tasa de compartido en grupos de chat (es \"información práctica\")"
-  },
-  {
-    id: "W07", sem: 7, mes: "Jul", formato: "R2",
-    nombreFormato: "3 minutos con…",
-    pilar: "Patrimonio vivo", pilarN: "II",
-    titulo: "3 minutos con un librero de la Cuesta de Moyano",
-    duracion: "60s",
-    hookEjemplo: "Plano caseta de libros, manos cogiendo un libro viejo. \"Tiene 96 años. Lleva 60 vendiendo libros en la Cuesta. Le preguntamos qué ha cambiado.\"",
-    estructura: [
-      "0-3s · Carta de presentación: nombre, caseta nº, dato impactante.",
-      "3-15s · \"¿Quién compra libros antiguos en 2026?\"",
-      "15-40s · Respuesta sin cortes: anécdota concreta de la última semana.",
-      "40-52s · \"¿Qué libro recomienda a alguien que no lee?\" → frase memorable.",
-      "52-60s · Cierre: \"Está aquí cualquier sábado. Caseta XX. Domingos cerrado.\""
-    ],
-    copyDesarrollado: `60 años vendiendo libros en la Cuesta de Moyano.
-
-Lo conoce mejor que muchos historiadores: quién compra, qué se vende, cómo se ha transformado la cultura del libro en Madrid. Le hicimos una pregunta sencilla: "¿Quién compra libros antiguos en 2026?".
-
-Su respuesta nos dejó callados.
-
-La Cuesta de Moyano está ahí todos los sábados. 30 casetas, todas con voz propia. Te pierdes un trozo de Madrid si no has bajado.
-
-📌 Caseta del entrevistado: número [X] · Sábados 10h-14h · Cierre dominical.
-📌 Comenta LIBROS y te enviamos: 10 librerías de barrio que merecen un sábado entero.`,
-    produccion: [
-      "Entrevista en la caseta misma, luz natural.",
-      "Plano detalle de manos sobre libros, lomos antiguos.",
-      "Sonido ambiente Retiro (pájaros, conversación).",
-      "Subtítulos imprescindibles (la voz puede ser de difícil entendimiento).",
-      "Comprobar permiso de imagen + libreros vecinos."
-    ],
-    kpi: ">6% save · alta retención · viralidad por enternecimiento real"
-  },
-  {
-    id: "W08", sem: 8, mes: "Jul", formato: "R3",
-    nombreFormato: "Plan en 60 segundos",
-    pilar: "Comunidad +30", pilarN: "III",
-    titulo: "Domingo de mercadillos: libros + vinilos",
-    duracion: "55s",
-    hookEjemplo: "Plano POV bajando escaleras del Rastro. \"Domingo. 22€ en el bolsillo. Te explico cómo se hace un domingo cultural en Madrid bien hecho.\"",
-    estructura: [
-      "0-3s · Hook con presupuesto y POV.",
-      "3-18s · 10:30 — El Rastro: cómo y dónde buscar discos (Plaza Cascorro, calle Mira el Río).",
-      "18-33s · 12:30 — Mercadillo de Las Letras: librerías de viejo (Calle Cervantes).",
-      "33-45s · 14:30 — Comer en Casa Amadeo Los Caracoles (Plaza Cascorro), 12€ menú.",
-      "45-55s · 16:00 — Plaza de la Paja, café + libro recién comprado. Cierre: \"Total: 10€ vinilo + 12€ comida = 22€ y una mañana hecha.\""
-    ],
-    copyDesarrollado: `Cómo se hace un domingo cultural en Madrid bien hecho.
-
-10:30 → Rastro. Plaza Cascorro y Mira el Río para vinilos. Aprende a regatear sin ofender.
-12:30 → Mercadillo de Las Letras (Calle Cervantes). Librerías de viejo.
-14:30 → Casa Amadeo, 12€ menú, caracoles si te atreves.
-16:00 → Café en Plaza de la Paja con lo que compraste.
-
-Total: 22€. Total cultural: domingo bien gastado.
-
-📌 Guarda este reel para tu próximo domingo.
-📌 Comenta DOMINGO y te paso nuestra guía: 10 planes culturales en Madrid por menos de 20€.`,
-    produccion: [
-      "POV con cámara de mano (no estabilizada, intencional).",
-      "Cada parada: 3 cortes + texto con hora.",
-      "Mostrar tickets, precios, la realidad.",
-      "Música bajo y constante (vinilo sample) — sutil."
-    ],
-    kpi: ">12% save (los planes prácticos arrasan en save) · alto share entre amigos"
-  },
-  {
-    id: "W09", sem: 9, mes: "Jul-Ago", formato: "R4",
-    nombreFormato: "Hot take cultural",
-    pilar: "Mirada experta", pilarN: "I",
-    titulo: "Hot take: Veranos de la Villa > cualquier festival",
-    duracion: "38s",
-    hookEjemplo: "A cámara, plano frente al Patio del Conde Duque al atardecer. \"Hot take incómodo: los Veranos de la Villa son mejor que casi todos los festivales urbanos que pagas.\"",
-    estructura: [
-      "0-3s · Tesis afilada a cámara.",
-      "3-22s · 3 argumentos: \"Programación con criterio, no agenda forzada\" + \"Espacios reales del patrimonio madrileño\" + \"Acceso económico\".",
-      "22-32s · Matización: \"Sí, hay piezas flojas. Pero el listón medio supera al de la mayoría de festivales pagados.\"",
-      "32-38s · Cierre: \"En 7 días sale la guía con los 8 conciertos que no te puedes perder este verano. Comenta VERANO si quieres aviso.\""
-    ],
-    copyDesarrollado: `Hot take para la cultura urbana de Madrid:
-
-Los Veranos de la Villa son mejor programación que casi cualquier festival privado al que vayas pagando 80 euros la entrada. Te lo digo gratis.
-
-Razones:
-— Programación con criterio, no agenda forzada.
-— Espacios reales del patrimonio (Conde Duque, Galileo, Teatros del Canal).
-— Acceso económico real.
-
-¿Hay piezas flojas? Sí. ¿El listón medio? Mejor que cualquier macrofestival corporativo de la ciudad.
-
-📌 Si quieres aviso cuando publiquemos los 8 conciertos imprescindibles, comenta VERANO.`,
-    produccion: [
-      "A cámara, atardecer real en algún escenario habitual de los Veranos.",
-      "1-2 planos de archivo de Veranos pasados (si tenemos derechos).",
-      "Texto: \"HOT TAKE\" sticker en Geist.",
-      "Sin música — solo voz y ambiente."
-    ],
-    kpi: ">5% share · >40 comentarios · disputa razonada en hilos"
-  },
-  {
-    id: "W10", sem: 10, mes: "Ago", formato: "R5",
-    nombreFormato: "Detrás de la experiencia",
-    pilar: "Comunidad +30", pilarN: "III",
-    titulo: "Detrás: visita a un estudio de artista en Malasaña",
-    duracion: "85s",
-    hookEjemplo: "Plano fachada despintada de Malasaña, puerta verde. Voz: \"Detrás de esta puerta hay un estudio de 80m². Y una decisión que llevamos un mes negociando.\"",
-    estructura: [
-      "0-5s · Hook + plano puerta + reveal del estudio.",
-      "5-30s · Llegada de los socios. Saludo al artista. Recorrido por la obra en proceso.",
-      "30-60s · 1 momento clave: el artista explicando una pieza. 1 socio reaccionando. Pausa real.",
-      "60-78s · Compra real / encargo real (mostrar precio si hay acuerdo).",
-      "78-85s · Cierre: \"Esto es lo que pasa cuando 8 socios entran en un estudio cerrado al público un sábado por la tarde.\""
-    ],
-    copyDesarrollado: `Madrid tiene una escena de artistas jóvenes brutal. Y la mayoría de sus estudios están cerrados.
-
-Esta visita fue exclusiva para 8 socios. Recorrido + conversación + compra opcional. La obra del autor cuesta entre 400 y 2.500€, y comprarle a un artista joven con criterio sigue siendo la mejor inversión cultural que puedes hacer.
-
-Si te interesa entrar en este tipo de encuentros, escríbenos por DM.
-
-📌 La obra del artista: [@instagramartista]
-📌 Próximos encuentros solo para socios: 2 al mes.`,
-    produccion: [
-      "Tres cámaras: 1 fija recorrido, 1 móvil reacciones, 1 macro de obra.",
-      "Audio limpio del artista (lavalier).",
-      "Negociar autorización de imagen con todos los socios presentes.",
-      "Mantener un grado de intimidad — no exponer caras si no procede.",
-      "Pieza para Reels e IGTV en versión corta + larga."
-    ],
-    kpi: "Trigger directo a club · DMs entrantes preguntando por próximas visitas · >8% save"
-  },
-  {
-    id: "W11", sem: 11, mes: "Ago", formato: "R1",
-    nombreFormato: "El detalle que nadie ve",
-    pilar: "Mirada experta", pilarN: "I",
-    titulo: "Lo que nadie te cuenta del Templo de Debod",
+    titulo: "El detalle del Templo de Debod que casi nadie sabe",
     duracion: "30s",
-    hookEjemplo: "Plano del Templo al atardecer. \"Vas a Debod a ver la puesta de sol. Pero dentro del templo hay algo que ignora el 95% de la gente.\"",
+    hookEjemplo: "Plano del Templo de Debod al atardecer con gente haciendo fotos. \"Vienes aquí cada verano a ver la puesta de sol. Pero hay algo dentro que el 95% de la gente ignora.\"",
     estructura: [
       "0-3s · Hook: plano postal + frase de disonancia.",
-      "3-12s · El Templo es entrada libre y se puede entrar dentro. Mucha gente no lo sabe.",
-      "12-22s · Dentro hay relieves originales del siglo II a.C. — cómo leerlos.",
-      "22-27s · Idea grande: \"Madrid tiene un templo egipcio gratis y lo usamos solo de fondo de foto.\"",
-      "27-30s · CTA: \"Comenta DEBOD y te paso 5 sitios gratis en Madrid que parecen de pago.\""
+      "3-15s · El Templo es entrada libre. Se puede entrar dentro. La mayoría no sabe.",
+      "15-25s · Dentro hay relieves egipcios originales del siglo II a.C. Plano detalle de los jeroglíficos.",
+      "25-28s · Idea grande: \"Madrid tiene un templo egipcio gratis y lo usamos solo de fondo de foto.\"",
+      "28-30s · CTA: \"Comenta LUNES y te paso qué abre en Madrid cuando todo parece cerrado.\""
     ],
     copyDesarrollado: `Vas al Templo de Debod a ver la puesta de sol. Y haces bien.
 
-Pero dentro del templo hay relieves originales del siglo II a.C., y la entrada es libre. El 95% de los madrileños nunca ha entrado dentro.
+Pero dentro hay relieves egipcios originales del siglo II a.C. La entrada es libre. Y el 95% de los madrileños nunca ha entrado dentro.
 
 Esto va de aprender a usar Madrid mejor. Vas a estar por ahí esta semana — entra antes de la foto.
 
 Horarios: martes a domingo 10-19h (julio y agosto). Cerrado lunes.
 
-📌 Comenta DEBOD y te paso 5 sitios gratis en Madrid que parecen de pago.`,
+📌 Comenta LUNES y te paso nuestra guía: Madrid los lunes — qué hacer cuando todo parece cerrado.`,
     produccion: [
-      "Planos exteriores hora dorada + planos interiores (autorización del Ayuntamiento).",
-      "Detalles de los jeroglíficos / relieves originales.",
-      "Música minimal, ambient deep.",
+      "Planos exteriores hora dorada + planos interiores (autorización Ayuntamiento).",
+      "Detalle muy cerrado de los jeroglíficos / relieves originales.",
+      "Música minimal, atmosférica.",
       "Texto en pantalla con tipografía Geist."
     ],
     kpi: ">9% save · viralidad alta por sorpresa real"
   },
   {
-    id: "W12", sem: 12, mes: "Ago", formato: "R2",
-    nombreFormato: "3 minutos con…",
+    id: "W07", sem: 7, mes: "Jul", formato: "R2",
+    nombreFormato: "Madrid en directo",
     pilar: "Patrimonio vivo", pilarN: "II",
-    titulo: "3 minutos con un anticuario del Rastro",
-    duracion: "60s",
-    hookEjemplo: "Plano interior tienda anticuario llena de objetos. \"Tiene 30 años de cosas en esta tienda. Te enseña a comprar bien en el Rastro sin que te claven.\"",
+    titulo: "Música en directo gratis en Madrid: cuatro espacios que tienes que conocer",
+    duracion: "55s",
+    hookEjemplo: "Plano de un concierto al aire libre en Madrid. Voz en off: \"Madrid tiene más conciertos gratis que cualquier capital de su tamaño. Estos son los cuatro espacios que importan.\"",
     estructura: [
-      "0-3s · Carta de presentación: anticuario, tienda, calle.",
-      "3-18s · \"¿Qué se compra mal en el Rastro?\"",
-      "18-40s · 2 reglas concretas de regateo + 1 truco de detección.",
-      "40-52s · \"¿Qué objeto se llevará usted antes de cerrar?\" → momento humano.",
-      "52-60s · Cierre + dirección de la tienda + horario."
+      "0-3s · Plano abierto de concierto al aire libre + frase de hook.",
+      "3-15s · Espacio 1: Templo de Debod (Banda Sinfónica Municipal, ciclo verano).",
+      "15-28s · Espacio 2: Quinta de los Molinos (banda municipal, agosto, almendros).",
+      "28-40s · Espacio 3: Conde Duque (ciclos gratis dentro de Veranos de la Villa).",
+      "40-50s · Espacio 4: Plaza de Oriente (concierto de verano gratuito ocasional).",
+      "50-55s · Cierre + CTA VERANO."
     ],
-    copyDesarrollado: `30 años con la tienda abierta en la calle más anticuaria del Rastro.
+    copyDesarrollado: `Madrid tiene más conciertos gratis que cualquier capital europea de su tamaño.
 
-Le pedimos las dos reglas de oro para comprar bien sin que te claven. Nos las dio:
+Cuatro espacios maestros:
+— Templo de Debod (Banda Sinfónica Municipal, julio).
+— Quinta de los Molinos (Banda Municipal, agosto entre almendros).
+— Conde Duque (Veranos de la Villa, ciclos sin entrada).
+— Plaza de Oriente (conciertos puntuales de verano).
 
-1. Si está en escaparate, no es lo bueno.
-2. Pregunta sin tocar. Tocar es decir que te interesa, y eso sube el precio.
+Si crees que un concierto en directo cuesta 40€, no has mirado dónde está tu Banda Municipal.
 
-El Rastro no es un mercadillo, es un museo abierto donde se puede negociar. Y tiene gente como él que lleva tres décadas siendo memoria de Madrid.
-
-📌 La tienda: [calle + número] · Domingos 10-14h
-📌 Comenta RASTRO y te paso la guía: 10 planes culturales en Madrid por menos de 20€.`,
+📌 Comenta VERANO y te enviamos: el mapa de los conciertos gratis de Madrid este verano (todas las fechas confirmadas).`,
     produccion: [
-      "Entrevista en la tienda, todo el caos visible (intencional).",
-      "Plano detalle de manos del anticuario sobre objetos.",
-      "Subtítulos siempre.",
-      "Voz ambiente del Rastro a domingo (mercado real)."
+      "Planos generales de cada espacio (no primeros planos de músicos).",
+      "Sonido ambiente real (sin música editada encima).",
+      "Texto en pantalla con cada espacio + fecha aproximada.",
+      "Pieza 9:16 + versión 16:9.",
+      "Cero personas reconocibles sin permiso."
     ],
-    kpi: ">6% save · trigger a club (siente que está descubriendo gente real)"
+    kpi: ">10% save · viralidad por utilidad inmediata · share en grupos"
+  },
+  {
+    id: "W08", sem: 8, mes: "Jul", formato: "R3",
+    nombreFormato: "Plan en 60 segundos",
+    pilar: "Comunidad +30", pilarN: "III",
+    titulo: "5 conciertos gratis en Madrid este verano que merecen una agenda",
+    duracion: "55s",
+    hookEjemplo: "POV abriendo calendario móvil. \"Cinco conciertos gratis en Madrid este verano. Apunta fecha. Te ahorras 200€ y vas a las mejores noches del año.\"",
+    estructura: [
+      "0-3s · Hook con dato económico + POV calendario.",
+      "3-15s · Concierto 1: Banda Sinfónica en Templo de Debod (cada semana, julio).",
+      "15-25s · Concierto 2: ciclo de jazz en La Casa Encendida (3 fechas confirmadas).",
+      "25-35s · Concierto 3: Conde Duque — programación Veranos de la Villa (3-4 conciertos gratis).",
+      "35-45s · Concierto 4: Banda Sinfónica en Quinta de los Molinos (Almendros en flor agosto).",
+      "45-50s · Concierto 5: Real Conservatorio Superior — recitales abiertos de fin de curso (gratis).",
+      "50-55s · Cierre: \"Total ahorrado: 200€. Total cultural: alto. Comenta VERANO.\""
+    ],
+    copyDesarrollado: `5 conciertos gratis en Madrid este verano que merecen una agenda.
+
+1. Banda Sinfónica · Templo de Debod (julio, semanal)
+2. Ciclo jazz · La Casa Encendida (3 fechas)
+3. Conde Duque · Veranos de la Villa (3-4 conciertos gratis)
+4. Banda Sinfónica · Quinta de los Molinos (agosto)
+5. Recitales abiertos · Real Conservatorio Superior
+
+Total ahorrado: ~200€ frente a equivalente de pago. Total cultural: alto.
+
+Apunta las fechas. Las plazas son por orden de llegada.
+
+📌 Comenta VERANO y te enviamos: el mapa completo de los conciertos gratis de Madrid (PDF con todas las fechas).`,
+    produccion: [
+      "POV calendario móvil + cortes de cada lugar.",
+      "Texto sobreimpresionado con fecha y lugar por cada concierto.",
+      "Música baja constante (saxo lo-fi).",
+      "Mostrar lugares reales (no stock).",
+      "Cierre con plano del Templo de Debod al atardecer."
+    ],
+    kpi: ">15% save (los listados estacionales arrasan) · share alto en chats"
+  },
+  {
+    id: "W09", sem: 9, mes: "Ago", formato: "R4",
+    nombreFormato: "Hot take cultural",
+    pilar: "Mirada experta", pilarN: "I",
+    titulo: "Hot take: las librerías independientes son las nuevas plazas de Madrid",
+    duracion: "40s",
+    hookEjemplo: "A cámara dentro de una librería independiente cualquiera. \"Hot take impopular sobre lo que está pasando en Madrid: las librerías son las nuevas plazas.\"",
+    estructura: [
+      "0-3s · Tesis afilada a cámara + plano de librería.",
+      "3-22s · 3 argumentos: programación cultural propia (presentaciones, lecturas, debates) + cafés con criterio asociados + son los espacios sin consumición obligatoria que quedan en el centro.",
+      "22-32s · Matización: \"Sí, hay que comprar de vez en cuando para que sigan abiertas. Es justo.\"",
+      "32-40s · Cierre: \"Comenta LIBROS y te paso las 10 librerías que sostienen Madrid hoy.\""
+    ],
+    copyDesarrollado: `Hot take sobre lo que está pasando en Madrid:
+
+Las librerías independientes son las nuevas plazas. Donde puedes estar 2 horas sin que te miren raro. Donde hay programación cultural sin entrada. Donde te conocen por tu nombre.
+
+¿Lo justo? Comprar un libro de vez en cuando. Eso es todo. Sostener una librería con 12€ al mes es mantener vivo un trozo de Madrid que está desapareciendo.
+
+📌 Comenta LIBROS y te enviamos: las 10 librerías de barrio que merecen un sábado entero.`,
+    produccion: [
+      "A cámara dentro de librería real (autorización propietaria).",
+      "Plano de presentación literaria con público sentado.",
+      "Plano de café asociado / asientos con libros encima.",
+      "Texto: \"HOT TAKE\" sticker.",
+      "Sin música — voz + ambiente."
+    ],
+    kpi: ">7% share · alta resonancia emocional · trigger a comunidad lectora"
+  },
+  {
+    id: "W10", sem: 10, mes: "Ago", formato: "R5",
+    nombreFormato: "Detrás de la experiencia",
+    pilar: "Comunidad +30", pilarN: "III",
+    titulo: "Detrás: una mañana en la Cuesta de Moyano contada por un cliente fiel",
+    duracion: "80s",
+    hookEjemplo: "POV bajando la Cuesta de Moyano un sábado por la mañana. \"30 casetas de libros junto al Retiro. Sábado por la mañana. Te enseño cómo lo hace alguien que viene aquí cada semana.\"",
+    estructura: [
+      "0-5s · POV + cabecera (30 casetas, 100 años de historia).",
+      "5-25s · Llegada con un cliente fiel real. Saludo a los libreros que conoce.",
+      "25-55s · 2-3 paradas concretas: una caseta de novela clásica, una de cómic vintage, una de libros de fotografía.",
+      "55-72s · El cliente: \"Compro 1 libro al mes mínimo. Es mi forma de mantener vivo esto.\"",
+      "72-80s · Cierre: \"Sábados 10-14h. Domingos cerrado. Esto sigue ahí porque sigue habiendo gente que viene cada semana.\""
+    ],
+    copyDesarrollado: `30 casetas de libros junto al Retiro. Sábados 10-14h. 100 años de historia.
+
+La Cuesta de Moyano es el último mercado de libros de viejo del centro de Madrid. Cada caseta tiene voz propia. Y cada caseta sobrevive porque hay gente que viene cada sábado.
+
+Esta mañana fuimos con un cliente fiel que lleva años yendo. Compra 1 libro al mes. Es su forma de cuidar Madrid.
+
+📌 Sábados 10-14h · Domingos cerrado.
+📌 Comenta LIBROS y te enviamos: las 10 librerías de barrio que merecen un sábado entero.`,
+    produccion: [
+      "POV cámara de mano (intencional, no estabilizada).",
+      "Audio ambiente Retiro (pájaros, conversación libreros).",
+      "Mostrar los libros comprados al final, en una mesa de café.",
+      "Acreditar a las casetas que aparezcan.",
+      "Música mínima, jazz piano bajo."
+    ],
+    kpi: ">9% save · alto share · DMs preguntando \"¿cuándo es la próxima visita con socios?\""
+  },
+  {
+    id: "W11", sem: 11, mes: "Ago", formato: "R1",
+    nombreFormato: "El detalle que nadie ve",
+    pilar: "Mirada experta", pilarN: "I",
+    titulo: "El detalle del patio del Conde Duque (donde se monta Veranos de la Villa)",
+    duracion: "32s",
+    hookEjemplo: "Plano cenital del patio del Conde Duque vacío en hora de día. \"Vas a Veranos de la Villa cada agosto. Pero seguro que no sabes para qué se construyó este edificio.\"",
+    estructura: [
+      "0-3s · Hook: plano del patio + frase de disonancia.",
+      "3-15s · El Conde Duque era cuartel militar en el siglo XVIII (1717). Felipe V mandó construirlo.",
+      "15-25s · Conversión a centro cultural en los 80. Hoy alberga teatro, música, cine, biblioteca municipal.",
+      "25-30s · Idea grande: \"Madrid ha convertido cuarteles en cultura. Es uno de los pocos países que lo hace bien.\"",
+      "30-32s · CTA: \"Comenta AMIGOS y te paso 10 planes de Madrid para hacer con tu grupo.\""
+    ],
+    copyDesarrollado: `Vas al patio del Conde Duque a algún concierto cada agosto. Y haces bien.
+
+Pero el edificio fue construido en 1717 como cuartel militar por Felipe V. Convertido en centro cultural en los años 80. Hoy: teatro, música, cine, biblioteca municipal y una de las mejores terrazas-bar del centro para ir con un grupo.
+
+Madrid convierte cuarteles en cultura. Es uno de los pocos países que lo hace bien.
+
+📌 Comenta AMIGOS y te enviamos: 10 planes en Madrid para hacer con tu grupo de amigos.`,
+    produccion: [
+      "Plano cenital (drone o cámara desde una ventana superior).",
+      "Plano de la fachada con sus elementos militares (escudos).",
+      "Foto de archivo (siglo XVIII si la encontramos).",
+      "Música ambient + ligera percusión militar al inicio que se transforma en cuerda.",
+      "Texto en pantalla en Geist."
+    ],
+    kpi: ">8% save · contextualiza el festival → DMs preguntando programa"
+  },
+  {
+    id: "W12", sem: 12, mes: "Ago", formato: "R2",
+    nombreFormato: "Madrid con amigos",
+    pilar: "Patrimonio vivo", pilarN: "II",
+    titulo: "Cuatro planes culturales de Madrid para disfrutar con tu grupo de amigos",
+    duracion: "55s",
+    hookEjemplo: "Plano cenital de un grupo de amigos brindando en una terraza de azotea. Voz en off: \"Si tu grupo es de cuatro o más, estos cuatro planes funcionan siempre.\"",
+    estructura: [
+      "0-3s · Plano del grupo + frase: \"Planes culturales para grupos en Madrid que sí funcionan.\"",
+      "3-15s · Plan 1: cena en taberna histórica (cocido, cordero o sidrería) — Casa Botín, La Bola, Casa Mingo.",
+      "15-28s · Plan 2: concierto al aire libre + caña previa (Conde Duque o Debod).",
+      "28-40s · Plan 3: visita guiada nocturna por el centro (sereno + cena en grupo).",
+      "40-50s · Plan 4: domingo de Rastro + comida grupo en taberna.",
+      "50-55s · Cierre + CTA AMIGOS."
+    ],
+    copyDesarrollado: `Si vais cuatro o más, no todos los planes valen.
+
+Estos cuatro funcionan siempre:
+— Cena en taberna histórica (Botín, La Bola, Casa Mingo).
+— Concierto al aire libre + caña previa (Conde Duque, Debod).
+— Ruta nocturna guiada + cena (con sereno municipal).
+— Domingo de Rastro + caracoles en Casa Amadeo.
+
+Cero ruido, cero tonterías, todos cómodos.
+
+📌 Comenta AMIGOS y te enviamos: 10 planes en Madrid para grupos (con precio por persona, capacidad y dónde reservar).`,
+    produccion: [
+      "Plano de grupo real (4-6 amigos), cero stock.",
+      "Cortes ágiles entre cada plan con sobreimpresión del nombre.",
+      "Música baja, conversación natural.",
+      "Mostrar precio aproximado en pantalla en cada plan.",
+      "Cierre con plano frontal del grupo brindando."
+    ],
+    kpi: ">12% save · share alto en grupos · DMs preguntando reservas"
   }
 ];
 
 window.TMT.reelsFormatos = [
   { id: "R1", nombre: "El detalle que nadie ve", pilar: "Mirada experta", pilarN: "I", hookTipo: "\"Llevas pasando por delante de esto y no lo has visto.\"", duracion: "25-35s", estructura: ["Hook de disonancia", "Contexto breve", "Revelación visual o histórica", "Idea grande de fondo", "CTA hacia lead magnet"], kpi: ">8% save · >3% share" },
-  { id: "R2", nombre: "3 minutos con…", pilar: "Patrimonio vivo", pilarN: "II", hookTipo: "Entrevista cortísima a un oficio cultural madrileño.", duracion: "45-60s", estructura: ["Carta de presentación", "Pregunta concreta", "Respuesta sin cortes", "Frase para citar", "Dirección y horario"], kpi: ">5% save · alta retención" },
-  { id: "R3", nombre: "Plan en 60 segundos", pilar: "Comunidad +30", pilarN: "III", hookTipo: "\"Te explico cómo se hace un sábado culto en Madrid por menos de 20€.\"", duracion: "45-60s", estructura: ["Hook con presupuesto", "Parada 1", "Parada 2", "Parada 3", "Cierre con total"], kpi: ">10% save · alto share entre amigos" },
+  { id: "R2", nombre: "3 minutos con…", pilar: "Patrimonio vivo", pilarN: "II", hookTipo: "Entrevista cortísima a una figura cultural reconocible.", duracion: "45-60s", estructura: ["Carta de presentación", "Pregunta concreta", "Respuesta sin cortes", "Frase para citar", "Dirección y horario"], kpi: ">5% save · alta retención" },
+  { id: "R3", nombre: "Plan en 60 segundos", pilar: "Comunidad +30", pilarN: "III", hookTipo: "\"Te explico el plan que merece la pena este finde por menos de 30€.\"", duracion: "45-60s", estructura: ["Hook con presupuesto", "Parada 1", "Parada 2", "Parada 3", "Cierre con total"], kpi: ">10% save · alto share entre amigos" },
   { id: "R4", nombre: "Hot take cultural", pilar: "Mirada experta", pilarN: "I", hookTipo: "Opinión razonada e incómoda sobre algo de la cultura madrileña.", duracion: "30-45s", estructura: ["Tesis afilada", "Argumentos cortos", "Matización honesta", "Cierre que invita al debate", "CTA contextual"], kpi: ">6% share · >50 comentarios" },
-  { id: "R5", nombre: "Detrás de la experiencia", pilar: "Comunidad +30", pilarN: "III", hookTipo: "Vlog de una experiencia real con socios.", duracion: "60-90s", estructura: ["Cabecera de contexto", "Llegada", "Momento clave", "Frase de un socio", "Cierre editorial"], kpi: "Conversión a interés en club · >7% save" }
+  { id: "R5", nombre: "Detrás de la experiencia", pilar: "Comunidad +30", pilarN: "III", hookTipo: "Vlog de una experiencia real, abierta o exclusiva.", duracion: "60-90s", estructura: ["Cabecera de contexto", "Llegada", "Momento clave", "Frase de un socio o usuario", "Cierre editorial"], kpi: "Conversión a interés en club · >7% save" }
 ];
 
 // -------------------------------------------------------------
-// CARRUSELES — 12 piezas DESARROLLADAS al 100% · Madrid
+// CARRUSELES — 12 piezas DESARROLLADAS al 100% · Mainstream Madrid
 // -------------------------------------------------------------
 window.TMT.carruseles12 = [
   {
     id: "C-W01", sem: 1, mes: "Jun", formato: "C1", nombreFormato: "Glosario del adulto culto",
     pilar: "Mirada experta", pilarN: "I",
-    titulo: "Glosario del Madrid culto",
+    titulo: "Las 8 plazas de Madrid que tienes que saber distinguir",
     slides: [
-      { n: 1, titulo: "Glosario del Madrid culto.", sub: "8 palabras que solo los madrileños usan bien.", nota: "Portada · Fondo crema · Tipografía Fraunces grande." },
-      { n: 2, titulo: "Tertulia", sub: "No es una charla cualquiera. Es la conversación adulta y regular en un café fijo. Madrid las inventó en el siglo XIX." },
-      { n: 3, titulo: "Sereno", sub: "El vigilante nocturno con bastón y llave maestra. Se extinguió en los 70. Sigue siendo un personaje en la memoria del barrio." },
-      { n: 4, titulo: "Chotis", sub: "Madrid se apropió de un baile europeo y lo hizo suyo. Se baila en 1 baldosa por una razón. Y esa razón es Madrid." },
-      { n: 5, titulo: "Manolo / Manola", sub: "El madrileño castizo de los barrios populares del XIX. No es lo mismo que un chulapo. Goya los pintó." },
-      { n: 6, titulo: "Cuesta", sub: "No es solo una pendiente. Es un microbarrio comercial (Cuesta de Moyano, Cuesta de San Vicente). Cada cuesta tiene oficio." },
-      { n: 7, titulo: "Patio", sub: "El patio madrileño no es decorativo. Es un sistema arquitectónico de luz para edificios densos. Mira hacia arriba en cualquier portal del centro." },
-      { n: 8, titulo: "Tasca", sub: "La taberna popular previa al gastrobar. Tasca real ya quedan pocas. Saber distinguir una tasca de un homenaje a tasca es de adultos cultos." },
-      { n: 9, titulo: "Guárdalo", sub: "8 palabras = 8 detalles que cambian cómo escuchas Madrid.", nota: "Cierre · CTA: \"Comenta GLOSARIO y te pasamos la guía completa.\"" }
+      { n: 1, titulo: "Las 8 plazas de Madrid.", sub: "Para no confundir Plaza Mayor con Plaza de la Villa y otras 6 más.", nota: "Portada · Fondo crema · Mapa minimalista con 8 puntos." },
+      { n: 2, titulo: "1. Plaza Mayor", sub: "La gran. Felipe III a caballo en el centro. Diseñada en 1617 por Juan Gómez de Mora. Es la plaza con la que el resto se mide." },
+      { n: 3, titulo: "2. Plaza de la Villa", sub: "La plaza original de Madrid antes que la Mayor. Tres siglos en tres edificios. Tranquila. Casi nadie la usa." },
+      { n: 4, titulo: "3. Plaza del Sol", sub: "Kilómetro 0 de las carreteras españolas. El Oso y el Madroño. Vacía no se ve nunca." },
+      { n: 5, titulo: "4. Plaza de Cibeles", sub: "Diosa Cibeles + Palacio de Cibeles (sede del Ayuntamiento). Las fuentes más fotografiadas del centro." },
+      { n: 6, titulo: "5. Plaza de Oriente", sub: "Entre el Palacio Real y el Teatro Real. Esculturas de reyes. Donde casi nadie se sienta porque cree que es solo de paso." },
+      { n: 7, titulo: "6. Plaza de Santa Ana", sub: "La plaza literaria — Cervantes, Calderón, García Lorca pasaron por ella. Cervecerías centenarias en la cuadra." },
+      { n: 8, titulo: "7. Plaza de Lavapiés", sub: "El triángulo del barrio. Cine Doré + Tabacalera enfrente. Donde se ve mejor el cambio de Madrid en los últimos 20 años." },
+      { n: 9, titulo: "8. Plaza del Dos de Mayo", sub: "El corazón de Malasaña. Arco del Cuartel de Monteleón. 1808 — el levantamiento empezó aquí.", nota: "Cierre · CTA: \"Comenta GLOSARIO y te enviamos el glosario completo de plazas de Madrid.\"" }
     ],
-    copyPie: `8 palabras que solo los madrileños usan bien.\n\nNo es jerga, es memoria de la ciudad codificada en lengua. Saber qué significa una tertulia, distinguir una tasca de un homenaje a tasca o entender por qué el chotis se baila en una baldosa — es entender Madrid mejor.\n\nGuarda el carrusel. Y si te quedan dudas, te las resolvemos en stories esta semana.\n\n📌 Comenta GLOSARIO y te enviamos las 20 palabras del glosario completo.`,
+    copyPie: `8 plazas que la mayoría de gente conoce mal o confunde.\n\nNo es jerga, es saber qué es qué. Cada plaza es un trozo de Madrid distinto. Saber distinguirlas cambia cómo te mueves por el centro.\n\nGuarda el carrusel. La próxima vez que alguien diga "quedamos en la Mayor", sabrás dónde es exactamente.\n\n📌 Comenta GLOSARIO y te enviamos el glosario completo: 15 plazas de Madrid y por qué importan.`,
     kpi: ">8% save (los glosarios se vuelven a consultar)"
   },
   {
     id: "C-W02", sem: 2, mes: "Jun", formato: "C2", nombreFormato: "Mapa secreto de…",
     pilar: "Ritual cultural", pilarN: "IV",
-    titulo: "Mapa secreto de Lavapiés",
+    titulo: "7 planes en Madrid para este fin de semana",
     slides: [
-      { n: 1, titulo: "Lavapiés que no te enseñan.", sub: "5 paradas para mirar el barrio con otros ojos.", nota: "Portada · Mapa minimalista 5 puntos numerados." },
-      { n: 2, titulo: "Introducción", sub: "Lavapiés se ha contado mil veces. Casi siempre mal: como barrio de moda, conflictivo o bohemio. Este no es ese mapa." },
-      { n: 3, titulo: "Parada 1 — La Corrala", sub: "Último testigo en pie de la vivienda obrera del XIX. Mira las galerías. Cada barandilla es una vida que pasó allí." },
-      { n: 4, titulo: "Parada 2 — Tabacalera", sub: "Fábrica de tabaco → centro autogestionado. Edificio del XVIII con arte contemporáneo gratis. Pregunta por el patio." },
-      { n: 5, titulo: "Parada 3 — La Casa Encendida", sub: "No vayas solo a la expo. Sube a la azotea. Es uno de los miradores menos usados del centro de Madrid." },
-      { n: 6, titulo: "Parada 4 — Cine Doré (Plaza Lavapiés)", sub: "5€ la sesión. Filmoteca Española. Una de las salas con mejor programación de Europa." },
-      { n: 7, titulo: "Parada 5 — Mesón de Paredes 13", sub: "Posada del Dragón, posada del XVII. No entres como turista. Entra como vecino. Pide un vino." },
-      { n: 8, titulo: "Cierre", sub: "Un barrio no se conoce yendo. Se conoce mirando.", nota: "Cierre · CTA: \"Comenta MAPA y te paso la guía completa.\"" }
+      { n: 1, titulo: "Tu fin de semana en Madrid.", sub: "7 planes accesibles · ningún cliché.", nota: "Portada · Mapa minimalista con 7 puntos numerados." },
+      { n: 2, titulo: "Sábado 11:00 — La Casa Encendida", sub: "Entrada gratuita. Exposición temporal + sube a la azotea. Uno de los miradores más infrautilizados del centro." },
+      { n: 3, titulo: "Sábado 14:00 — Comer en taberna castiza", sub: "La Bola para cocido. Casa Mingo para sidra y pollo. Casa Botín para cordero. Elige una. Máximo 25€." },
+      { n: 4, titulo: "Sábado 17:00 — Museo Cerralbo", sub: "Sábados después de las 14h: entrada libre. Palacio del XIX intacto. La sala olvidada del ala este vale toda la visita." },
+      { n: 5, titulo: "Sábado 21:00 — Cine Doré", sub: "Sesión a 5€. Filmoteca Española. Una de las salas con mejor programación de Europa." },
+      { n: 6, titulo: "Domingo 11:00 — El Rastro", sub: "Aprende a regatear sin ofender. Vinilo, libros, antigüedades. Compra una cosa, sostén el mercado." },
+      { n: 7, titulo: "Domingo 14:00 — Caracoles en Casa Amadeo", sub: "Plaza Cascorro. Menú ~12€. Los caracoles los hacen como hace 100 años. Si no te atreves, pide el guiso del día." },
+      { n: 8, titulo: "Domingo 18:00 — Templo de Debod por dentro", sub: "Entra en el templo. Casi nadie lo hace. Es gratis. Y luego, atardecer fuera. Cierre cultural perfecto." }
     ],
-    copyPie: `Lavapiés se ha contado mil veces. Casi siempre mal.\n\nEste es nuestro mapa: 5 paradas para mirarlo sin los filtros de la guía de fin de semana.\n\nGuarda el carrusel para tu próximo paseo. Y si conoces a alguien que dice que ya conoce Lavapiés, etiquétalo. Le va a venir bien.\n\n📌 Comenta MAPA y te enviamos: 10 planes culturales en Madrid por menos de 20€.`,
-    kpi: ">12% save · >5% share (los mapas se guardan y comparten)"
+    copyPie: `Tu fin de semana en Madrid. 7 planes. Cero cliché. Cero gasto excesivo.\n\nGuarda el carrusel y úsalo. Y si conoces a alguien que dice "no sé qué hacer este finde en Madrid", etiquétalo. Esto es lo que hay.\n\n📌 Comenta FINDE y te enviamos: 10 planes culturales en Madrid por menos de 20€ (PDF con precios, horarios y mapa).`,
+    kpi: ">15% save (los planes de finde son los reyes del save) · >5% share"
   },
   {
     id: "C-W03", sem: 3, mes: "Jun", formato: "C3", nombreFormato: "Historia en 9 imágenes",
     pilar: "Patrimonio vivo", pilarN: "II",
-    titulo: "Café Gijón en 9 imágenes — la tertulia que cambió la cultura española",
+    titulo: "Historia del Mercado de San Miguel en 9 imágenes",
     slides: [
-      { n: 1, titulo: "El Café Gijón en 9 imágenes.", sub: "La tertulia que sostuvo la cultura española durante un siglo." },
-      { n: 2, titulo: "1888", sub: "Se abre en el Paseo de Recoletos. Café de inspiración austríaca. Espejos. Mármol. Camareros de uniforme negro." },
-      { n: 3, titulo: "Años 20", sub: "Tertulia literaria diaria. Asisten Ramón Gómez de la Serna, Valle-Inclán, García Lorca. Madrid es centro literario europeo." },
-      { n: 4, titulo: "Guerra Civil (1936-39)", sub: "El Gijón sigue abierto bajo bombardeos. Los camareros son recordados por sus parroquianos." },
-      { n: 5, titulo: "Posguerra", sub: "Camilo José Cela escribe parte de \"La Colmena\" en la mesa de fondo a la izquierda. Buero Vallejo gana el Lope de Vega ahí." },
-      { n: 6, titulo: "Años 60-70", sub: "Tertulia del Tránsito: Carmen Martín Gaite, Francisco Umbral, Ignacio Aldecoa. Generaciones literarias se forman en sus mesas." },
-      { n: 7, titulo: "Años 90", sub: "Premio Café Gijón se consolida como uno de los reconocimientos literarios más prestigiosos de España." },
-      { n: 8, titulo: "Hoy", sub: "Sigue abierto. Sigue siendo café. Sigue habiendo tertulias. Si te sientas un martes por la tarde, las verás." },
-      { n: 9, titulo: "Por qué importa", sub: "Madrid tiene cafés. Pero solo uno ha sido escritorio de medio siglo de literatura española. Vete antes de tener un motivo. Ese es el motivo." }
+      { n: 1, titulo: "El Mercado de San Miguel en 9 imágenes.", sub: "Cómo un mercado tradicional se convirtió en el icono gastronómico de Madrid." },
+      { n: 2, titulo: "1916", sub: "Se inaugura como mercado de abastos tradicional. Estructura de hierro, vidrio y cerámica. Diseñado por Alfonso Dubé y Díez." },
+      { n: 3, titulo: "1916-1990", sub: "Mercado de barrio funcional. Frutas, verduras, pescado. Las plazas de los Austrias compran aquí cada mañana." },
+      { n: 4, titulo: "Años 90", sub: "Crisis del modelo de mercado tradicional. Cierre progresivo de puestos. Riesgo real de demolición." },
+      { n: 5, titulo: "2003", sub: "Se inicia el plan de rehabilitación. Idea: convertirlo en mercado gastronómico de calidad, no en mall de comida rápida." },
+      { n: 6, titulo: "2009", sub: "Reapertura como Mercado de San Miguel gastronómico. 33 puestos seleccionados con criterio: tapas de calidad, productores locales, vino, ostras." },
+      { n: 7, titulo: "Años 10", sub: "Boom turístico. Riesgo opuesto: convertirse solo en parada de Instagram. Críticas locales por precios y aglomeración." },
+      { n: 8, titulo: "Hoy", sub: "Equilibrio difícil. Funciona si vas en horarios buenos (11h o 16h, no a la hora de comer). Pide a puestos concretos: jamón en uno, vino en otro, ostras en otro." },
+      { n: 9, titulo: "Por qué importa", sub: "Madrid casi perdió este edificio. Saber su historia es entender por qué cuidamos lo que tenemos antes de que sea tarde. Plaza de San Miguel · Junto a Plaza Mayor." }
     ],
-    copyPie: `El Café Gijón abrió en 1888 y ha sido escritorio de Cela, Lorca, Umbral, Martín Gaite. La literatura española del siglo XX se escribió, en parte, en sus mesas.\n\nSigue abierto. Sigue siendo café. Sigue habiendo tertulia.\n\nNo necesitas un motivo para entrar. Esto es Madrid contado.\n\n📌 Paseo de Recoletos 21 · Abierto cada día.\n📌 Comenta CAFÉS y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
-    kpi: ">7% save · alto tiempo de visualización · trigger a contenido relacionado"
+    copyPie: `El Mercado de San Miguel casi se demuele en los 90. Hoy es uno de los iconos gastronómicos de Madrid.\n\nTruco para esquivar la masificación: ir entre las 11 y las 13, o después de las 16. Pedir a puestos concretos (jamón en uno, vino en otro, ostras en otro), no menú único.\n\nEsto es Madrid: salvado, vivo, contado.\n\n📌 Plaza de San Miguel · mercadodesanmiguel.es\n📌 Comenta MESA y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
+    kpi: ">8% save · alto tiempo de visualización · viralidad por nostalgia local"
   },
   {
     id: "C-W04", sem: 4, mes: "Jun", formato: "C4", nombreFormato: "Manual cultural +30",
     pilar: "Ritual cultural", pilarN: "IV",
-    titulo: "Cómo planear tu primera ópera",
+    titulo: "Cómo hacer una ruta de tapas sin caer en trampa de turistas",
     slides: [
-      { n: 1, titulo: "Cómo planear tu primera ópera.", sub: "Sin que parezca que es la primera vez. Manual +30." },
-      { n: 2, titulo: "Paso 1 — Elige bien la primera", sub: "No empieces por Wagner. Empieza por algo accesible: \"La Traviata\", \"Bohème\", \"Carmen\". Duran 2-3h con argumento clarísimo." },
-      { n: 3, titulo: "Paso 2 — Dónde", sub: "Teatro Real → la entrada de butaca alta cuesta 25-50€. Veterana suficiente para la primera vez. Teatros del Canal es opción ligera." },
-      { n: 4, titulo: "Paso 3 — Cuándo comprar", sub: "Abono \"Última hora\" del Teatro Real: butacas sobrantes a 25€. Sale 1 semana antes. Suscríbete a su newsletter." },
-      { n: 5, titulo: "Paso 4 — Qué ponerse", sub: "Olvida el smoking. Camisa o blusa básica, pantalón o falda, zapato cerrado. Lo único realmente fuera de lugar son los pantalones cortos." },
-      { n: 6, titulo: "Paso 5 — Antes de entrar", sub: "Lee el argumento en wikipedia 30 minutos antes. Te ahorra perderte. Llega 15 minutos antes para entender bien la sala." },
-      { n: 7, titulo: "Paso 6 — Durante", sub: "Hay 1-2 entreactos de 20 minutos. Bar real, no esperes que sea barato. Ir al baño en entreactos, no después de empezar." },
-      { n: 8, titulo: "Paso 7 — Después", sub: "Comenta. No quedes en frío. La ópera funciona si la digieres con alguien. Cualquier socio te acompaña por DM." }
+      { n: 1, titulo: "Cómo hacer una ruta de tapas en Madrid.", sub: "Sin caer en trampa de turistas. Manual +30." },
+      { n: 2, titulo: "Paso 1 — Elige la zona", sub: "La Latina (Cava Baja), Huertas (Cervantes y Lope), Chamberí (Ponzano para tapeo moderno). Evita zonas con \"menú turístico\" en la puerta." },
+      { n: 3, titulo: "Paso 2 — Empieza temprano", sub: "20:30-21:00 es la hora local. A las 22h se llena. Si llegas a las 21:30 ya estás tarde para los sitios buenos." },
+      { n: 4, titulo: "Paso 3 — Un sitio, una tapa. Y se cambia.", sub: "La regla de oro madrileña: una tapa, una caña, y se cambia. No pidas 4 cosas en el mismo sitio. La gracia es la rotación." },
+      { n: 5, titulo: "Paso 4 — Pide lo que pidan los locales", sub: "Mira las mesas vecinas. Las tapas con más demanda son las del día. Pide \"lo de la barra\", no del menú impreso." },
+      { n: 6, titulo: "Paso 5 — Caña corta, no jarra", sub: "Madrid bebe corto y rota. La jarra es para turistas. La caña corta acompaña la rotación de bares y conversación." },
+      { n: 7, titulo: "Paso 6 — 3 sitios mínimo, 5 máximo", sub: "Menos de 3, no es ruta. Más de 5, se diluye. Lo ideal: 4 sitios distintos en 2 horas. Cada uno con su especialidad." },
+      { n: 8, titulo: "Para llevarte", sub: "Total bien hecho: ~30€ por persona. Total cultural: una de las mejores formas de entender Madrid. Si quieres la ruta concreta, comenta TAPAS." }
     ],
-    copyPie: `Cómo se va a la ópera por primera vez sin que parezca la primera vez.\n\n7 pasos. 50 euros bien gastados. Y un secreto que casi nadie usa: el abono "Última hora" del Teatro Real, butacas a 25€ una semana antes.\n\nGuárdalo. Y si quieres ir con nosotros, escríbenos. Tenemos plan de ópera el [fecha].\n\n📌 Comenta OPERA y te enviamos: 10 planes culturales en Madrid por menos de 20€.`,
-    kpi: ">10% save · alto share entre 30-45 años · DMs preguntando cuándo es el siguiente plan"
+    copyPie: `Cómo se hace una ruta de tapas en Madrid sin caer en trampa de turistas.\n\nLa regla esencial: una tapa, una caña, se cambia. No es opinión, es código local.\n\nGuarda el carrusel para tu próxima salida. 30€ por persona, 4 bares, 2 horas. Esto es Madrid.\n\n📌 Comenta TAPAS y te enviamos: la ruta exacta con direcciones, qué pedir en cada sitio y orden recomendado.`,
+    kpi: ">12% save (los manuales prácticos arrasan) · DMs preguntando rutas concretas"
   },
   {
     id: "C-W05", sem: 5, mes: "Jul", formato: "C1", nombreFormato: "Glosario del adulto culto",
     pilar: "Mirada experta", pilarN: "I",
-    titulo: "Glosario del flamenco para no perderse",
+    titulo: "Glosario: qué abre en Madrid los lunes (y qué no)",
     slides: [
-      { n: 1, titulo: "Glosario del flamenco.", sub: "Para entender lo que está pasando en un tablao sin morir de vergüenza." },
-      { n: 2, titulo: "Cante", sub: "La voz. La parte vocal. El cantaor o cantaora dirige el cuadro. Si el cante calla, todo se detiene." },
-      { n: 3, titulo: "Toque", sub: "La guitarra. El guitarrista marca el compás y dialoga con el cante. Sabicas, Tomatito, Paco de Lucía: maestros del toque." },
-      { n: 4, titulo: "Baile", sub: "Cuerpo + zapateado. Las palmas marcan. Cuidado con confundir baile flamenco con baile sevillanas: son cosas distintas." },
-      { n: 5, titulo: "Palo", sub: "Cada estilo flamenco. Soleá (lento, profundo), bulerías (rápido, fiestero), seguiriya (muy duro). Saber identificarlos cambia la noche." },
-      { n: 6, titulo: "Cuadro flamenco", sub: "La formación: cantaor + guitarra + bailaores + palmeros. El equilibrio entre los cuatro hace la noche." },
-      { n: 7, titulo: "Olé", sub: "No es aplauso. Es señal a los artistas de que estás siguiendo bien. Se dice en momentos concretos (final de letra, remates). Mejor callar que decirlo mal." },
-      { n: 8, titulo: "Dónde verlo en Madrid", sub: "Cardamomo, Corral de la Morería, Las Tablas. Reserva con días de antelación. Mesa de primera fila no siempre es la mejor — pregunta antes." },
-      { n: 9, titulo: "Para llevarte", sub: "Saber estas 7 palabras te da derecho a estar en un tablao sin esconderte. Y a disfrutarlo." }
+      { n: 1, titulo: "Madrid los lunes.", sub: "Qué abre, qué no, y dónde sí puedes ir." },
+      { n: 2, titulo: "1. Museos públicos", sub: "Lunes cerrados casi todos: Prado, Reina Sofía, Thyssen, Sorolla, Cerralbo. Es la regla general." },
+      { n: 3, titulo: "2. Excepción: museos municipales", sub: "Museo de Historia de Madrid y Museo de San Isidro abren los lunes. Y son gratuitos. Casi nadie lo sabe." },
+      { n: 4, titulo: "3. Bibliotecas", sub: "Biblioteca Nacional abre lunes a sábado. La Biblioteca Eugenio Trías (Retiro) también. Salas de lectura impecables." },
+      { n: 5, titulo: "4. Cines", sub: "Cines de Plaza Sevilla, Cinesa, Yelmo: todos los días. Cine Doré (Filmoteca): cerrado los lunes." },
+      { n: 6, titulo: "5. Galerías de arte", sub: "La mayoría cerradas los lunes. Excepción: salas de fundaciones (Mapfre, Telefónica, Canal Isabel II) — abren toda la semana." },
+      { n: 7, titulo: "6. Restaurantes históricos", sub: "Botín, Lhardy: abiertos lunes. Casa Mingo: abierta. La Bola: cerrada los lunes (su día de descanso). Verifica siempre." },
+      { n: 8, titulo: "7. Templos / monumentos", sub: "Templo de Debod: cerrado lunes. Palacio Real: abierto. Plaza Mayor: siempre abierta (es plaza). Catedral de la Almudena: abierta." },
+      { n: 9, titulo: "Para llevarte", sub: "Madrid los lunes parece cerrada. No lo está. Solo hay que saber dónde mirar. Comenta LUNES y te paso la guía completa." }
     ],
-    copyPie: `7 palabras para entender lo que está pasando en un tablao sin morir de vergüenza.\n\nEl flamenco asusta porque tiene código. Pero el código es aprendible en 5 minutos.\n\nGuárdalo. La próxima vez que vayas a un tablao de Madrid, vas con red.\n\n📌 Comenta FLAMENCO y te enviamos: 10 planes culturales en Madrid por menos de 20€.`,
-    kpi: ">8% save · alto share a contactos que \"siempre han querido ir\""
+    copyPie: `Madrid los lunes parece cerrada. No lo está.\n\nMuseos públicos sí (casi todos). Pero no las bibliotecas, no los cines, no los monumentos municipales, no muchas galerías de fundaciones.\n\nGuarda este carrusel. La próxima vez que tengas un lunes libre, sabrás exactamente qué hacer.\n\n📌 Comenta LUNES y te enviamos: Madrid los lunes — qué hacer cuando los museos cierran (PDF guía 14 páginas).`,
+    kpi: ">10% save · alto comportamiento de share entre autónomos / flex workers"
   },
   {
     id: "C-W06", sem: 6, mes: "Jul", formato: "C2", nombreFormato: "Mapa secreto de…",
     pilar: "Ritual cultural", pilarN: "IV",
-    titulo: "Mapa secreto del Madrid de los Austrias",
+    titulo: "Mapa de Madrid los lunes — 7 sitios abiertos que merecen la pena",
     slides: [
-      { n: 1, titulo: "Madrid de los Austrias que no te enseñan.", sub: "5 paradas que casi nadie hace bien." },
-      { n: 2, titulo: "Introducción", sub: "El Madrid de los Austrias se vende como Plaza Mayor y poco más. Está bien, pero el barrio tiene capas más profundas." },
-      { n: 3, titulo: "Parada 1 — Plaza de la Villa", sub: "La plaza original de Madrid antes de la Mayor. Tres siglos en tres edificios: Casa de los Lujanes (XV), Torre de los Cisneros (XVI), Casa de la Villa (XVII)." },
-      { n: 4, titulo: "Parada 2 — San Andrés y la Capilla del Obispo", sub: "Joya del gótico tardío en Madrid. Suele estar cerrada — pide cita por la web del Arzobispado. Vale el trámite." },
-      { n: 5, titulo: "Parada 3 — Calle del Almendro", sub: "Calle pequeña con tres tabernas centenarias seguidas: La Concha, La Bola (cerca), Casa Lucio (cocido legendario). No bebas en todas. Elige una." },
-      { n: 6, titulo: "Parada 4 — Plaza del Cordón", sub: "Plaza diminuta, fachadas del XVII intactas. Sirvió de exteriores en varias películas. Espacio cero turistas, cero ruido." },
-      { n: 7, titulo: "Parada 5 — Convento de las Carboneras", sub: "Convento de clausura. Venden dulces a través de un torno giratorio. Una experiencia que no tiene equivalente turístico." },
-      { n: 8, titulo: "Cierre", sub: "El Madrid de los Austrias no es un escenario. Es un manuscrito en piedra. Léelo despacio." }
+      { n: 1, titulo: "Madrid los lunes, sin morir de aburrimiento.", sub: "7 sitios abiertos · 7 planes culturales.", nota: "Portada · Mapa minimalista con 7 puntos." },
+      { n: 2, titulo: "1. Templo de Debod (entrada exterior)", sub: "El templo cierra los lunes, pero el parque y el atardecer no. Pasa al menos a la hora azul." },
+      { n: 3, titulo: "2. Biblioteca Nacional", sub: "Sala de lectura general + Museo de la BNE (gratuito). El sitio más silencioso del centro." },
+      { n: 4, titulo: "3. Museo de Historia de Madrid", sub: "Calle Fuencarral 78. Lunes abierto. Gratuito. Una sorpresa para quien no lo conoce." },
+      { n: 5, titulo: "4. Fundación Mapfre (Recoletos)", sub: "Sala de fotografía + sala de pintura. Lunes abierto. Precio simbólico (3€)." },
+      { n: 6, titulo: "5. Cine — sesión vermut", sub: "Cinesa Príncipe Pío o Yelmo Ideal. Sesión vermut domingo-lunes a 4-5€. Cualquier estreno." },
+      { n: 7, titulo: "6. Palacio Real", sub: "Abierto lunes. Entrada 14€ (residentes Madrid: gratis primer día del mes). Visita corta — 90 minutos suficiente." },
+      { n: 8, titulo: "7. Cervecería Alemana", sub: "Plaza de Santa Ana. Abierta lunes. Hemingway pasaba aquí. Una caña y un libro = lunes resuelto." }
     ],
-    copyPie: `El Madrid de los Austrias no es la Plaza Mayor llena de gente y poco más.\n\n5 paradas para leer el barrio como un manuscrito en piedra. Empieza en la Plaza de la Villa, acaba comprando dulces de clausura en un torno giratorio.\n\nGuarda y sal.\n\n📌 Comenta AUSTRIAS y te enviamos: 5 restaurantes con más historia cultural en Madrid.`,
-    kpi: ">11% save · alta retención · viralidad por descubrimiento real"
+    copyPie: `Madrid los lunes ofrece más de lo que parece.\n\n7 sitios abiertos. Algunos gratis, otros casi. Todos con criterio.\n\nGuarda el mapa y mándalo a quien dice "los lunes no se puede hacer nada en Madrid".\n\n📌 Comenta LUNES y te enviamos: Madrid los lunes — qué hacer cuando los museos cierran (la guía completa con horarios).`,
+    kpi: ">12% save · share alto entre autónomos · DMs de gente confirmando que descubrió sitios nuevos"
   },
   {
     id: "C-W07", sem: 7, mes: "Jul", formato: "C3", nombreFormato: "Historia en 9 imágenes",
     pilar: "Patrimonio vivo", pilarN: "II",
-    titulo: "Café Central en 9 imágenes — 50 años de jazz en Madrid",
+    titulo: "Historia de la música en directo en Madrid en 9 imágenes",
     slides: [
-      { n: 1, titulo: "El Café Central en 9 imágenes.", sub: "Cómo un café de la Plaza del Ángel se convirtió en sala de jazz de referencia europea." },
-      { n: 2, titulo: "1982", sub: "Abre como Café Central. Un piano vertical en el fondo. La primera noche tocan dos músicos amigos por la cara." },
-      { n: 3, titulo: "Años 80", sub: "Tete Montoliu toca aquí. Pedro Iturralde. La sala se va llenando solo de adultos que quieren música real, no fondo de bar." },
-      { n: 4, titulo: "Años 90", sub: "Pasan Wynton Marsalis, Brad Mehldau, Chick Corea. Madrid entra en el circuito europeo de jazz casi sin querer." },
-      { n: 5, titulo: "2000", sub: "Programa cada noche del año, sin parar. Una de las muy pocas salas del mundo con jazz diario." },
-      { n: 6, titulo: "2010", sub: "Premio Nacional de la Música. Lo merece. El Café Central no es un café que tiene música. Es una sala de música que se llama café." },
-      { n: 7, titulo: "2020", sub: "Sobrevive a la pandemia con conciertos en streaming y socios fieles. La comunidad de Madrid se moviliza." },
-      { n: 8, titulo: "Hoy", sub: "Sigue abierto cada noche. Entrada 18-22€. Trío de jazz o cuarteto. Cena opcional con menú correcto. Reserva con dos días." },
-      { n: 9, titulo: "Por qué importa", sub: "Cualquier ciudad europea quiere lo que Madrid tiene. 44 años de jazz nocturno en la misma sala. No lo perdamos por dar por hecho que está ahí." }
+      { n: 1, titulo: "La música en directo en Madrid.", sub: "9 momentos · 100 años · del Café de Chinitas a Mad Cool." },
+      { n: 2, titulo: "1920s — Café de Chinitas", sub: "Tablao flamenco mítico en Torija. Lorca lo inmortaliza en sus versos. La nobleza madrileña paga por oírlo." },
+      { n: 3, titulo: "1940s — Cafés cantantes", sub: "Resistencia cultural en plena posguerra. Cafés donde se canta copla y se programa lo poco que está permitido." },
+      { n: 4, titulo: "1960s — Movida pre-Movida", sub: "Whisky Club, Bocaccio. Madrid empieza a programar lo que llega de fuera. Gato Pérez, Vainica Doble." },
+      { n: 5, titulo: "1980s — La Movida y los clubs", sub: "Rock-Ola, Carolina, Sala Universal. Madrid es centro cultural de Europa. Almodóvar filma en sus barras." },
+      { n: 6, titulo: "1990s — Salas medianas", sub: "Caracol, Galileo Galilei, El Sol. La sala mediana se consolida como espacio de descubrimiento. 200-400 personas, calidad alta." },
+      { n: 7, titulo: "2000s — Festivales urbanos", sub: "Veranos de la Villa, Festimad, Conde Duque. Madrid programa al aire libre. Cambio del modelo de noche al modelo de festival." },
+      { n: 8, titulo: "2010s — Mad Cool y la era macro", sub: "2016: Mad Cool nace. Festivales con 80.000 personas. Modelo internacional. Tensión con las salas pequeñas que pierden público." },
+      { n: 9, titulo: "Hoy", sub: "Coexistencia tensa: macrofestivales + Veranos de la Villa + Café Central + Conde Duque + salas pequeñas. Madrid programa más conciertos al año que ninguna capital española. Hay que aprender a navegarlo." }
     ],
-    copyPie: `1982. Plaza del Ángel. Un café abre con un piano vertical en el fondo.\n\n44 años después, el Café Central es una de las pocas salas del mundo con jazz cada noche. Wynton Marsalis, Brad Mehldau, Chick Corea han tocado en esa pequeña tarima.\n\nReserva con dos días. 22€ la entrada. No se da por hecho.\n\n📌 cafecentralmadrid.com\n📌 Comenta JAZZ y te enviamos: el mapa de los conciertos gratis de Madrid.`,
-    kpi: ">8% save · viralidad por orgullo local · DMs preguntando por planes de jazz"
+    copyPie: `Madrid tiene 100 años programando música en directo de forma ininterrumpida.\n\nDel Café de Chinitas a Mad Cool. De las salas Movida al Conde Duque. La oferta es brutal — y aprender a navegarla cambia tu vida cultural.\n\n📌 Si quieres aprender a usar Madrid musical, comenta VERANO y te enviamos: el mapa de los conciertos gratis de Madrid este verano.`,
+    kpi: ">8% save · alta retención · share entre melómanos"
   },
   {
     id: "C-W08", sem: 8, mes: "Jul", formato: "C4", nombreFormato: "Manual cultural +30",
     pilar: "Ritual cultural", pilarN: "IV",
-    titulo: "Cómo descubrir un barrio nuevo en Madrid en una tarde",
+    titulo: "Cómo encontrar conciertos gratis en Madrid sin pasarte horas en Google",
     slides: [
-      { n: 1, titulo: "Cómo descubrir un barrio nuevo en una tarde.", sub: "Manual +30 para hacerlo bien en 4 horas." },
-      { n: 2, titulo: "Paso 1 — Elige bien", sub: "Empieza por barrios contables: Chamberí, Salamanca, Conde Duque, Carabanchel Alto, La Latina. Evita los grandes (Centro entero — demasiado)." },
-      { n: 3, titulo: "Paso 2 — Llega caminando o en metro, nunca en coche", sub: "Coche te aísla del barrio. Caminar 10 minutos por las calles colindantes ya te dice cómo es el lugar." },
-      { n: 4, titulo: "Paso 3 — La regla de los tres", sub: "Identifica 1 plaza, 1 calle comercial principal, 1 sitio donde toma la gente local. Esas son las anclas del barrio." },
-      { n: 5, titulo: "Paso 4 — Las librerías y mercerías son los oráculos", sub: "Las librerías de barrio tienen los carteles más cuidados de la zona. Las mercerías son las decanas: están desde antes que tú." },
-      { n: 6, titulo: "Paso 5 — Para 30 minutos en una terraza no turística", sub: "No para hacer foto. Para mirar quién pasa, quién saluda a quién. Eso es leer el barrio." },
-      { n: 7, titulo: "Paso 6 — Apunta lo que querrás volver a ver", sub: "Notas del móvil: 2-3 sitios. Si vuelves en 2 semanas a uno, ya lo has hecho tuyo. Si no vuelves, ya sabes." },
-      { n: 8, titulo: "Para llevarte", sub: "Un barrio no se conoce yendo. Se conoce volviendo. Empieza eligiendo a cuál vas a volver." }
+      { n: 1, titulo: "Cómo encontrar conciertos gratis en Madrid.", sub: "Sin pasarte horas en Google. Manual +30." },
+      { n: 2, titulo: "Paso 1 — Las 4 webs maestras", sub: "1. madrid.es/agenda (Ayuntamiento) · 2. condeduquemadrid.es · 3. veranosdelavilla.com · 4. fundaciones (Telefónica, Mapfre, La Casa Encendida) — todas tienen ciclos gratis." },
+      { n: 3, titulo: "Paso 2 — Sigue 3 cuentas concretas", sub: "@condeduquemadrid · @veranosdelavilla · @bandasinfonicamadrid. Programan a 30-60 días vista. Suficiente para planificar." },
+      { n: 4, titulo: "Paso 3 — Los 4 espacios que SIEMPRE tienen algo gratis", sub: "Templo de Debod (Banda Sinfónica julio) · Quinta de los Molinos (Banda Sinfónica agosto) · Plaza de Oriente (verano) · La Casa Encendida (ciclo jazz)." },
+      { n: 5, titulo: "Paso 4 — El truco del Real Conservatorio", sub: "Recitales abiertos de alumnos de fin de curso y conciertos de cátedra: alta calidad, gratuitos, casi nadie lo sabe. Calle Doctor Mata 2." },
+      { n: 6, titulo: "Paso 5 — Apunta con 2 semanas de antelación", sub: "Los buenos se llenan. Aforo limitado en muchos espacios. Reservar con tiempo en madrid.es." },
+      { n: 7, titulo: "Paso 6 — Lleva una manta o cojín", sub: "Muchos conciertos al aire libre son en suelo o gradas duras. Cojín pequeño y manta cambian tu noche." },
+      { n: 8, titulo: "Para llevarte", sub: "Hay más conciertos gratis en Madrid que en cualquier otra capital española. La diferencia entre ir y no ir es 10 minutos de planificación al mes." }
     ],
-    copyPie: `Cómo se descubre un barrio nuevo en Madrid en una tarde. Manual +30.\n\nNo es turismo. No es paseo. Es leer una zona como se lee una ciudad: anclas, oráculos, repetir.\n\n📌 Comenta BARRIO y te enviamos: 10 planes culturales en Madrid por menos de 20€.`,
-    kpi: ">10% save · share alto a gente que se ha mudado a Madrid"
+    copyPie: `Hay más conciertos gratis en Madrid que en cualquier otra capital española.\n\nNo es exageración: súmalo. Banda Sinfónica + Veranos de la Villa + La Casa Encendida + Conservatorio + Conde Duque. Calidad alta, coste cero.\n\nLa diferencia entre disfrutarlos y perdértelos: 10 minutos al mes planificando.\n\n📌 Comenta VERANO y te enviamos: el mapa completo de los conciertos gratis de Madrid (PDF con todas las fechas confirmadas).`,
+    kpi: ">14% save (los manuales prácticos + temporada) · share alto entre melómanos económicos"
   },
   {
-    id: "C-W09", sem: 9, mes: "Jul-Ago", formato: "C1", nombreFormato: "Glosario del adulto culto",
+    id: "C-W09", sem: 9, mes: "Ago", formato: "C1", nombreFormato: "Glosario del adulto culto",
     pilar: "Mirada experta", pilarN: "I",
-    titulo: "Glosario de los Veranos de la Villa",
+    titulo: "Glosario del libro de viejo: incunable, primera edición, ex libris…",
     slides: [
-      { n: 1, titulo: "Glosario de los Veranos de la Villa.", sub: "5 conceptos para entender el festival más importante del verano madrileño." },
-      { n: 2, titulo: "1. Programación expandida", sub: "No es \"un festival\". Son 200+ eventos en 30+ espacios durante 6 semanas. Música, teatro, circo, danza, cine, talleres." },
-      { n: 3, titulo: "2. Conde Duque", sub: "Centro neurálgico. Patio enorme, programación de 22h. La mayoría de noches hay algo. Entrada barata o gratis." },
-      { n: 4, titulo: "3. Galileo + Teatros del Canal", sub: "Salas de hermano mayor. Programación más teatral / danza. Precios subvencionados (10-15€)." },
-      { n: 5, titulo: "4. Pieza ancla vs. pieza descubrimiento", sub: "Los Veranos tienen titulares (DJ internacional, ballet conocido) y descubrimientos (compañía local sin nombre). Lo bueno suele estar en lo segundo." },
-      { n: 6, titulo: "5. Cómo elegir", sub: "Mira el programa entero a principios de junio. Bloquea 4-5 noches en tu agenda antes de que se llene. Reserva con tiempo." },
-      { n: 7, titulo: "Truco", sub: "Las propuestas con menos comunicación en Instagram suelen ser las que tienen mejor crítica. Lo que viraliza no siempre es lo mejor." },
-      { n: 8, titulo: "Para llevarte", sub: "Veranos de la Villa no se \"va a\". Se planifica. Es la diferencia entre verlo desde fuera o vivirlo desde dentro." }
+      { n: 1, titulo: "Glosario del libro de viejo.", sub: "Para entrar en la Cuesta de Moyano y no perderte." },
+      { n: 2, titulo: "Incunable", sub: "Libro impreso antes de 1501 — los primeros 50 años de la imprenta. Una caseta de Moyano puede tener facsímiles. Originales: museo." },
+      { n: 3, titulo: "Primera edición", sub: "La primera tirada de un libro. Para clásicos del XIX-XX puede costar de 50€ a miles. Es coleccionable real." },
+      { n: 4, titulo: "Ex libris", sub: "Marca personal que el dueño pegaba en la portadilla. Pequeño grabado con su nombre. Si compras un libro con ex libris valioso, no lo quites — añade valor." },
+      { n: 5, titulo: "Encuadernación", sub: "Tela, piel, cartoné, rústica. La encuadernación cuenta tanto como el contenido. Una piel del XIX puede valer más que el libro mismo." },
+      { n: 6, titulo: "Estado", sub: "Vocabulario clave: \"buen estado\", \"completo\", \"con desperfectos\". Pregunta SIEMPRE si tiene las páginas completas. Falta de un cuaderno = pérdida total." },
+      { n: 7, titulo: "Numerado vs. no numerado", sub: "Las ediciones numeradas (\"1/500\") suelen valer más que las masivas. Si vas a coleccionar, pregunta por estas." },
+      { n: 8, titulo: "Firma del autor", sub: "Libro firmado = multiplica valor. Pero cuidado: en Moyano hay falsificaciones. Si pagas más por una firma, pide certificado o procedencia." },
+      { n: 9, titulo: "Para llevarte", sub: "Saber estas 7 palabras te da derecho a estar en la Cuesta de Moyano sin sentirte fuera. Y a comprar bien. Sábados 10-14h." }
     ],
-    copyPie: `Veranos de la Villa es el festival más infravalorado de Madrid.\n\n200+ eventos. 30+ espacios. 6 semanas. Precios subvencionados o gratis. Y lo mejor casi siempre está en las propuestas sin marketing.\n\nGuárdalo antes de junio. Bloquea 4-5 noches.\n\n📌 Comenta VERANO y te enviamos: la agenda esencial Veranos de la Villa 2026.`,
-    kpi: ">9% save (los glosarios estacionales se guardan) · alta intención de asistencia"
+    copyPie: `7 palabras para entender la Cuesta de Moyano y comprar bien.\n\nUna caseta no es una tienda — es un microoficio. Saber lo que pides cambia el trato y el precio.\n\nGuarda el carrusel. La próxima vez que bajes la cuesta, vas con red.\n\n📌 Sábados 10-14h junto al Retiro.\n📌 Comenta LIBROS y te enviamos: las 10 librerías de barrio que merecen un sábado entero.`,
+    kpi: ">9% save · share entre lectores y colectivos"
   },
   {
     id: "C-W10", sem: 10, mes: "Ago", formato: "C2", nombreFormato: "Mapa secreto de…",
     pilar: "Ritual cultural", pilarN: "IV",
-    titulo: "Mapa secreto de Malasaña — la otra",
+    titulo: "Las 10 librerías icónicas del centro de Madrid",
     slides: [
-      { n: 1, titulo: "La Malasaña que no es la de las guías.", sub: "5 paradas para mirarlo como vecino." },
-      { n: 2, titulo: "Introducción", sub: "Malasaña se ha banalizado. Pero debajo del Madrid de moda sigue habiendo otro: el de los gremios, las plazas y los rincones que pasan inadvertidos." },
-      { n: 3, titulo: "Parada 1 — Plaza del Dos de Mayo", sub: "Mira el arco. Es lo que queda del Cuartel de Monteleón. 1808 — el levantamiento empezó aquí. Sigue siendo el centro emocional del barrio." },
-      { n: 4, titulo: "Parada 2 — Calle del Pez", sub: "Recorre las tiendas de oficio: encuadernador, sastre, ebanista. Casi todas con 50+ años en la misma puerta." },
-      { n: 5, titulo: "Parada 3 — Convento de las Comendadoras", sub: "Plaza tranquila a 2 minutos del Dos de Mayo. Iglesia abierta solo en horarios concretos. El sabor del barrio antes de ser barrio." },
-      { n: 6, titulo: "Parada 4 — Pez Tortilla / La Castela / un sitio normal", sub: "Para a tomar algo en un sitio sin reseña. Los sitios con 1.000 reviews ya no son del barrio." },
-      { n: 7, titulo: "Parada 5 — Plaza de las Salesas", sub: "Justo al norte. La calle Argensola es una de las más quietas del centro. Iglesia barroca. Casas de embajada." },
-      { n: 8, titulo: "Cierre", sub: "Malasaña tiene dos cuerpos. Uno es el que sale en TikTok. El otro sigue ahí — caminando." }
+      { n: 1, titulo: "Las 10 librerías del centro de Madrid.", sub: "Las que merecen un sábado entero · mapa.", nota: "Portada · Mapa minimalista del centro con 10 puntos." },
+      { n: 2, titulo: "1. La Central (Reina Sofía)", sub: "Dentro del museo. Selección de arte, fotografía, diseño. La librería de museo más rigurosa de Madrid." },
+      { n: 3, titulo: "2. Librería Antonio Machado (Fernando VI)", sub: "Literatura española de fondo. Personal que conoce el catálogo entero. Programación de presentaciones cada semana." },
+      { n: 4, titulo: "3. Librería Méndez (Mayor 80)", sub: "Casi 90 años en la misma puerta. Especialidad: libros antiguos y agotados. Si lo buscas, ellos lo encuentran." },
+      { n: 5, titulo: "4. Tipos Infames (San Joaquín 3)", sub: "Librería + vinoteca. Café honesto. Curaduría de no ficción y editoriales independientes. Mejor barrio para escritura." },
+      { n: 6, titulo: "5. Panta Rhei (Hernán Cortés 7)", sub: "Cómic y novela gráfica. La mejor selección de Madrid de literatura ilustrada. Programa firmas mensuales." },
+      { n: 7, titulo: "6. La Buena Vida (Vergara 5)", sub: "En Ópera. Pequeña, exquisita. Especializada en literatura contemporánea. El lugar para comprar regalos literarios." },
+      { n: 8, titulo: "7. Cervantes y Compañía (Pez 27)", sub: "Malasaña. Selección amplia + café. Programación de talleres de escritura y club de lectura." },
+      { n: 9, titulo: "8-10. Tres más para tener en cuenta", sub: "Librería Mujeres (San Cristóbal 17) — feminismo · Casa del Lector (Matadero) — programación cultural · Librería Rafael Alberti (Tutor 57) — poesía y teatro." },
+      { n: 10, titulo: "Para llevarte", sub: "Madrid tiene una de las mejores escenas de librería independiente de Europa. Cada visita = sostener esta escena. Compra al menos un libro al mes." }
     ],
-    copyPie: `Malasaña tiene dos cuerpos: el que sale en TikTok y el que sigue siendo del barrio.\n\nEste es nuestro mapa del segundo. 5 paradas para caminarla como vecino, no como turista.\n\nGuarda y sal un sábado por la mañana, no por la noche.\n\n📌 Comenta MALASAÑA y te enviamos: 10 librerías de barrio que merecen un sábado entero.`,
-    kpi: ">11% save · share alto entre madrileños recientes"
+    copyPie: `Madrid tiene una de las mejores escenas de librería independiente de Europa.\n\nNo es opinión: visita estas 10 y luego compara. Las cadenas tienen todo. Las independientes tienen criterio.\n\nGuarda el mapa. Y si quieres mantenerlas vivas: compra al menos un libro al mes.\n\n📌 Comenta LIBROS y te enviamos: las 10 librerías de barrio que merecen un sábado entero (con horarios, café asociado y especialidad).`,
+    kpi: ">13% save (los mapas se guardan y consultan) · share alto entre lectores"
   },
   {
     id: "C-W11", sem: 11, mes: "Ago", formato: "C3", nombreFormato: "Historia en 9 imágenes",
     pilar: "Patrimonio vivo", pilarN: "II",
-    titulo: "Teatro Real en 9 imágenes — la ópera que dos veces estuvo a punto de cerrar",
+    titulo: "Historia de Veranos de la Villa en 9 imágenes",
     slides: [
-      { n: 1, titulo: "El Teatro Real en 9 imágenes.", sub: "Cómo Madrid pasó de tener un teatro de ópera ruinoso a una de las mejores casas líricas de Europa." },
-      { n: 2, titulo: "1850", sub: "Isabel II inaugura el Teatro Real. Madrid quiere su gran teatro de ópera al nivel de París y Viena." },
-      { n: 3, titulo: "Años 20-30", sub: "Decadencia. Problemas estructurales. El teatro se cierra por seguridad." },
-      { n: 4, titulo: "Franquismo", sub: "Reabre como sala de conciertos sin ópera regular durante décadas. La ópera en Madrid es residual." },
-      { n: 5, titulo: "1988", sub: "Se decide la rehabilitación completa. Cierre total. Madrid pierde su único teatro de ópera durante una década." },
-      { n: 6, titulo: "1997", sub: "Reapertura tras 10 años y 18.000 millones de pesetas de obra. Madrid recupera ópera de primer nivel." },
-      { n: 7, titulo: "2000s", sub: "Programación internacional. Domingo, Plácido. Encuentros con cantantes de primera línea. El Real entra en el circuito mundial." },
-      { n: 8, titulo: "Hoy", sub: "12 producciones por temporada. Abono \"Última hora\": butacas de 25€ una semana antes. Entradas hasta 250€. Todo el espectro." },
-      { n: 9, titulo: "Por qué importa", sub: "Cuando un edificio cultural está a punto de cerrar dos veces y aguanta, deja de ser arquitectura. Es decisión colectiva. Hay que ir." }
+      { n: 1, titulo: "Veranos de la Villa en 9 imágenes.", sub: "Cómo Madrid construyó el festival cultural más importante de su verano." },
+      { n: 2, titulo: "1984", sub: "Primera edición. Madrid acaba de salir de la Transición y necesita programación cultural pública de calidad. Idea: aprovechar el verano sin parar la vida cultural." },
+      { n: 3, titulo: "Años 80", sub: "Programación en patios históricos. Conde Duque empieza a ser sede principal. Las primeras compañías invitadas son nacionales." },
+      { n: 4, titulo: "Años 90", sub: "Internacionalización. Se incorporan compañías europeas. Aparece la programación de danza contemporánea y circo." },
+      { n: 5, titulo: "Años 2000", sub: "Expansión a 30+ espacios por toda la ciudad. La marca \"Veranos de la Villa\" se consolida como sinónimo de verano cultural madrileño." },
+      { n: 6, titulo: "Años 2010", sub: "Programación expandida: música, teatro, cine, talleres, infantil. 200+ eventos por edición. Audiencia 250.000-300.000 personas/edición." },
+      { n: 7, titulo: "Pandemia (2020-21)", sub: "Adaptación a aforos reducidos. Refuerzo del programa al aire libre. Confirma su valor estratégico para Madrid." },
+      { n: 8, titulo: "Hoy", sub: "6 semanas (julio-agosto). 200+ eventos. 30+ espacios. Programación equilibrada entre titulares y descubrimientos. Precios subvencionados o gratis." },
+      { n: 9, titulo: "Por qué importa", sub: "Pocas capitales europeas mantienen un festival público veraniego de esta escala y calidad. Si vives en Madrid en agosto y no usas Veranos, te estás perdiendo lo mejor del verano." }
     ],
-    copyPie: `El Teatro Real estuvo a punto de cerrar dos veces. Hoy es una de las mejores casas líricas de Europa.\n\nButacas "Última hora" a 25€. Una semana antes. Inscripción gratuita en su newsletter.\n\nVes y comprendes por qué importa que sigamos manteniendo esta cosa abierta.\n\n📌 teatroreal.es\n📌 Comenta REAL y te enviamos: la agenda esencial Veranos de la Villa 2026.`,
-    kpi: ">8% save · alto share entre suscriptores potenciales"
+    copyPie: `Veranos de la Villa cumple 42 años en 2026.\n\n42 años programando cultura pública de calidad cada verano en Madrid. 200+ eventos por edición. 30+ espacios. Precios subvencionados o gratis.\n\nUno de los mejores planes en grupo del verano madrileño: entrada barata o gratis, espacios amplios donde caben tus amigos y un patio con bar entre función y función.\n\n📌 Programa: veranosdelavilla.com\n📌 Comenta AMIGOS y te enviamos: 10 planes en Madrid para hacer con tu grupo de amigos.`,
+    kpi: ">8% save · viralidad por orgullo local"
   },
   {
     id: "C-W12", sem: 12, mes: "Ago", formato: "C4", nombreFormato: "Manual cultural +30",
     pilar: "Ritual cultural", pilarN: "IV",
-    titulo: "Cómo empezar a coleccionar arte joven en Madrid sin gastar mucho",
+    titulo: "Cómo planear tu agenda de Veranos de la Villa este agosto",
     slides: [
-      { n: 1, titulo: "Cómo empezar a coleccionar arte joven en Madrid.", sub: "Sin gastar mucho. Y sin meter la pata. Manual +30." },
-      { n: 2, titulo: "Paso 1 — Qué presupuesto necesitas", sub: "300-600€ por pieza es realista para empezar. Por debajo de 300, suele ser print numerado, no obra. Por encima de 1.000, ya entras en otra liga." },
-      { n: 3, titulo: "Paso 2 — Dónde mirar", sub: "Galerías jóvenes (F2, Sabrina Amrani, House of Chappaz), ferias gratuitas (Apertura, en septiembre cada año), Estampa, JustMad." },
-      { n: 4, titulo: "Paso 3 — Sigue artistas, no galerías", sub: "Instagram de los propios artistas. Tendencia: comprar directo al artista joven está bien visto, pero pregunta si tiene galería primero." },
-      { n: 5, titulo: "Paso 4 — Cómo no pagar de más", sub: "Compara precios entre piezas similares del mismo artista. Si una galería te lo pone más caro que su propio Instagram, pregunta." },
-      { n: 6, titulo: "Paso 5 — Pide ficha técnica antes de comprar", sub: "Material, tamaño, año, edición (si la hay). Sin eso, no es obra: es decoración." },
-      { n: 7, titulo: "Paso 6 — Tu primera obra no es \"inversión\"", sub: "Compra lo que te gusta y vas a poder mirar todos los días. La revalorización es bonus, no objetivo." },
-      { n: 8, titulo: "Para llevarte", sub: "Comprar arte joven en Madrid es accesible. Lo difícil es perder el miedo a entrar en una galería sin proyecto de compra. Empieza por ahí." }
+      { n: 1, titulo: "Cómo planear tu agenda de Veranos de la Villa.", sub: "Para no quedarte sin nada bueno. Manual +30." },
+      { n: 2, titulo: "Paso 1 — Mira el programa completo HOY", sub: "veranosdelavilla.com publica el programa completo a principios de junio. Mira los 200+ eventos antes de comprar. No improvises." },
+      { n: 3, titulo: "Paso 2 — Bloquea 4-5 noches en agenda", sub: "Mínimo 4 noches en 6 semanas. Si quieres apuntar a 8-10 eventos (recomendable), bloquea 6 noches." },
+      { n: 4, titulo: "Paso 3 — Distingue titulares vs. descubrimientos", sub: "Programación = titulares conocidos (DJ internacional, ballet conocido) + descubrimientos (compañía local sin nombre). Lo mejor suele estar en los segundos." },
+      { n: 5, titulo: "Paso 4 — Reserva en cuanto se abra", sub: "Las plazas se llenan rápido. La taquilla online del Conde Duque abre 30 días antes. Calendario en el móvil." },
+      { n: 6, titulo: "Paso 5 — Mix de espacios", sub: "No vayas solo a Conde Duque. Mezcla: Teatros del Canal, Galileo, Quinta de los Molinos, Plaza de Oriente. Cada espacio cambia la experiencia." },
+      { n: 7, titulo: "Paso 6 — Lleva pareja o socio, no solo", sub: "Los Veranos se digieren mejor compartidos. Después de la función, una caña en el patio del Conde Duque (10€ menú) cierra la noche." },
+      { n: 8, titulo: "Para llevarte", sub: "Veranos de la Villa no se \"va a\". Se planifica. Esto es la diferencia entre verlo desde fuera o vivirlo desde dentro." }
     ],
-    copyPie: `Coleccionar arte joven en Madrid es más accesible de lo que crees.\n\n300-600€ por pieza realista para empezar. Galerías como F2, Sabrina Amrani o House of Chappaz están abiertas a colecciones emergentes.\n\nLo difícil no es el dinero. Es perder el miedo a entrar.\n\nGuarda este carrusel para tu próxima galería.\n\n📌 Comenta GALERIA y te enviamos: el calendario de aperturas y ferias jun-ago.`,
-    kpi: ">9% save · share interno alto · DMs sobre próximas visitas"
+    copyPie: `El festival que organizas con tu grupo no se "va a". Se planifica.\n\n6 pasos para no perdértelo este agosto. Programa hoy. Bloquea fechas. Distingue titulares de descubrimientos. Reserva en grupo. Mezcla espacios. Vete con tu gente.\n\n📌 veranosdelavilla.com\n📌 Comenta AMIGOS y te enviamos: 10 planes en Madrid para hacer con tu grupo de amigos.`,
+    kpi: ">11% save · DMs preguntando por plan grupal con socios"
   }
 ];
 
 window.TMT.carruselesFormatos = [
-  { id: "C1", nombre: "Glosario del Madrid culto", pilar: "Mirada experta", pilarN: "I", slides: "7-9", estructura: "Definición + ejemplo visual + por qué importa.", kpi: ">7% save" },
-  { id: "C2", nombre: "Mapa secreto de…", pilar: "Ritual cultural", pilarN: "IV", slides: "7-9", estructura: "Barrio madrileño con 5 paradas no obvias.", kpi: ">11% save" },
-  { id: "C3", nombre: "Historia en 9 imágenes", pilar: "Patrimonio vivo", pilarN: "II", slides: "9", estructura: "Relato visual de un café, edificio o institución de Madrid.", kpi: ">7% save · alto tiempo" },
-  { id: "C4", nombre: "Manual cultural +30", pilar: "Ritual cultural", pilarN: "IV", slides: "7-8", estructura: "Cómo iniciarse en algo cultural concreto (ópera, jazz, arte).", kpi: ">9% save" }
+  { id: "C1", nombre: "Glosario del Madrid culto", pilar: "Mirada experta", pilarN: "I", slides: "7-9", estructura: "Vocabulario o conceptos accesibles + ejemplo + por qué importa.", kpi: ">8% save" },
+  { id: "C2", nombre: "Mapa de Madrid", pilar: "Ritual cultural", pilarN: "IV", slides: "7-9", estructura: "Plan, ruta o mapa con 5-7 paradas concretas y accionables.", kpi: ">12% save" },
+  { id: "C3", nombre: "Historia en 9 imágenes", pilar: "Patrimonio vivo", pilarN: "II", slides: "9", estructura: "Relato visual de un lugar / institución de Madrid universalmente conocida.", kpi: ">8% save · alto tiempo" },
+  { id: "C4", nombre: "Manual cultural +30", pilar: "Ritual cultural", pilarN: "IV", slides: "7-8", estructura: "Cómo hacer algo cultural en Madrid en X pasos concretos.", kpi: ">11% save" }
 ];
 
 // -------------------------------------------------------------
@@ -842,81 +851,82 @@ window.TMT.leadMagnets = [
   },
   {
     id: "LM6", numero: "06", mes: "Agosto", quincena: "Q2",
-    titulo: "Veranos de la Villa: la agenda esencial 2026",
-    subtitulo: "Las 12 piezas que merecen reserva. Filtradas con criterio.",
-    formato: "PDF guía estacional · 18 páginas",
+    titulo: "10 planes en Madrid para hacer con tu grupo de amigos",
+    subtitulo: "Cenas, terrazas, conciertos y rutas que funcionan en grupos de 4 a 10.",
+    formato: "PDF guía · 18 páginas · A5 vertical · con plantilla de reserva",
     pilar: "Ritual cultural", pilarN: "IV",
-    audiencia: "Madrileños que llevan años diciendo \"tengo que ir más a los Veranos\".",
-    hook: "200+ eventos. 30+ espacios. Esta guía te filtra las 12 piezas que valen la pena bloquear en agenda.",
-    palabraClave: "VERANOS",
-    kpiObjetivo: "420 descargas · alto comportamiento de save · DMs preguntando por plan con socios"
+    audiencia: "Adultos que organizan planes para su grupo y nunca encuentran sitios que funcionen para todos.",
+    hook: "Cuando vais cuatro o más, no todos los planes valen. Esta guía recoge los 10 planes culturales de Madrid que sí funcionan en grupo — con precio por persona, capacidad y dónde reservar.",
+    palabraClave: "AMIGOS",
+    kpiObjetivo: "460 descargas (pico de fin de trimestre) · share alto en grupos · DMs preguntando reservas"
   }
 ];
 
 // -------------------------------------------------------------
-// EMBUDO — Instagram → ManyChat → Email → WhatsApp → Multicanal
+// EMBUDO — Instagram → ManyChat → HubSpot (email + WhatsApp) → Multicanal semanal
 // -------------------------------------------------------------
 window.TMT.embudo = [
   {
     n: "01",
-    nombre: "Captación orgánica en Instagram",
-    titulo: "Reels + carruseles con keyword de descarga",
+    nombre: "Captación orgánica por Instagram",
+    titulo: "Reels + carruseles + stories con palabra clave",
     objetivo: "Convertir scroll en intención. Cada pieza orgánica termina con una palabra clave concreta.",
     tacticas: [
-      "Cada pieza acaba con CTA explícito: \"Comenta MADRID / RASTRO / MESA / etc.\".",
-      "Stories diarias re-activan palabras clave de piezas anteriores.",
-      "1 lead magnet activo cada quincena (con palabra clave dedicada)."
+      "Cada pieza acaba con CTA: \"Comenta MADRID / FINDE / MESA / AMIGOS / etc.\".",
+      "Stories diarias re-activan las palabras clave de las piezas grandes.",
+      "1 lead magnet activo cada quincena con su keyword dedicada."
     ],
-    kpi: "Comentarios con palabra clave / pieza > 80 (orgánico)",
-    herramientas: "Notion editorial · CapCut Pro · Calendario interno · Meta Business Suite",
-    detalleOperativo: "Las palabras clave se acuerdan al inicio de cada quincena. Se usan tanto en pie como sobreimpresionadas en pantalla en el último segundo de cada pieza."
+    kpi: "Comentarios con palabra clave por pieza > 80 (orgánico)",
+    herramientas: "Notion editorial · CapCut Pro · Meta Business Suite",
+    detalleOperativo: "Las keywords se acuerdan al inicio de cada quincena. Se usan en el pie y sobreimpresionadas en pantalla en el último segundo de cada pieza."
   },
   {
     n: "02",
     nombre: "Automatización con ManyChat",
-    titulo: "Comentario clave → DM automático → email",
-    objetivo: "Convertir comentario en email cualificado sin fricción humana.",
+    titulo: "Comentario clave → DM automático → email capturado",
+    objetivo: "Convertir el comentario público en email cualificado sin fricción humana.",
     tacticas: [
-      "Trigger: keyword en comentario público (configurado en ManyChat).",
-      "Bot envía DM inicial: \"¡Hola! Te dejo aquí la guía. Para enviártela completa, dime tu email.\"",
-      "Usuario responde con email → bot valida formato y envía link de descarga.",
-      "Email entra automáticamente en lista de Beehiiv en segmento \"Engaged · LM[X]\".",
-      "Para usuarios que no contestan en 24h: bot envía recordatorio único."
+      "Trigger: keyword en comentario público (flujo configurado en ManyChat por LM).",
+      "Bot envía DM: \"¡Hola! Te dejo aquí la guía. Para enviártela completa, dime tu email.\"",
+      "Usuario responde con email → bot valida formato y envía link de descarga del lead magnet.",
+      "Email entra automáticamente en HubSpot en la propiedad de lifecycle correspondiente.",
+      "Recordatorio único a las 24h para usuarios que no responden."
     ],
-    kpi: "Conversión comentario → email cualificado >65%",
-    herramientas: "ManyChat (plan Pro) · Beehiiv (email) · webhook entre ambos",
-    detalleOperativo: "Flujo único maestro por palabra clave. Cada flujo se documenta en Notion. Auditoría semanal de tasa de finalización del flujo."
+    kpi: "Conversión comentario → email cualificado > 65%",
+    herramientas: "ManyChat (plan Pro) · webhook → HubSpot",
+    detalleOperativo: "Un flujo maestro por palabra clave. Documentación de flujos en Notion. Auditoría semanal de tasa de finalización."
   },
   {
     n: "03",
     nombre: "Email + invitación a WhatsApp",
     titulo: "Entrega del lead magnet + apertura de comunidad",
-    objetivo: "Construir la comunidad WhatsApp como espacio de relación y alta frecuencia.",
+    objetivo: "Convertir el lead capturado en miembro activo de la comunidad WhatsApp.",
     tacticas: [
-      "Email 0 (D+0): entrega del LM con link de descarga + pregunta abierta.",
-      "Email 1 (D+2): historia complementaria sobre uno de los puntos del LM. Refuerza autoridad editorial.",
-      "Email 2 (D+4): invitación a la comunidad WhatsApp. Link de invitación. Explicación clara del valor (pre-alertas, descuentos, conversación).",
-      "Email 3 (D+8): testimonios reales de uso del LM y de la comunidad.",
-      "Email 4 (D+12): anuncio del siguiente LM + invitación contextual al club si procede."
+      "Email 0 (D+0): entrega del lead magnet desde HubSpot + pregunta abierta.",
+      "Email 1 (D+2): historia complementaria sobre uno de los puntos del LM (refuerzo editorial).",
+      "Email 2 (D+4): invitación a la comunidad WhatsApp con link directo + explicación del valor.",
+      "Email 3 (D+7): testimonios reales de uso del LM y la comunidad.",
+      "Toda la secuencia se ejecuta como workflow en HubSpot."
     ],
-    kpi: "% acepta WhatsApp / sobre entregas LM > 30% · apertura email serie > 50% mediana",
-    herramientas: "Beehiiv · automations de bienvenida · WhatsApp Business + link de grupo / comunidad",
-    detalleOperativo: "Plantillas de los 5 emails revisadas al inicio del trimestre. Tono editorial igual al newsletter — no comercial."
+    kpi: "% que acepta WhatsApp sobre entregas de LM > 30% · apertura serie > 50% mediana",
+    herramientas: "HubSpot (workflows + email marketing) · WhatsApp Business · link de comunidad",
+    detalleOperativo: "Plantillas de los 4 emails revisadas al inicio del trimestre. Tono editorial igual al newsletter — nunca comercial."
   },
   {
     n: "04",
-    nombre: "Comunicación multicanal",
-    titulo: "Email quincenal + WhatsApp diario",
-    objetivo: "Mantener relación continua con segmentación clara. No repetir entre canales.",
+    nombre: "Comunicación multicanal semanal",
+    titulo: "Newsletter semanal + WhatsApp",
+    objetivo: "Mantener relación continua con cadencia semanal. Reparto claro entre canales, sin solapar mensajes.",
     tacticas: [
-      "Email quincenal Culturioso: pieza editorial larga, sin contenido perecedero.",
-      "WhatsApp Comunidad: alta frecuencia, mensajes cortos, contenido perecedero (\"hoy a las 19h en Debod gratis…\").",
-      "WhatsApp Canales (no grupos) por interés: \"Música en directo\", \"Arte joven\", \"Plan de domingo\".",
-      "Cada 3 quincenas, mensaje dirigido a Engaged: invitación a evento del club con experiencia gratuita."
+      "Newsletter Culturioso: 1 envío semanal (cada viernes) desde HubSpot. Pieza editorial breve, contenido no perecedero.",
+      "WhatsApp Comunidad: alta frecuencia, mensajes cortos con planes inmediatos (\"hoy a las 19h gratis en Debod\").",
+      "WhatsApp Canales temáticos: Música en directo · Arte joven · Plan de domingo.",
+      "Cada 4 semanas: comunicación dirigida a leads más activos invitándoles a una experiencia gratuita del club.",
+      "HubSpot centraliza: segmentación, propiedades, reportes y atribución cross-canal."
     ],
-    kpi: "Tasa de respuesta WhatsApp >18% · conversión club desde Engaged 8-12%",
-    herramientas: "Beehiiv · WhatsApp Business · CRM ligero (Notion / Airtable / Attio)",
-    detalleOperativo: "Calendario maestro de envíos cruzados. Reglas de no-repetición. Reportes mensuales de canal por canal."
+    kpi: "Tasa de respuesta WhatsApp > 18% · apertura newsletter semanal > 45% · conversión Engaged → club 8-12%",
+    herramientas: "HubSpot (CRM + email + workflows + reporting) · WhatsApp Business",
+    detalleOperativo: "Calendario maestro semanal en Notion sincronizado con HubSpot. Regla: lo que va por WhatsApp no se repite en email y viceversa. Reporte semanal por canal."
   }
 ];
 
@@ -929,8 +939,9 @@ window.TMT.plan = {
       n: "01", nombre: "Setup operativo", duracion: "Semana 0", fechas: "25 mayo — 31 mayo",
       hitos: [
         "Cierre tono editorial + paleta + plantillas de Reels y Carruseles.",
-        "Configuración de ManyChat (5 flujos maestros).",
-        "Creación de la comunidad WhatsApp + canales temáticos.",
+        "Configuración de ManyChat (6 flujos maestros — uno por LM) + webhook a HubSpot.",
+        "Setup de propiedades, lifecycle stages y workflows de bienvenida en HubSpot.",
+        "Creación de la comunidad WhatsApp + 3 canales temáticos.",
         "Producción y diseño LM1 + LM2 (Junio Q1 y Q2).",
         "Aprobación del plan editorial del primer mes."
       ]
@@ -938,19 +949,19 @@ window.TMT.plan = {
     {
       n: "02", nombre: "Junio · Lanzamiento", duracion: "4 semanas", fechas: "1 junio — 28 junio",
       hitos: [
-        "Publicación de los 4 reels y 4 carruseles desarrollados.",
+        "Publicación de los 4 reels y 4 carruseles del mes.",
         "Lanzamiento LM1 (10 planes <20€) y LM2 (5 restaurantes históricos).",
-        "2 envíos de newsletter Culturioso.",
-        "Apertura WhatsApp con primeros 100 invitados desde lista existente.",
-        "Lectura de datos quincena 1 + ajuste fino quincena 2."
+        "4 envíos de newsletter Culturioso (uno por semana, desde HubSpot).",
+        "Apertura WhatsApp con primeros 100 invitados desde la base existente.",
+        "Lectura de datos al final de cada quincena + ajuste fino."
       ]
     },
     {
       n: "03", nombre: "Julio · Crucero", duracion: "5 semanas", fechas: "29 junio — 2 agosto",
       hitos: [
-        "Ejecución sostenida (4 reels + 4 carruseles + stories).",
-        "Lanzamiento LM3 (Madrid los lunes) y LM4 (mapa de conciertos gratis).",
-        "2 envíos newsletter Culturioso.",
+        "Ejecución sostenida (4 reels + 4 carruseles + stories diarias).",
+        "Lanzamiento LM3 (Madrid los lunes) y LM4 (conciertos gratis).",
+        "4 envíos newsletter Culturioso semanal.",
         "Primer paid layer ligero sobre el reel con mejor performance orgánica.",
         "Primer evento real solo-socios documentado para R5."
       ]
@@ -958,10 +969,10 @@ window.TMT.plan = {
     {
       n: "04", nombre: "Agosto · Consolidación", duracion: "4 semanas", fechas: "3 agosto — 30 agosto",
       hitos: [
-        "Ejecución sostenida (4 reels + 4 carruseles + stories).",
-        "Lanzamiento LM5 (librerías de barrio) y LM6 (Veranos de la Villa).",
-        "2 envíos newsletter + envío de cierre con reporte editorial trimestral.",
-        "Reporte de trimestre: datos, aprendizajes, propuesta de Q4."
+        "Ejecución sostenida (4 reels + 4 carruseles + stories diarias).",
+        "Lanzamiento LM5 (librerías de barrio) y LM6 (planes con amigos).",
+        "4 envíos newsletter semanal + envío de cierre con reporte editorial trimestral.",
+        "Reporte de trimestre desde HubSpot: datos, aprendizajes, propuesta de Q4."
       ]
     }
   ],
@@ -971,42 +982,42 @@ window.TMT.plan = {
     { rol: "Copy + guion", entrega: "12 reels + 12 carruseles + stories + 6 newsletters + 6 LMs." },
     { rol: "Producción audiovisual", entrega: "Grabación, edición y color de los 12 reels + recursos para stories diarias." },
     { rol: "Diseño gráfico", entrega: "12 carruseles + 6 lead magnets + plantillas reutilizables Stories." },
-    { rol: "Automatizaciones", entrega: "5 flujos ManyChat · integraciones Beehiiv · canales WhatsApp configurados." },
+    { rol: "Automatizaciones · CRM", entrega: "6 flujos ManyChat + integraciones HubSpot + canales WhatsApp configurados." },
     { rol: "Community management", entrega: "Respuesta L-V · escucha activa · DMs cualificados · moderación WhatsApp." },
-    { rol: "Analítica", entrega: "Dashboard mensual + revisión quincenal · KPIs por canal." }
+    { rol: "Analítica", entrega: "Dashboard HubSpot semanal · KPIs por canal · revisión quincenal con cliente." }
   ]
 };
 
 window.TMT.calendario = {
   q1: [
     { dia: "L", fecha: "1", pieza: "Story serie · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
-    { dia: "Ma", fecha: "2", pieza: "Reel W01 · El Fénix antes del Ángel", formato: "Reel", pilar: "I", apunta: "LM1 · keyword MADRID" },
-    { dia: "Mi", fecha: "3", pieza: "Carrusel C-W01 · Glosario del Madrid culto", formato: "Carrusel", pilar: "I", apunta: "LM1 · keyword GLOSARIO" },
+    { dia: "Ma", fecha: "2", pieza: "Reel W01 · El detalle de la Puerta de Alcalá", formato: "Reel", pilar: "I", apunta: "LM1 · keyword MADRID" },
+    { dia: "Mi", fecha: "3", pieza: "Carrusel C-W01 · 8 plazas de Madrid", formato: "Carrusel", pilar: "I", apunta: "LM1 · keyword GLOSARIO" },
     { dia: "J", fecha: "4", pieza: "Story serie · Pregunta del jueves", formato: "Stories", pilar: "III", apunta: "Engagement" },
-    { dia: "V", fecha: "5", pieza: "Newsletter Culturioso · Envío 01", formato: "Email", pilar: "—", apunta: "Relación" },
+    { dia: "V", fecha: "5", pieza: "Newsletter Culturioso · Semanal 01", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
     { dia: "S", fecha: "6", pieza: "Story experiencia real con socios", formato: "Stories", pilar: "III", apunta: "Trigger club" },
     { dia: "D", fecha: "7", pieza: "Recovery editorial + cita Madrid", formato: "Stories", pilar: "II", apunta: "Engagement" },
     { dia: "L", fecha: "8", pieza: "Story serie · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
-    { dia: "Ma", fecha: "9", pieza: "Reel W02 · 3 min con programadora Doré", formato: "Reel", pilar: "II", apunta: "LM1 · keyword CINE" },
-    { dia: "Mi", fecha: "10", pieza: "Carrusel C-W02 · Mapa secreto de Lavapiés", formato: "Carrusel", pilar: "IV", apunta: "LM1 · keyword MAPA" },
+    { dia: "Ma", fecha: "9", pieza: "Reel W02 · 3 min con un sereno", formato: "Reel", pilar: "II", apunta: "LM1 · keyword NOCHE" },
+    { dia: "Mi", fecha: "10", pieza: "Carrusel C-W02 · 7 planes de finde", formato: "Carrusel", pilar: "IV", apunta: "LM1 · keyword FINDE" },
     { dia: "J", fecha: "11", pieza: "Story serie · Pregunta del jueves", formato: "Stories", pilar: "III", apunta: "Engagement" },
-    { dia: "V", fecha: "12", pieza: "Stories cierre LM1 + teaser LM2", formato: "Stories", pilar: "—", apunta: "Captación" },
+    { dia: "V", fecha: "12", pieza: "Newsletter Culturioso · Semanal 02 + teaser LM2", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
     { dia: "S", fecha: "13", pieza: "Story behind the scenes producción", formato: "Stories", pilar: "III", apunta: "Engagement" },
     { dia: "D", fecha: "14", pieza: "Lanzamiento LM2 · 5 restaurantes históricos", formato: "Lead magnet", pilar: "II", apunta: "Captación · keyword MESA" }
   ],
   q2: [
     { dia: "L", fecha: "15", pieza: "Story serie · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
-    { dia: "Ma", fecha: "16", pieza: "Reel W03 · Sábado culto por menos de 20€", formato: "Reel", pilar: "III", apunta: "LM2 · keyword MADRID" },
-    { dia: "Mi", fecha: "17", pieza: "Carrusel C-W03 · Café Gijón en 9 imágenes", formato: "Carrusel", pilar: "II", apunta: "LM2 · keyword CAFÉS" },
+    { dia: "Ma", fecha: "16", pieza: "Reel W03 · Casa Botín + paseo Austrias", formato: "Reel", pilar: "III", apunta: "LM2 · keyword MESA" },
+    { dia: "Mi", fecha: "17", pieza: "Carrusel C-W03 · Mercado de San Miguel 9 imágenes", formato: "Carrusel", pilar: "II", apunta: "LM2 · keyword MESA" },
     { dia: "J", fecha: "18", pieza: "Story serie · Pregunta del jueves", formato: "Stories", pilar: "III", apunta: "Engagement" },
-    { dia: "V", fecha: "19", pieza: "Newsletter Culturioso · Envío 02", formato: "Email", pilar: "—", apunta: "Relación" },
+    { dia: "V", fecha: "19", pieza: "Newsletter Culturioso · Semanal 03", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
     { dia: "S", fecha: "20", pieza: "Story experiencia real con socios", formato: "Stories", pilar: "III", apunta: "Trigger club · WhatsApp" },
     { dia: "D", fecha: "21", pieza: "Recovery editorial + cita", formato: "Stories", pilar: "II", apunta: "Engagement" },
     { dia: "L", fecha: "22", pieza: "Story serie · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
-    { dia: "Ma", fecha: "23", pieza: "Reel W04 · Hot take Reina Sofía", formato: "Reel", pilar: "I", apunta: "LM2 · keyword REINA" },
-    { dia: "Mi", fecha: "24", pieza: "Carrusel C-W04 · Manual ópera", formato: "Carrusel", pilar: "IV", apunta: "LM2 · keyword OPERA" },
+    { dia: "Ma", fecha: "23", pieza: "Reel W04 · Hot take Lhardy", formato: "Reel", pilar: "I", apunta: "LM2 · keyword MESA" },
+    { dia: "Mi", fecha: "24", pieza: "Carrusel C-W04 · Ruta de tapas sin trampa", formato: "Carrusel", pilar: "IV", apunta: "LM2 · keyword TAPAS" },
     { dia: "J", fecha: "25", pieza: "Story serie · Pregunta del jueves", formato: "Stories", pilar: "III", apunta: "Engagement" },
-    { dia: "V", fecha: "26", pieza: "Stories cierre LM2 + teaser LM3", formato: "Stories", pilar: "—", apunta: "Captación" },
+    { dia: "V", fecha: "26", pieza: "Newsletter Culturioso · Semanal 04 + teaser LM3", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
     { dia: "S", fecha: "27", pieza: "Story behind the scenes producción", formato: "Stories", pilar: "III", apunta: "Engagement" },
     { dia: "D", fecha: "28", pieza: "Lectura de quincena + datos públicos", formato: "Carrusel", pilar: "—", apunta: "Comunidad" }
   ]

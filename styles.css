@@ -5,22 +5,23 @@
 
 /* ---------- TOKENS ---------- */
 :root {
-  --bg-primary: #F5F2EC;
+  --bg-primary: #FFFFFF;
+  --bg-soft: #F4F4F2;
   --bg-dark: #12151C;
   --ink: #12151C;
-  --ink-muted: #6B6B6B;
-  --ink-subtle: #9A968D;
+  --ink-muted: #5C6068;
+  --ink-subtle: #9A9DA3;
   --paper: #FFFFFF;
-  --accent-neon: #00FFAA;
-  --accent-warm: #C8553D;
+  --accent-neon: #E5FF00;
+  --accent-warm: #12151C;
   --rule: #12151C;
-  --rule-soft: rgba(18, 21, 28, 0.12);
-  --rule-softer: rgba(18, 21, 28, 0.06);
+  --rule-soft: rgba(18, 21, 28, 0.10);
+  --rule-softer: rgba(18, 21, 28, 0.05);
 
-  --font-display: "Fraunces", "Times New Roman", serif;
-  --font-body: "Geist", "Inter Tight", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: "Geist", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  --font-body: "Geist", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   --font-brand: "Geist", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-mono: "Geist Mono", "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", monospace;
 
   --max: 1320px;
   --gutter: 24px;
@@ -48,15 +49,21 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
 }
-.grain {
-  position: fixed;
-  inset: 0;
-  background-image: url("assets/grain.svg");
-  background-size: 240px 240px;
-  opacity: 0.05;
-  pointer-events: none;
-  z-index: 50;
+.grain { display: none; }
+
+/* Mark — resalte amarillo flúor (sustituye al italic decorativo) */
+mark {
+  background: var(--accent-neon);
+  color: var(--ink);
+  padding: 0 0.08em;
+  font-style: normal;
+  font-weight: inherit;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
+.section-dark mark { color: var(--ink); background: var(--accent-neon); }
+em { font-style: normal; font-weight: 700; }
+
 img, svg { display: block; max-width: 100%; }
 button { font: inherit; color: inherit; background: none; border: 0; cursor: pointer; padding: 0; }
 a { color: inherit; text-decoration: none; }
@@ -66,9 +73,8 @@ h1, h2, h3, h4, h5, p { margin: 0; }
 /* ---------- TYPE BASE ---------- */
 .display {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-stretch: 100%;
-  font-variation-settings: "opsz" 144, "SOFT" 30;
   letter-spacing: -0.02em;
   line-height: 1.02;
 }
@@ -116,12 +122,11 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .section-num {
   font-family: var(--font-display);
-  font-weight: 280;
-  font-size: 140px;
-  line-height: 0.85;
-  letter-spacing: -0.03em;
+  font-weight: 700;
+  font-size: clamp(40px, 5.8vw, 80px);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
   color: var(--ink);
-  opacity: 0.92;
   margin-bottom: 24px;
 }
 .section-dark .section-num { color: var(--bg-primary); }
@@ -304,11 +309,10 @@ section + section { border-top: 1px solid var(--rule-soft); }
 
 .hero-title {
   font-family: var(--font-display);
-  font-weight: 290;
-  font-size: clamp(56px, 11vw, 168px);
-  line-height: 0.94;
-  letter-spacing: -0.035em;
-  font-variation-settings: "opsz" 144, "SOFT" 50;
+  font-weight: 700;
+  font-size: clamp(48px, 8.4vw, 124px);
+  line-height: 1.0;
+  letter-spacing: -0.04em;
   margin-bottom: 56px;
 }
 .hero-title .word {
@@ -316,11 +320,12 @@ section + section { border-top: 1px solid var(--rule-soft); }
   opacity: 0;
   transform: translateY(28px);
   animation: heroWord 900ms var(--ease) forwards;
+  margin-right: 0.2em;
 }
-.hero-title em {
-  font-style: italic;
-  color: var(--accent-warm);
-  font-variation-settings: "opsz" 144, "SOFT" 100;
+.hero-title mark {
+  background: var(--accent-neon);
+  color: var(--ink);
+  padding: 0 0.06em;
 }
 @keyframes heroWord {
   to { opacity: 1; transform: translateY(0); }
@@ -454,7 +459,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .diag-col .col-title {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: clamp(28px, 2.4vw, 40px);
   line-height: 1.12;
   letter-spacing: -0.018em;
@@ -535,18 +540,20 @@ section + section { border-top: 1px solid var(--rule-soft); }
 .bigidea .section-num { color: var(--bg-primary); opacity: 0.85; }
 .bigidea-frase {
   font-family: var(--font-display);
-  font-weight: 280;
-  font-size: clamp(48px, 8vw, 132px);
-  line-height: 0.98;
-  letter-spacing: -0.03em;
+  font-weight: 700;
+  font-size: clamp(40px, 6.4vw, 96px);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
   margin-bottom: 96px;
-  max-width: 14ch;
-  font-variation-settings: "opsz" 144, "SOFT" 30;
+  max-width: 18ch;
+}
+.bigidea-frase mark {
+  background: var(--accent-neon);
+  color: var(--ink);
+  padding: 0 0.08em;
 }
 .bigidea-frase em {
-  font-style: italic;
   color: var(--accent-neon);
-  font-variation-settings: "opsz" 144, "SOFT" 100;
 }
 .bigidea-lead {
   display: grid;
@@ -594,8 +601,8 @@ section + section { border-top: 1px solid var(--rule-soft); }
 .pilar:hover { background: rgba(245, 242, 236, 0.04); }
 .pilar .pilar-n {
   font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 320;
+  
+  font-weight: 700;
   font-size: 40px;
   line-height: 1;
   color: var(--accent-neon);
@@ -603,7 +610,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .pilar .pilar-nombre {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.15;
   letter-spacing: -0.015em;
@@ -718,7 +725,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .formato-card .fmt-id {
   font-family: var(--font-display);
-  font-weight: 280;
+  font-weight: 800;
   font-size: 56px;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -738,14 +745,14 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .formato-card .fmt-pilar .roman {
   font-family: var(--font-display);
-  font-style: italic;
+  
   font-size: 13px;
   color: var(--accent-warm);
   letter-spacing: 0;
 }
 .formato-card .fmt-nombre {
   font-family: var(--font-display);
-  font-weight: 340;
+  font-weight: 600;
   font-size: 26px;
   line-height: 1.15;
   letter-spacing: -0.015em;
@@ -808,7 +815,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .simple-panel h3 {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: clamp(28px, 3vw, 44px);
   line-height: 1.08;
   letter-spacing: -0.02em;
@@ -874,8 +881,8 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .lm-card .lm-num {
   font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 280;
+  
+  font-weight: 800;
   font-size: 72px;
   line-height: 0.85;
   letter-spacing: -0.04em;
@@ -897,7 +904,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .lm-card .lm-titulo {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: 28px;
   line-height: 1.1;
   letter-spacing: -0.018em;
@@ -978,14 +985,14 @@ section + section { border-top: 1px solid var(--rule-soft); }
 .fase-row:hover { padding-left: 12px; }
 .fase-row .fase-n {
   font-family: var(--font-display);
-  font-weight: 280;
+  font-weight: 800;
   font-size: 36px;
   letter-spacing: -0.02em;
   color: var(--ink);
 }
 .fase-row .fase-info .nm {
   font-family: var(--font-display);
-  font-weight: 340;
+  font-weight: 600;
   font-size: 30px;
   line-height: 1.05;
   letter-spacing: -0.018em;
@@ -1026,7 +1033,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .fase-detail .detail-titulo {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: 38px;
   line-height: 1.08;
   letter-spacing: -0.02em;
@@ -1143,7 +1150,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .cal-cell .fecha {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: 28px;
   line-height: 1;
   letter-spacing: -0.02em;
@@ -1209,7 +1216,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .kpi-block .blk-titulo {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.018em;
@@ -1232,7 +1239,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 .kpi-item:last-child { border-bottom: 0; }
 .kpi-item .kpi-name {
   font-family: var(--font-display);
-  font-weight: 360;
+  font-weight: 600;
   font-size: 18px;
   line-height: 1.25;
   letter-spacing: -0.005em;
@@ -1310,7 +1317,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .fase-card .fc-nm {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: 30px;
   line-height: 1.05;
   letter-spacing: -0.02em;
@@ -1364,7 +1371,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .role-row .r-name {
   font-family: var(--font-display);
-  font-weight: 360;
+  font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.01em;
@@ -1433,7 +1440,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .inv-card .inv-name {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: 40px;
   line-height: 1;
   letter-spacing: -0.025em;
@@ -1468,7 +1475,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
   font-size: 13px;
   line-height: 1.55;
   color: var(--ink-muted);
-  font-style: italic;
+  
   padding-top: 18px;
   border-top: 1px solid var(--rule-soft);
 }
@@ -1521,7 +1528,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .step .step-n {
   font-family: var(--font-display);
-  font-weight: 280;
+  font-weight: 800;
   font-size: 92px;
   line-height: 0.85;
   letter-spacing: -0.03em;
@@ -1530,7 +1537,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
 }
 .step .step-titulo {
   font-family: var(--font-display);
-  font-weight: 340;
+  font-weight: 600;
   font-size: 28px;
   line-height: 1.1;
   letter-spacing: -0.018em;
@@ -1560,7 +1567,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
   margin-top: 96px;
   text-align: center;
   font-family: var(--font-display);
-  font-weight: 290;
+  font-weight: 800;
   font-size: clamp(32px, 4vw, 56px);
   line-height: 1.12;
   letter-spacing: -0.02em;
@@ -1569,7 +1576,7 @@ section + section { border-top: 1px solid var(--rule-soft); }
   margin-right: auto;
 }
 .cierre em {
-  font-style: italic;
+  
   color: var(--accent-warm);
 }
 
@@ -1692,14 +1699,14 @@ footer {
 }
 .modal-eyebrow .roman {
   font-family: var(--font-display);
-  font-style: italic;
+  
   color: var(--accent-warm);
   letter-spacing: 0;
   font-size: 14px;
 }
 .modal-title {
   font-family: var(--font-display);
-  font-weight: 320;
+  font-weight: 700;
   font-size: clamp(36px, 4vw, 56px);
   line-height: 1.05;
   letter-spacing: -0.025em;
@@ -1784,15 +1791,15 @@ footer {
 }
 .lm-slide .sn {
   font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 320;
+  
+  font-weight: 700;
   font-size: 28px;
   color: var(--accent-warm);
   line-height: 1;
 }
 .lm-slide .st {
   font-family: var(--font-display);
-  font-weight: 340;
+  font-weight: 600;
   font-size: 18px;
   margin-bottom: 6px;
   letter-spacing: -0.01em;
@@ -1935,7 +1942,7 @@ button:focus-visible, a:focus-visible { outline-offset: 4px; }
 }
 .comp-n {
   font-family: var(--font-display);
-  font-weight: 280;
+  font-weight: 800;
   font-size: 48px;
   line-height: 0.85;
   color: var(--accent-warm);
@@ -1943,7 +1950,7 @@ button:focus-visible, a:focus-visible { outline-offset: 4px; }
 }
 .comp-handle {
   font-family: var(--font-display);
-  font-weight: 340;
+  font-weight: 600;
   font-size: 22px;
   letter-spacing: -0.015em;
   margin: 0 0 4px;
@@ -2011,15 +2018,15 @@ button:focus-visible, a:focus-visible { outline-offset: 4px; }
 .guia-card:hover { background: var(--paper); }
 .guia-n {
   font-family: var(--font-display);
-  font-style: italic;
-  font-weight: 280;
+  
+  font-weight: 800;
   font-size: 40px;
   line-height: 1;
   color: var(--accent-warm);
 }
 .guia-titulo {
   font-family: var(--font-display);
-  font-weight: 360;
+  font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.01em;
@@ -2080,7 +2087,7 @@ button:focus-visible, a:focus-visible { outline-offset: 4px; }
 }
 .pz-titulo {
   font-family: var(--font-display);
-  font-weight: 340;
+  font-weight: 600;
   font-size: 22px;
   line-height: 1.15;
   letter-spacing: -0.015em;
@@ -2115,7 +2122,7 @@ button:focus-visible, a:focus-visible { outline-offset: 4px; }
 }
 .pz-pilar .roman {
   font-family: var(--font-display);
-  font-style: italic;
+  
   font-size: 14px;
   color: var(--accent-warm);
   letter-spacing: 0;
