@@ -13,51 +13,51 @@ window.TMT = {};
 window.TMT.competencia = [
   {
     n: "01",
-    handle: "@timeoutmadrid",
-    tipo: "Agenda mainstream",
-    fortaleza: "Volumen masivo y SEO de eventos. Aparecen primero en Google para casi cualquier búsqueda de \"qué hacer en Madrid\".",
-    debilidad: "Cero criterio editorial. Lista todo, recomienda nada. El usuario sigue teniendo que filtrar.",
-    aprendizaje: "Nosotros sí filtramos. Nuestra ventaja es que decimos qué vale la pena, no qué existe."
-  },
-  {
-    n: "02",
-    handle: "@secretomadrid · @madridmemola",
-    tipo: "Tips de lugares ocultos",
-    fortaleza: "Funcionan bien con saves. Han educado al público en \"el Madrid escondido\".",
-    debilidad: "Sin tono adulto. Hablan a todo el mundo y por tanto a nadie. Reels-clickbait sin profundidad.",
-    aprendizaje: "Mismo género (lugares ocultos) pero con voz +30. No \"alucinarás con esto\", sino \"esto es lo que merece la pena saber\"."
-  },
-  {
-    n: "03",
-    handle: "@museodelprado · @museoreinasofia",
-    tipo: "Instituciones culturales",
-    fortaleza: "Acceso a obra y archivo. Autoridad incuestionable. Producción audiovisual cuidada.",
-    debilidad: "Voz institucional, distante. Barrera para el neófito que se siente fuera de lugar.",
+    handle: "Museos e instituciones culturales",
+    tipo: "Voz oficial · alta autoridad",
+    fortaleza: "Acceso directo a obra y archivo. Autoridad incuestionable. Producción audiovisual cuidada y presupuesto público que les sostiene.",
+    debilidad: "Voz institucional, distante. Barrera para quien no se siente \"culto\". Programación rígida por temporadas.",
     aprendizaje: "Misma profundidad de contenido, voz de amigo informado. La autoridad sin la distancia."
   },
   {
+    n: "02",
+    handle: "Agendas locales y what's-on",
+    tipo: "Listado masivo de eventos",
+    fortaleza: "Volumen alto y posicionamiento SEO en búsquedas tipo \"qué hacer en Madrid\". El usuario las consulta por inercia.",
+    debilidad: "Cero criterio editorial. Listan todo, recomiendan nada. El usuario sigue teniendo que filtrar él mismo.",
+    aprendizaje: "Nosotros sí filtramos. La ventaja es decir qué vale la pena, no qué existe."
+  },
+  {
+    n: "03",
+    handle: "Cuentas de \"Madrid escondido\"",
+    tipo: "Tips de lugares ocultos · viral",
+    fortaleza: "Funcionan muy bien en saves. Han educado al público en el género \"el Madrid que no conoces\".",
+    debilidad: "Sin tono adulto. Hablan a todo el mundo y por tanto a nadie. Reels-clickbait sin profundidad real.",
+    aprendizaje: "Mismo género (lugares ocultos) pero con voz +30. No \"alucinarás con esto\", sino \"esto es lo que merece la pena saber\"."
+  },
+  {
     n: "04",
-    handle: "@somossecretos",
-    tipo: "Club de membresía similar",
-    fortaleza: "Han ocupado el espacio \"club privado\". Comunidad real y vinculada.",
-    debilidad: "Contenido público escaso. La marca solo se entiende si ya estás dentro. Filtro económico alto.",
+    handle: "Clubes de membresía similares",
+    tipo: "Espacio privado · acceso de pago",
+    fortaleza: "Han ocupado el imaginario de \"club privado para gente con criterio\". Comunidad real y vinculada por dentro.",
+    debilidad: "Contenido público escaso. La marca solo se entiende si ya estás dentro. Filtro económico alto desde el inicio.",
     aprendizaje: "Diferenciación clara: contenido público fuerte como puerta de entrada. Cualquiera puede aprender de nosotros antes de pagar un euro."
   },
   {
     n: "05",
-    handle: "@infomadridplus · agendas locales",
-    tipo: "Agendas sin marca",
-    fortaleza: "Son útiles. Cumplen su función práctica.",
-    debilidad: "Cero personalidad. Indistinguibles entre sí.",
-    aprendizaje: "La utilidad sin la marca es commodity. Construir marca = cobrar peaje editorial sobre la utilidad."
+    handle: "Influencers culturales individuales",
+    tipo: "Personalidad · cercanía",
+    fortaleza: "Cara reconocible. Engagement personal alto. Recomendaciones percibidas como sinceras.",
+    debilidad: "Vinculados a una persona — no escalable. Postureo de fondo. Mezclan cultura con marca personal y promociones.",
+    aprendizaje: "Marca como persona colectiva — varias voces editoriales bajo un mismo punto de vista. Más sólido que apostar por un único rostro."
   },
   {
     n: "06",
-    handle: "Influencers culturales / lifestyle",
-    tipo: "Personalidades individuales",
-    fortaleza: "Cercanía. Engagement personal alto.",
-    debilidad: "Vinculados a una persona, no escalables. Postureo de fondo. Mezclan cultura con marca personal.",
-    aprendizaje: "Marca como persona colectiva — varias voces editoriales bajo un mismo punto de vista. Más sólido que apostar por un único rostro."
+    handle: "Prensa cultural y newsletters editoriales",
+    tipo: "Medios tradicionales y curaduría escrita",
+    fortaleza: "Profundidad real. Criterio editorial sólido. Marca histórica que el adulto culto reconoce y respeta.",
+    debilidad: "Formato largo y muros de pago. Frecuencia baja en redes sociales. Voz heredada del medio impreso.",
+    aprendizaje: "Profundidad editorial sin barrera de pago ni formato largo. Lo mejor del periodismo cultural, en piezas que caben en un scroll."
   }
 ];
 
