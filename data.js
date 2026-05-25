@@ -782,7 +782,7 @@ window.TMT.leadMagnets = [
       { p: 10, contenido: "Plan 9: Conventos de clausura — dulces de torno + paseo Austrias · ~10€" },
       { p: 11, contenido: "Plan 10: Banda Sinfónica gratuita en Debod (verano) + cena en Casa Mingo · 12€" },
       { p: 12, contenido: "Para llevarte: cómo planificar tu propio sábado culto (plantilla)." },
-      { p: 13, contenido: "La newsletter Culturioso + invitación a la comunidad WhatsApp." }
+      { p: 13, contenido: "La newsletter Lista de interés + invitación a la comunidad WhatsApp." }
     ],
     secuencia: [
       { dia: 0, asunto: "Tu guía está aquí — y un favor", cuerpo: "Entrega + pregunta abierta de feedback." },
@@ -918,7 +918,7 @@ window.TMT.embudo = [
     titulo: "Newsletter semanal + WhatsApp",
     objetivo: "Mantener relación continua con cadencia semanal. Reparto claro entre canales, sin solapar mensajes.",
     tacticas: [
-      "Newsletter Culturioso: 1 envío semanal (cada viernes) desde HubSpot. Pieza editorial breve, contenido no perecedero.",
+      "Newsletter Lista de interés: 1 envío semanal (cada viernes) desde HubSpot. Pieza editorial breve, contenido no perecedero.",
       "WhatsApp Comunidad: alta frecuencia, mensajes cortos con planes inmediatos (\"hoy a las 19h gratis en Debod\").",
       "WhatsApp Canales temáticos: Música en directo · Arte joven · Plan de domingo.",
       "Cada 4 semanas: comunicación dirigida a leads más activos invitándoles a una experiencia gratuita del club.",
@@ -951,7 +951,7 @@ window.TMT.plan = {
       hitos: [
         "Publicación de 8 reels + 8 carruseles (2 + 2 por semana) y stories diarias.",
         "Lanzamiento LM1 (10 planes <20€ · keyword MADRID) y LM2 (5 restaurantes con historia · keyword GASTRONOMIA).",
-        "4 envíos de newsletter Culturioso semanal desde HubSpot.",
+        "4 envíos de newsletter Lista de interés semanal desde HubSpot.",
         "Apertura WhatsApp con primeros 100 invitados desde la base existente.",
         "Lectura de datos al final de cada quincena + ajuste fino de keyword y rotación."
       ]
@@ -961,7 +961,7 @@ window.TMT.plan = {
       hitos: [
         "Ejecución sostenida (8 reels + 8 carruseles + stories diarias).",
         "Lanzamiento LM3 (Madrid los lunes · keyword LUNES) y LM4 (conciertos gratis · keyword VERANO).",
-        "4 envíos newsletter Culturioso semanal.",
+        "4 envíos newsletter Lista de interés semanal.",
         "Primer paid layer ligero sobre las piezas con mejor performance orgánica.",
         "Primer evento real solo-socios documentado para reel R5 ancla."
       ]
@@ -994,14 +994,14 @@ window.TMT.calendario = {
     { dia: "Ma", fecha: "2", pieza: "Reel ancla W01 · El detalle de la Puerta de Alcalá", formato: "Reel", pilar: "I", apunta: "LM1 · keyword MADRID" },
     { dia: "Mi", fecha: "3", pieza: "Carrusel ancla C-W01 · 8 plazas de Madrid", formato: "Carrusel", pilar: "I", apunta: "LM1 · keyword GLOSARIO" },
     { dia: "J", fecha: "4", pieza: "Reel satélite · Plan en 60s — Sábado culto por menos de 30€", formato: "Reel", pilar: "III", apunta: "LM1 · keyword MADRID" },
-    { dia: "V", fecha: "5", pieza: "Newsletter Culturioso · Semanal 01", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
+    { dia: "V", fecha: "5", pieza: "Newsletter Lista de interés · Semanal 01", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
     { dia: "S", fecha: "6", pieza: "Carrusel satélite · Manual del sábado culto en Madrid", formato: "Carrusel", pilar: "IV", apunta: "LM1 · keyword MADRID" },
     { dia: "D", fecha: "7", pieza: "Stories recovery editorial + cita Madrid", formato: "Stories", pilar: "II", apunta: "Engagement" },
     { dia: "L", fecha: "8", pieza: "Stories diarias · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
     { dia: "Ma", fecha: "9", pieza: "Reel ancla W02 · Madrid a las 23:00", formato: "Reel", pilar: "II", apunta: "LM1 · keyword NOCHE" },
     { dia: "Mi", fecha: "10", pieza: "Carrusel ancla C-W02 · 7 planes de finde", formato: "Carrusel", pilar: "IV", apunta: "LM1 · keyword FINDE" },
     { dia: "J", fecha: "11", pieza: "Reel satélite · Hot take sobre las terrazas de Madrid", formato: "Reel", pilar: "I", apunta: "LM1 · keyword MADRID" },
-    { dia: "V", fecha: "12", pieza: "Newsletter Culturioso · Semanal 02 + teaser LM2", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
+    { dia: "V", fecha: "12", pieza: "Newsletter Lista de interés · Semanal 02 + teaser LM2", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
     { dia: "S", fecha: "13", pieza: "Carrusel satélite · Mapa del Madrid de noche", formato: "Carrusel", pilar: "IV", apunta: "LM1 · keyword NOCHE" },
     { dia: "D", fecha: "14", pieza: "Lanzamiento LM2 · 5 restaurantes con historia", formato: "Lead magnet", pilar: "II", apunta: "Captación · keyword GASTRONOMIA" }
   ],
@@ -1010,14 +1010,14 @@ window.TMT.calendario = {
     { dia: "Ma", fecha: "16", pieza: "Reel ancla W03 · Casa Botín + paseo Austrias", formato: "Reel", pilar: "III", apunta: "LM2 · keyword GASTRONOMIA" },
     { dia: "Mi", fecha: "17", pieza: "Carrusel ancla C-W03 · Mercado de San Miguel en 9 imágenes", formato: "Carrusel", pilar: "II", apunta: "LM2 · keyword GASTRONOMIA" },
     { dia: "J", fecha: "18", pieza: "Reel satélite · 3 tabernas centenarias del centro", formato: "Reel", pilar: "II", apunta: "LM2 · keyword GASTRONOMIA" },
-    { dia: "V", fecha: "19", pieza: "Newsletter Culturioso · Semanal 03", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
+    { dia: "V", fecha: "19", pieza: "Newsletter Lista de interés · Semanal 03", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
     { dia: "S", fecha: "20", pieza: "Carrusel satélite · Manual del cocido madrileño en 6 pasos", formato: "Carrusel", pilar: "IV", apunta: "LM2 · keyword COCIDO" },
     { dia: "D", fecha: "21", pieza: "Stories experiencia real con socios", formato: "Stories", pilar: "III", apunta: "Trigger club · WhatsApp" },
     { dia: "L", fecha: "22", pieza: "Stories diarias · Lunes de detalle", formato: "Stories", pilar: "I", apunta: "Engagement" },
     { dia: "Ma", fecha: "23", pieza: "Reel ancla W04 · Hot take Lhardy", formato: "Reel", pilar: "I", apunta: "LM2 · keyword GASTRONOMIA" },
     { dia: "Mi", fecha: "24", pieza: "Carrusel ancla C-W04 · Ruta de tapas sin trampa", formato: "Carrusel", pilar: "IV", apunta: "LM2 · keyword TAPAS" },
     { dia: "J", fecha: "25", pieza: "Reel satélite · 5 mercados con historia en Madrid", formato: "Reel", pilar: "II", apunta: "LM2 · keyword GASTRONOMIA" },
-    { dia: "V", fecha: "26", pieza: "Newsletter Culturioso · Semanal 04 + teaser LM3", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
+    { dia: "V", fecha: "26", pieza: "Newsletter Lista de interés · Semanal 04 + teaser LM3", formato: "Email", pilar: "—", apunta: "Relación · HubSpot" },
     { dia: "S", fecha: "27", pieza: "Carrusel satélite · Mapa de menús del día con criterio", formato: "Carrusel", pilar: "IV", apunta: "LM2 · keyword GASTRONOMIA" },
     { dia: "D", fecha: "28", pieza: "Lectura de quincena + datos públicos de cierre", formato: "Carrusel", pilar: "—", apunta: "Comunidad" }
   ]
@@ -1041,7 +1041,7 @@ window.TMT.kpis = {
     items: [
       { metrica: "Emails captados acumulados", nota: "Suma de los 6 lead magnets. Indicador del músculo de captación." },
       { metrica: "Conversión comentario → email cualificado", nota: "Auditoría semanal del flujo ManyChat. Detecta fricción del bot." },
-      { metrica: "Tasa de apertura newsletter Culturioso", nota: "Calidad real de la base — si abren, la base es buena." },
+      { metrica: "Tasa de apertura newsletter Lista de interés", nota: "Calidad real de la base — si abren, la base es buena." },
       { metrica: "Tasa de click en newsletter", nota: "Intención real más allá de la apertura." }
     ]
   },
