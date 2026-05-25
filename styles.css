@@ -1881,6 +1881,13 @@ footer {
 @media (hover: hover) and (pointer: fine) and (min-width: 1024px) {
   html.has-cursor, html.has-cursor * { cursor: none; }
   html.has-cursor input, html.has-cursor textarea { cursor: text; }
+  /* Restaurar cursor nativo dentro del modal (el custom queda oculto) */
+  html.has-cursor body.modal-open .modal,
+  html.has-cursor body.modal-open .modal * { cursor: auto; }
+  html.has-cursor body.modal-open .modal a,
+  html.has-cursor body.modal-open .modal button,
+  html.has-cursor body.modal-open .modal [role="button"],
+  html.has-cursor body.modal-open .modal [data-close] { cursor: pointer; }
 }
 
 /* ============================================================
